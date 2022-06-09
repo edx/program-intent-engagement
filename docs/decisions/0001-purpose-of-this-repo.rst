@@ -4,26 +4,25 @@
 Status
 ------
 
-Draft
+Accepted
 
 Context
 -------
 
-TODO: Give context on what lead to the creation of this repo.
-      What project is the repo related to?
+Currently we have very little reliable tracking of learners' engagement with programs unless they directly purchase a program bundle or Masters. The program intent engagement service will track that engagement so that we can use it in reporting and personalization.
+
 
 Decision
 --------
 
-TODO: Clearly state how the context above led you to creating this repo.
+Since program intent is a new concept and may be sourced from multiple existing services it makes sense to have it as a separate entity in the system. Some users of open edX may wish to adopt the PIE service, but it is purely additive and will not be necessary to run open edX.
 
 Consequences
 ------------
 
-TODO: As a result of this repo's creation, what other things will change.
+Once the PIE service is ready it will be used to drive other projects such as personalization. MFEs and others will also write program intents into the service.
 
 Rejected Alternatives
 ---------------------
 
-TODO: If applicable, list viable alternatives to creating this new repo and
- give reasons for why they were rejected.
+The major competitor for program intent is to develop a complete stateful model of program enrollment tangled with the learners and courses. We want to push as much as possible out of edx-platform.
