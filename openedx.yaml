@@ -2,17 +2,17 @@
 # https://open-edx-proposals.readthedocs.io/en/latest/oep-0002-bp-repo-metadata.html#specification
 
 ---
-nick: program-intent-engagement
+nick: edx-program-intent-engagement
 tags:
-    - tools
+    - backend-service
 oeps:
     oep-2: true
     oep-3:
         state: false
-        reason: TODO - Implement for this application if appropriate
+        reason: no asynchronous tasks
     oep-5:
         state: false
-        reason: TODO - Implement for this application if appropriate
+        reason: not yet implemented
     oep-18: true
     oep-30:
         state: true
