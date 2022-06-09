@@ -1,22 +1,15 @@
-program_intent_engagement
+edx_program_intent_engagement
 =============================
 
 |pypi-badge| |ci-badge| |codecov-badge| |doc-badge| |pyversions-badge|
 |license-badge|
 
-The ``README.rst`` file should start with a brief description of the repository,
-which sets it in the context of other repositories under the ``edx``
-organization. It should make clear where this fits in to the overall edX
-codebase.
+Service to manage and store learner intent to follow and complete programs.
 
-Service to manage and store learner intent to engage with a program.
+Overview
+--------
 
-Overview (please modify)
-------------------------
-
-The ``README.rst`` file should then provide an overview of the code in this
-repository, including the main components and useful entry points for starting
-to understand the code in more detail.
+The program intent engagement service (PIE) provides a store for learners' intent to complete programs. These intents may be explicit or inferred, each intent says why we believe it as well as connection a learner with a program.
 
 Documentation
 -------------
@@ -31,11 +24,11 @@ One Time Setup
 .. code-block::
 
   # Clone the repository
-  git clone git@github.com:edx/program-intent-engagement.git
-  cd program-intent-engagement
+  git clone git@github.com:edx/edx-program-intent-engagement.git
+  cd edx-program-intent-engagement
 
   # Set up a virtualenv using virtualenvwrapper with the same name as the repo and activate it
-  mkvirtualenv -p python3.8 program-intent-engagement
+  mkvirtualenv -p python3.8 edx-program-intent-engagement
 
 
 Every time you develop something in this repo
@@ -43,7 +36,7 @@ Every time you develop something in this repo
 .. code-block::
 
   # Activate the virtualenv
-  workon program-intent-engagement
+  workon edx-program-intent-engagement
 
   # Grab the latest code
   git checkout main
@@ -113,26 +106,26 @@ For more information about these options, see the `Getting Help`_ page.
 .. _community Slack workspace: https://openedx.slack.com/
 .. _Getting Help: https://openedx.org/getting-help
 
-.. |pypi-badge| image:: https://img.shields.io/pypi/v/program-intent-engagement.svg
-    :target: https://pypi.python.org/pypi/program-intent-engagement/
+.. |pypi-badge| image:: https://img.shields.io/pypi/v/edx-program-intent-engagement.svg
+    :target: https://pypi.python.org/pypi/edx-program-intent-engagement/
     :alt: PyPI
 
-.. |ci-badge| image:: https://github.com/edx/program-intent-engagement/workflows/Python%20CI/badge.svg?branch=main
-    :target: https://github.com/edx/program-intent-engagement/actions
+.. |ci-badge| image:: https://github.com/edx/edx-program-intent-engagement/workflows/Python%20CI/badge.svg?branch=main
+    :target: https://github.com/edx/edx-program-intent-engagement/actions
     :alt: CI
 
-.. |codecov-badge| image:: https://codecov.io/github/edx/program-intent-engagement/coverage.svg?branch=main
-    :target: https://codecov.io/github/edx/program-intent-engagement?branch=main
+.. |codecov-badge| image:: https://codecov.io/github/edx/edx-program-intent-engagement/coverage.svg?branch=main
+    :target: https://codecov.io/github/edx/edx-program-intent-engagement?branch=main
     :alt: Codecov
 
-.. |doc-badge| image:: https://readthedocs.org/projects/program-intent-engagement/badge/?version=latest
-    :target: https://program-intent-engagement.readthedocs.io/en/latest/
+.. |doc-badge| image:: https://readthedocs.org/projects/edx-program-intent-engagement/badge/?version=latest
+    :target: https://edx-program-intent-engagement.readthedocs.io/en/latest/
     :alt: Documentation
 
-.. |pyversions-badge| image:: https://img.shields.io/pypi/pyversions/program-intent-engagement.svg
-    :target: https://pypi.python.org/pypi/program-intent-engagement/
+.. |pyversions-badge| image:: https://img.shields.io/pypi/pyversions/edx-program-intent-engagement.svg
+    :target: https://pypi.python.org/pypi/edx-program-intent-engagement/
     :alt: Supported Python versions
 
-.. |license-badge| image:: https://img.shields.io/github/license/edx/program-intent-engagement.svg
-    :target: https://github.com/edx/program-intent-engagement/blob/main/LICENSE.txt
+.. |license-badge| image:: https://img.shields.io/github/license/edx/edx-program-intent-engagement.svg
+    :target: https://github.com/edx/edx-program-intent-engagement/blob/main/LICENSE.txt
     :alt: License
