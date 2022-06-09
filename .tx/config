@@ -1,0 +1,14 @@
+[main]
+host = https://www.transifex.com
+
+[edx-platform.program-intent-engagement]
+file_filter = program_intent_engagement/conf/locale/<lang>/LC_MESSAGES/django.po
+source_file = program_intent_engagement/conf/locale/en/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[edx-platform.program-intent-engagement-js]
+file_filter = program_intent_engagement/conf/locale/<lang>/LC_MESSAGES/djangojs.po
+source_file = program_intent_engagement/conf/locale/en/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO
