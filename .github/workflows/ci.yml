@@ -16,7 +16,7 @@ jobs:
       matrix:
         os: [ubuntu-20.04]
         python-version: ['3.8']
-        toxenv: ["py38", "pii_check"]
+        toxenv: ["py38", "quality", "pii_check"]
 
     steps:
       - uses: actions/checkout@v2
@@ -37,7 +37,7 @@ jobs:
         run: tox
 
       - name: Run coverage
-        if: matrix.python-version == '3.8' && matrix.toxenv == 'quality'
+        if: matrix.python-version == '3.8' && matrix.toxenv == 'py38-TODO'
         uses: codecov/codecov-action@v1
         with:
           flags: unittests
