@@ -1,0 +1,40 @@
+version: "2.1"
+services:
+  db:
+    image: mysql:5.6
+    container_name: program_intent_engagement.db
+    environment:
+      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    networks:
+      - devstack_default
+    volumes:
+      - program_intent_engagement_mysql:/var/lib/mysql
+
+  memcache:
+    image: memcached:1.4.24
+    container_name: program_intent_engagement.memcache
+
+  app:
+    # Uncomment this line to use the official program_intent_engagement base image
+    image: openedx/program_intent_engagement
+
+    container_name: program_intent_engagement.app
+    volumes:
+      - .:/edx/app/program_intent_engagement/
+    command: bash -c 'while true; do python /edx/app/program_intent_engagement/manage.py runserver 0.0.0.0:18781; sleep 2; done'
+    environment:
+      DJANGO_SETTINGS_MODULE: program_intent_engagement.settings.devstack
+    ports:
+      - "18781:18781" 
+    networks:
+      - devstack_default
+    stdin_open: true
+    tty: true
+
+networks:
+  devstack_default:
+    external: true
+
+volumes:
+  program_intent_engagement_mysql:
