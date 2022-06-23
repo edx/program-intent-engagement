@@ -17,8 +17,10 @@ services:
 
   app:
     # Uncomment this line to use the official program_intent_engagement base image
-    image: openedx/program_intent_engagement
-
+    # image: openedx/program_intent_engagement
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: program_intent_engagement.app
     volumes:
       - .:/edx/app/program_intent_engagement/
