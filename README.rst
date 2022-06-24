@@ -30,6 +30,11 @@ One Time Setup
   # Set up a virtualenv using virtualenvwrapper with the same name as the repo and activate it
   mkvirtualenv -p python3.8 edx-program-intent-engagement
 
+  # Return to the program-intent-engagement repo directory and provision credentials:
+  bash local-provision-program-intent-engagement.sh
+
+  # Run edx-exams locally
+  python manage.py runserver localhost:18781 --settings=program_intent_engagement.settings.local
 
 Every time you develop something in this repo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
