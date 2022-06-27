@@ -1,8 +1,11 @@
 """ Core models. """
 
+import django.utils.timezone
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from model_utils.models import TimeStampedModel
+
 
 
 class User(AbstractUser):
@@ -36,3 +39,47 @@ class User(AbstractUser):
 
     def __str__(self):
         return str(self.get_full_name())
+
+
+class ProgramIntent(TimeStampedModel):
+    """
+    Information about the Program intent
+    """
+    REASON = (
+        ('CC', 'All Courses Complete'),
+        ('BP', 'Bundle Purchase'),
+        ('CE', 'All Courses Enrolled'),
+    )
+    CERTAINTY = (
+        ('Y', 'Certainly Yes'),
+        ('N', 'Certainly No'),
+        ('M', 'Maybe'),
+    )
+
+    #
+    user = models.ForeignKey(User, db_index=True, on_delete=models.CASCADE)
+
+    program_uuid = models.UUIDField()
+
+    # The specific reason for how intent was measured.
+    reason = models.CharField(max_length=255, db_index=True)
+
+    # Another approach to reason using enum choice field
+    reason = models.CharField(
+        max_length=2,
+        choices=REASON)
+
+    # The certainty of the program intent for the user.
+    certainty = models.CharField(
+        max_length=1,
+        choices=CERTAINTY)
+
+    # When did the event occurred that made this intent.
+    effective_date = models.DateTimeField(default=django.utils.timezone.now)
+
+    # is there an existing db we should refer to?
+    class Meta:
+        """ Meta class for this Django model """
+        db_table = 'programintent_programintent'
+        verbose_name = 'program intent'
+        unique_together = ('user', 'program_uuid', 'reason', 'certainty', 'effective_date',)
