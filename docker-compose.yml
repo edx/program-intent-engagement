@@ -17,12 +17,14 @@ services:
 
   app:
     # Uncomment this line to use the official program_intent_engagement base image
-    image: openedx/program_intent_engagement
-
+    # image: openedx/program_intent_engagement
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: program_intent_engagement.app
     volumes:
-      - .:/edx/app/program_intent_engagement/
-    command: bash -c 'while true; do python /edx/app/program_intent_engagement/manage.py runserver 0.0.0.0:18781; sleep 2; done'
+      - .:/edx/app/program-intent-engagement
+    command: bash -c 'while true; do python /edx/app/program-intent-engagement/manage.py runserver 0.0.0.0:18781; sleep 2; done'
     environment:
       DJANGO_SETTINGS_MODULE: program_intent_engagement.settings.devstack
     ports:
