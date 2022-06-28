@@ -8,7 +8,7 @@ asgiref==3.5.2
     # via
     #   -r requirements/base.txt
     #   django
-certifi==2022.5.18.1
+certifi==2022.6.15
     # via
     #   -r requirements/base.txt
     #   requests
@@ -50,6 +50,7 @@ django==3.2.13
     #   django-cors-headers
     #   django-crum
     #   django-extensions
+    #   django-model-utils
     #   djangorestframework
     #   drf-jwt
     #   edx-auth-backends
@@ -63,6 +64,8 @@ django-crum==0.7.9
     #   -r requirements/base.txt
     #   edx-django-utils
 django-extensions==3.1.5
+    # via -r requirements/base.txt
+django-model-utils==4.2.0
     # via -r requirements/base.txt
 django-rest-swagger==2.2.0
     # via -r requirements/base.txt
@@ -124,7 +127,7 @@ markupsafe==2.1.1
     # via
     #   -r requirements/base.txt
     #   jinja2
-mysqlclient==2.1.0
+mysqlclient==2.1.1
     # via
     #   -r requirements/base.txt
     #   -r requirements/production.in
@@ -153,7 +156,7 @@ pycparser==2.21
     # via
     #   -r requirements/base.txt
     #   cffi
-pycryptodomex==3.14.1
+pycryptodomex==3.15.0
     # via
     #   -r requirements/base.txt
     #   pyjwkest
@@ -236,7 +239,7 @@ social-auth-app-django==5.0.0
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.2.0
+social-auth-core==4.3.0
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends

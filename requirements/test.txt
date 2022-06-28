@@ -8,13 +8,13 @@ asgiref==3.5.2
     # via
     #   -r requirements/base.txt
     #   django
-astroid==2.11.5
+astroid==2.11.6
     # via
     #   pylint
     #   pylint-celery
 attrs==21.4.0
     # via pytest
-certifi==2022.5.18.1
+certifi==2022.6.15
     # via
     #   -r requirements/base.txt
     #   requests
@@ -72,6 +72,7 @@ distlib==0.3.4
     #   django-cors-headers
     #   django-crum
     #   django-extensions
+    #   django-model-utils
     #   djangorestframework
     #   drf-jwt
     #   edx-auth-backends
@@ -87,6 +88,8 @@ django-crum==0.7.9
 django-dynamic-fixture==3.1.2
     # via -r requirements/test.in
 django-extensions==3.1.5
+    # via -r requirements/base.txt
+django-model-utils==4.2.0
     # via -r requirements/base.txt
 django-rest-swagger==2.2.0
     # via -r requirements/base.txt
@@ -159,7 +162,7 @@ mccabe==0.7.0
     # via pylint
 mock==4.0.3
     # via -r requirements/test.in
-mysqlclient==2.1.0
+mysqlclient==2.1.1
     # via -r requirements/base.txt
 newrelic==7.12.0.176
     # via
@@ -202,7 +205,7 @@ pycparser==2.21
     # via
     #   -r requirements/base.txt
     #   cffi
-pycryptodomex==3.14.1
+pycryptodomex==3.15.0
     # via
     #   -r requirements/base.txt
     #   pyjwkest
@@ -218,7 +221,7 @@ pyjwt[crypto]==2.4.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.14.1
+pylint==2.14.3
     # via
     #   edx-lint
     #   pylint-celery
@@ -312,7 +315,7 @@ social-auth-app-django==5.0.0
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.2.0
+social-auth-core==4.3.0
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
@@ -352,7 +355,7 @@ urllib3==1.26.9
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.14.1
+virtualenv==20.15.0
     # via tox
 wrapt==1.14.1
     # via astroid
