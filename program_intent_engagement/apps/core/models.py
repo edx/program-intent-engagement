@@ -3,6 +3,7 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from model_utils.models import TimeStampedModel
 
 
 class User(AbstractUser):
@@ -36,3 +37,41 @@ class User(AbstractUser):
 
     def __str__(self):
         return str(self.get_full_name())
+
+
+class ProgramIntent(TimeStampedModel):
+    """
+    Information about the Program intent
+
+    .. no_pii:
+    """
+
+    CERTAINTY = (
+        ('CERTAIN_YES', 'CERTAIN_YES'),
+        ('CERTAIN_NO', 'CERTAIN_NO'),
+        ('MAYBE', 'MAYBE'),
+    )
+
+    user = models.ForeignKey(User, db_index=True, on_delete=models.CASCADE)
+
+    program_uuid = models.UUIDField()
+
+    # The specific reason for how intent was measured.
+    reason = models.CharField(
+        max_length=255,
+        null=False)
+
+    # The certainty of the program intent for the user.
+    certainty = models.CharField(
+        max_length=255,
+        choices=CERTAINTY,
+        null=False)
+
+    # When did the event occurred that made this intent.
+    effective_timestamp = models.DateTimeField()
+
+    class Meta:
+        """ Meta class for this Django model """
+        db_table = 'programintent_programintent'
+        verbose_name = 'program intent'
+        unique_together = ('user', 'program_uuid', 'reason', 'certainty', 'effective_timestamp',)
