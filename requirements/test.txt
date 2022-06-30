@@ -44,11 +44,13 @@ coreapi==2.3.3
     # via
     #   -r requirements/base.txt
     #   django-rest-swagger
+    #   drf-yasg
     #   openapi-codec
 coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
+    #   drf-yasg
 coverage[toml]==6.4.2
     # via
     #   -r requirements/test.in
@@ -58,6 +60,8 @@ cryptography==37.0.4
     #   -r requirements/base.txt
     #   pyjwt
     #   social-auth-core
+ddt==1.5.0
+    # via -r requirements/test.in
 defusedxml==0.7.1
     # via
     #   -r requirements/base.txt
@@ -75,6 +79,8 @@ distlib==0.3.5
     #   django-model-utils
     #   djangorestframework
     #   drf-jwt
+    #   drf-yasg
+    #   edx-api-doc-tools
     #   edx-auth-backends
     #   edx-django-release-util
     #   edx-django-utils
@@ -103,11 +109,19 @@ djangorestframework==3.13.1
     #   -r requirements/base.txt
     #   django-rest-swagger
     #   drf-jwt
+    #   drf-yasg
+    #   edx-api-doc-tools
     #   edx-drf-extensions
 drf-jwt==1.19.2
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
+drf-yasg==1.21.3
+    # via
+    #   -r requirements/base.txt
+    #   edx-api-doc-tools
+edx-api-doc-tools==1.6.0
+    # via -r requirements/base.txt
 edx-auth-backends==4.1.0
     # via -r requirements/base.txt
 edx-django-release-util==1.2.0
@@ -127,6 +141,10 @@ edx-opaque-keys==2.3.0
     #   edx-drf-extensions
 edx-rest-api-client==5.5.0
     # via -r requirements/base.txt
+factory-boy==3.2.1
+    # via -r requirements/test.in
+faker==13.15.0
+    # via factory-boy
 filelock==3.7.1
     # via
     #   tox
@@ -139,6 +157,10 @@ idna==3.3
     # via
     #   -r requirements/base.txt
     #   requests
+inflection==0.5.1
+    # via
+    #   -r requirements/base.txt
+    #   drf-yasg
 iniconfig==1.1.1
     # via pytest
 isort==5.10.1
@@ -164,7 +186,7 @@ mock==4.0.3
     # via -r requirements/test.in
 mysqlclient==2.1.1
     # via -r requirements/base.txt
-newrelic==7.14.0.177
+newrelic==7.16.0.178
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -179,6 +201,8 @@ openapi-codec==1.3.2
     #   django-rest-swagger
 packaging==21.3
     # via
+    #   -r requirements/base.txt
+    #   drf-yasg
     #   pytest
     #   tox
 pbr==5.9.0
@@ -244,7 +268,9 @@ pynacl==1.5.0
     #   -r requirements/base.txt
     #   edx-django-utils
 pyparsing==3.0.9
-    # via packaging
+    # via
+    #   -r requirements/base.txt
+    #   packaging
 pytest==7.1.2
     # via
     #   pytest-cov
@@ -257,6 +283,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
+    #   faker
 python-slugify==6.1.2
     # via code-annotations
 python3-openid==3.2.0
@@ -268,6 +295,7 @@ pytz==2022.1
     #   -r requirements/base.txt
     #   django
     #   djangorestframework
+    #   drf-yasg
 pyyaml==6.0
     # via
     #   -r requirements/base.txt
@@ -287,6 +315,14 @@ requests-oauthlib==1.3.1
     # via
     #   -r requirements/base.txt
     #   social-auth-core
+ruamel-yaml==0.17.21
+    # via
+    #   -r requirements/base.txt
+    #   drf-yasg
+ruamel-yaml-clib==0.2.6
+    # via
+    #   -r requirements/base.txt
+    #   ruamel-yaml
 semantic-version==2.10.0
     # via
     #   -r requirements/base.txt
@@ -351,6 +387,7 @@ uritemplate==4.1.1
     # via
     #   -r requirements/base.txt
     #   coreapi
+    #   drf-yasg
 urllib3==1.26.10
     # via
     #   -r requirements/base.txt
