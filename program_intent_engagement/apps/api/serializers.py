@@ -1,8 +1,5 @@
 """
-Serializers for the program intent engagement API
-
-These serializers are shared across multiple API versions.
-Version-specific serializers are located in the versioned subpackage.
+Serializers for the program-intent-engagement API
 """
 from rest_framework import serializers
 
@@ -18,5 +15,6 @@ class ProgramIntentSerializer(serializers.ModelSerializer):
         """
         Meta Class
         """
+
         model = ProgramIntent
-        fields = '__all__'
+        fields = "__all__"
