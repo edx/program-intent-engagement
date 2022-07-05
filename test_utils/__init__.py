@@ -13,7 +13,7 @@ TEST_PASSWORD = 'QWERTY'
 TEST_LMS_USER_ID = 1
 
 
-class ProgramIntentsAPITestCase(JwtMixin, APITestCase):
+class ProgramIntentAPITestCase(JwtMixin, APITestCase):
     """
     Base class for API Tests
     """
