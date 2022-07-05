@@ -85,6 +85,7 @@ cryptography==37.0.4
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pyjwt
+    #   secretstorage
     #   social-auth-core
 ddt==1.5.0
     # via
@@ -261,6 +262,11 @@ itypes==1.2.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   coreapi
+jeepney==0.8.0
+    # via
+    #   -r requirements/quality.txt
+    #   keyring
+    #   secretstorage
 jinja2==3.1.2
     # via
     #   -r requirements/quality.txt
@@ -508,6 +514,10 @@ ruamel-yaml-clib==0.2.6
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   ruamel-yaml
+secretstorage==3.3.2
+    # via
+    #   -r requirements/quality.txt
+    #   keyring
 semantic-version==2.10.0
     # via
     #   -r requirements/quality.txt
