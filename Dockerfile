@@ -31,7 +31,6 @@ RUN apt-get update && apt-get -qy install --no-install-recommends \
  libssl-dev \
  python3-dev \
  build-essential \
- gcc \
  git
 
 
