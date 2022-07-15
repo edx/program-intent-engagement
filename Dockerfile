@@ -58,10 +58,10 @@ RUN python3.8 -m venv $VIRTUAL_ENV
 
 # Copy the requirements explicitly even though we copy everything below
 # this prevents the image cache from busting unless the dependencies have changed.
-COPY requirements/production.txt /edx/app/program-intent-engagement/requirements/production.txt
+COPY requirements/ /edx/app/program-intent-engagement/requirements/
 
 # Dependencies are installed as root so they cannot be modified by the application user.
-RUN pip install -r requirements/production.txt
+RUN pip install -r requirements/dev.txt
 
 RUN mkdir -p /edx/var/log
 
