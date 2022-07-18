@@ -52,7 +52,7 @@ class ProgramIntent(TimeStampedModel):
         ('MAYBE', 'MAYBE'),
     )
 
-    user = models.ForeignKey(User, db_index=True, on_delete=models.CASCADE)
+    lms_user_id = models.IntegerField(db_index=True)
 
     program_uuid = models.UUIDField()
 
@@ -74,4 +74,4 @@ class ProgramIntent(TimeStampedModel):
         """ Meta class for this Django model """
         db_table = 'programintent_programintent'
         verbose_name = 'program intent'
-        unique_together = ('user', 'program_uuid', 'reason', 'certainty', 'effective_timestamp',)
+        unique_together = ('lms_user_id', 'program_uuid', 'reason', 'certainty', 'effective_timestamp',)
