@@ -52,7 +52,7 @@ class ProgramIntent(TimeStampedModel):
         ('MAYBE', 'MAYBE'),
     )
 
-    lms_user_id = models.IntegerField(null=True, db_index=True)
+    lms_user_id = models.IntegerField(db_index=True)
 
     program_uuid = models.UUIDField()
 
