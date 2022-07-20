@@ -1,4 +1,4 @@
-name="program_intent_engagement"
+name="program-intent-engagement"
 port="18781"
 
 docker-compose up -d --build
