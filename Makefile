@@ -138,10 +138,10 @@ start-devstack: ## run a local development copy of the server
 	docker-compose --x-networking up
 
 open-devstack: ## open a shell on the server started by start-devstack
-	docker exec -it program-intent-engagement /edx/app/program-intent-engagement/devstack.sh open
+	docker exec -it program_intent_engagement /edx/app/program-intent-engagement/devstack.sh open
 
-pkg-devstack: ## build the program-intent-engagement image from the latest configuration and code
-	docker build -t program-intent-engagement:latest -f docker/build/program-intent-engagement/Dockerfile git://github.com/edx/configuration
+pkg-devstack: ## build the program_intent_engagement image from the latest configuration and code
+	docker build -t program_intent_engagement:latest -f docker/build/program-intent-engagement/Dockerfile git://github.com/edx/configuration
 
 detect_changed_source_translations: ## check if translation files are up-to-date
 	cd program_intent_engagement && i18n_tool changed
@@ -149,21 +149,17 @@ detect_changed_source_translations: ## check if translation files are up-to-date
 validate_translations: fake_translations detect_changed_source_translations ## install fake translations and check if translation files are up-to-date
 
 docker_build:
-	docker build . -f Dockerfile -t openedx/program-intent-engagement
-	docker build . -f Dockerfile --target newrelic -t openedx/program-intent-engagement:latest-newrelic
+	docker build . -f Dockerfile -t openedx/program_intent_engagement
 
 travis_docker_tag: docker_build
-	docker tag openedx/program-intent-engagement openedx/program-intent-engagement:$$TRAVIS_COMMIT
-	docker tag openedx/program-intent-engagement:latest-newrelic openedx/program-intent-engagement:$$TRAVIS_COMMIT-newrelic
+	docker tag openedx/program_intent_engagement openedx/program_intent_engagement:$$TRAVIS_COMMIT
 
 travis_docker_auth:
 	echo "$$DOCKER_PASSWORD" | docker login -u "$$DOCKER_USERNAME" --password-stdin
 
 travis_docker_push: travis_docker_tag travis_docker_auth ## push to docker hub
-	docker push 'openedx/program-intent-engagement:latest'
-	docker push "openedx/program-intent-engagement:$$TRAVIS_COMMIT"
-	docker push 'openedx/program-intent-engagement:latest-newrelic'
-	docker push "openedx/program-intent-engagement:$$TRAVIS_COMMIT-newrelic"
+	docker push 'openedx/program_intent_engagement:latest'
+	docker push "openedx/program_intent_engagement:$$TRAVIS_COMMIT"
 
 # devstack-themed shortcuts
 dev.up: # Starts all containers
@@ -194,21 +190,17 @@ db-shell: # Run the app shell as root, enter the app's database
 	docker attach program_intent_engagement.$*
 
 github_docker_build:
-	docker build . -f Dockerfile --target app -t openedx/program-intent-engagement
-	docker build . -f Dockerfile --target newrelic -t openedx/program-intent-engagement:latest-newrelic
+	docker build . -f Dockerfile --target app -t openedx/program_intent_engagement
 
 github_docker_tag: github_docker_build
-	docker tag openedx/program-intent-engagement openedx/program-intent-engagement:${GITHUB_SHA}
-	docker tag openedx/program-intent-engagement:latest-newrelic openedx/program-intent-engagement:${GITHUB_SHA}-newrelic
+	docker tag openedx/program_intent_engagement openedx/program_intent_engagement:${GITHUB_SHA}
 
 github_docker_auth:
 	echo "$$DOCKERHUB_PASSWORD" | docker login -u "$$DOCKERHUB_USERNAME" --password-stdin
 
 github_docker_push: github_docker_tag github_docker_auth ## push to docker hub
-	docker push 'openedx/program-intent-engagement:latest'
-	docker push "openedx/program-intent-engagement:${GITHUB_SHA}"
-	docker push 'openedx/program-intent-engagement:latest-newrelic'
-	docker push "openedx/program-intent-engagement:${GITHUB_SHA}-newrelic"
+	docker push 'openedx/program_intent_engagement:latest'
+	docker push "openedx/program_intent_engagement:${GITHUB_SHA}"
 
 selfcheck: ## check that the Makefile is well-formed
 	@echo "The Makefile is well-formed."
