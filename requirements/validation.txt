@@ -9,7 +9,7 @@ asgiref==3.5.2
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   django
-astroid==2.11.6
+astroid==2.11.7
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -29,13 +29,13 @@ certifi==2022.6.15
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   requests
-cffi==1.15.0
+cffi==1.15.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   cryptography
     #   pynacl
-charset-normalizer==2.0.12
+charset-normalizer==2.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -73,12 +73,12 @@ coreschema==0.0.4
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   coreapi
-coverage[toml]==6.4.1
+coverage[toml]==6.4.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==37.0.2
+cryptography==37.0.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -95,12 +95,12 @@ dill==0.3.5.1
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pylint
-distlib==0.3.4
+distlib==0.3.5
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==3.2.13
+django==3.2.14
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -127,7 +127,7 @@ django-dynamic-fixture==3.1.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-django-extensions==3.1.5
+django-extensions==3.2.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -139,7 +139,7 @@ django-rest-swagger==2.2.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-django-waffle==2.5.0
+django-waffle==2.6.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -152,7 +152,7 @@ djangorestframework==3.13.1
     #   django-rest-swagger
     #   drf-jwt
     #   edx-drf-extensions
-docutils==0.18.1
+docutils==0.19
     # via
     #   -r requirements/quality.txt
     #   readme-renderer
@@ -234,7 +234,7 @@ jinja2==3.1.2
     #   -r requirements/test.txt
     #   code-annotations
     #   coreschema
-keyring==23.6.0
+keyring==23.7.0
     # via
     #   -r requirements/quality.txt
     #   twine
@@ -261,7 +261,7 @@ mysqlclient==2.1.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-newrelic==7.12.0.176
+newrelic==7.14.0.177
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -348,7 +348,7 @@ pyjwt[crypto]==2.4.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.14.3
+pylint==2.14.5
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -432,7 +432,7 @@ readme-renderer==35.0
     # via
     #   -r requirements/quality.txt
     #   twine
-requests==2.28.0
+requests==2.28.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -458,7 +458,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/quality.txt
     #   twine
-rich==12.4.4
+rich==12.5.1
     # via
     #   -r requirements/quality.txt
     #   twine
@@ -511,7 +511,7 @@ sqlparse==0.4.2
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   django
-stevedore==3.5.0
+stevedore==4.0.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -535,36 +535,35 @@ tomli==2.0.1
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.11.0
+tomlkit==0.11.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pylint
-tox==3.25.0
+tox==3.25.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
 twine==4.0.1
     # via -r requirements/quality.txt
-typing-extensions==4.2.0
+typing-extensions==4.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   astroid
     #   pylint
-    #   rich
 uritemplate==4.1.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   coreapi
-urllib3==1.26.9
+urllib3==1.26.10
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.15.0
+virtualenv==20.15.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -578,7 +577,7 @@ wrapt==1.14.1
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   astroid
-zipp==3.8.0
+zipp==3.8.1
     # via
     #   -r requirements/quality.txt
     #   importlib-metadata
