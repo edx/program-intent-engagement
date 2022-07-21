@@ -8,7 +8,7 @@ asgiref==3.5.2
     # via
     #   -r requirements/base.txt
     #   django
-astroid==2.11.6
+astroid==2.11.7
     # via
     #   pylint
     #   pylint-celery
@@ -18,12 +18,12 @@ certifi==2022.6.15
     # via
     #   -r requirements/base.txt
     #   requests
-cffi==1.15.0
+cffi==1.15.1
     # via
     #   -r requirements/base.txt
     #   cryptography
     #   pynacl
-charset-normalizer==2.0.12
+charset-normalizer==2.1.0
     # via
     #   -r requirements/base.txt
     #   requests
@@ -49,11 +49,11 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-coverage[toml]==6.4.1
+coverage[toml]==6.4.2
     # via
     #   -r requirements/test.in
     #   pytest-cov
-cryptography==37.0.2
+cryptography==37.0.4
     # via
     #   -r requirements/base.txt
     #   pyjwt
@@ -65,7 +65,7 @@ defusedxml==0.7.1
     #   social-auth-core
 dill==0.3.5.1
     # via pylint
-distlib==0.3.4
+distlib==0.3.5
     # via virtualenv
     # via
     #   -r requirements/base.txt
@@ -87,13 +87,13 @@ django-crum==0.7.9
     #   edx-django-utils
 django-dynamic-fixture==3.1.2
     # via -r requirements/test.in
-django-extensions==3.1.5
+django-extensions==3.2.0
     # via -r requirements/base.txt
 django-model-utils==4.2.0
     # via -r requirements/base.txt
 django-rest-swagger==2.2.0
     # via -r requirements/base.txt
-django-waffle==2.5.0
+django-waffle==2.6.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -164,7 +164,7 @@ mock==4.0.3
     # via -r requirements/test.in
 mysqlclient==2.1.1
     # via -r requirements/base.txt
-newrelic==7.12.0.176
+newrelic==7.14.0.177
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -221,7 +221,7 @@ pyjwt[crypto]==2.4.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.14.3
+pylint==2.14.5
     # via
     #   edx-lint
     #   pylint-celery
@@ -273,7 +273,7 @@ pyyaml==6.0
     #   -r requirements/base.txt
     #   code-annotations
     #   edx-django-release-util
-requests==2.28.0
+requests==2.28.1
     # via
     #   -r requirements/base.txt
     #   coreapi
@@ -324,7 +324,7 @@ sqlparse==0.4.2
     # via
     #   -r requirements/base.txt
     #   django
-stevedore==3.5.0
+stevedore==4.0.0
     # via
     #   -r requirements/base.txt
     #   code-annotations
@@ -339,11 +339,11 @@ tomli==2.0.1
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.11.0
+tomlkit==0.11.1
     # via pylint
-tox==3.25.0
+tox==3.25.1
     # via -r requirements/test.in
-typing-extensions==4.2.0
+typing-extensions==4.3.0
     # via
     #   astroid
     #   pylint
@@ -351,11 +351,11 @@ uritemplate==4.1.1
     # via
     #   -r requirements/base.txt
     #   coreapi
-urllib3==1.26.9
+urllib3==1.26.10
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.15.0
+virtualenv==20.15.1
     # via tox
 wrapt==1.14.1
     # via astroid
