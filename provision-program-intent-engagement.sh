@@ -1,3 +1,4 @@
+name_dash="program-intent-engagement"
 name="program_intent_engagement"
 port="18781"
 
@@ -20,11 +21,11 @@ docker exec -i program_intent_engagement.db mysql -u root -se "CREATE DATABASE p
 
 # Run migrations
 echo -e "${GREEN}Running migrations for ${name}...${NC}"
-docker exec -t program_intent_engagement.app bash -c "cd /edx/app/${name}/ && make migrate"
+docker exec -t program_intent_engagement.app bash -c "cd /edx/app/${name_dash}/ && make migrate"
 
 # Create superuser
 echo -e "${GREEN}Creating super-user for ${name}...${NC}"
-docker exec -t program_intent_engagement.app bash -c "echo 'from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser(\"edx\", \"edx@example.com\", \"edx\") if not User.objects.filter(username=\"edx\").exists() else None' | python /edx/app/${name}/manage.py shell"
+docker exec -t program_intent_engagement.app bash -c "echo 'from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser(\"edx\", \"edx@example.com\", \"edx\") if not User.objects.filter(username=\"edx\").exists() else None' | python /edx/app/${name_dash}/manage.py shell"
 
 # Provision IDA User in LMS
 echo -e "${GREEN}Provisioning ${name}_worker in LMS...${NC}"
