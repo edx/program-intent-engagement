@@ -26,12 +26,11 @@ RUN apt-get update && apt-get -qy install --no-install-recommends \
  locales \
  python3.8 \
  python3-pip \
- python3.8-venv \
  libmysqlclient-dev \
  libssl-dev \
  python3-dev \
  build-essential \
- git
+ gcc
 
 
 RUN pip install --upgrade pip setuptools
@@ -46,22 +45,17 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 ENV DJANGO_SETTINGS_MODULE program_intent_engagement.settings.production
 
-ENV VIRTUAL_ENV='/edx/app/venvs/program-intent-engagement'
-ENV PATH="$VIRTUAL_ENV/bin:$PATH"
-
 EXPOSE 18781
 RUN useradd -m --shell /bin/false app
 
 WORKDIR /edx/app/program-intent-engagement
 
-RUN python3.8 -m venv $VIRTUAL_ENV
-
 # Copy the requirements explicitly even though we copy everything below
 # this prevents the image cache from busting unless the dependencies have changed.
-COPY requirements/ /edx/app/program-intent-engagement/requirements/
+COPY requirements/production.txt /edx/app/program-intent-engagement/requirements/production.txt
 
 # Dependencies are installed as root so they cannot be modified by the application user.
-RUN pip install -r requirements/dev.txt
+RUN pip install -r requirements/production.txt
 
 RUN mkdir -p /edx/var/log
 
