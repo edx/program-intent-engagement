@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='programintent',
             name='lms_user_id',
-            field=models.IntegerField(db_index=True, default=10000000000000000000),
+            field=models.IntegerField(db_index=True, default=-1),
         ),
         migrations.AlterUniqueTogether(
             name='programintent',
