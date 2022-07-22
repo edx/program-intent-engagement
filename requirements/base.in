@@ -8,6 +8,7 @@ django-model-utils
 django-rest-swagger
 django-waffle
 djangorestframework
+edx-api-doc-tools
 edx-auth-backends
 edx-django-utils
 edx-django-release-util
