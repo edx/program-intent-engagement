@@ -20,8 +20,6 @@ The types of intent reasons and their corresponding certainty are described in t
 +----------------------+--------------------------------------------+-------------+
 | ENROLLED_ALL_COURSES | User has enrolled in all program courses   | MAYBE       |
 +----------------------+--------------------------------------------+-------------+
-| EARNED_PROGRAM_CERT  | User has earned a program certificate      | CERTAIN_YES |
-+----------------------+--------------------------------------------+-------------+
 
 While these are the current intent reasons, users have the ability to add more if needed. It should also
 be noted that users also have the ability to add an intent with a `CERTAIN_NO` certainty, although none of
