@@ -12,7 +12,7 @@ urlpatterns = [
         name="program_intent-insert",
     ),
     re_path(
-        r"^intents/most-recent-and-certain?$",
+        r"^program_intents/most_recent_and_certain?$",
         MostRecentAndCertainIntentsView.as_view(),
         name="intents-list",
     ),

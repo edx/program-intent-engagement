@@ -79,7 +79,7 @@ class MostRecentAndCertainIntentsView(APIView):
     This endpoint returns a list of intents specified by the user.
       Grouped by programs and sorted by most recent
       and CERTAIN (if available, otherwise MAYBE) intent
-    Path: /api/[version]/intents/most-recent-and-certain
+    Path: /api/[version]/program_intents/most_recent_and_certain
     Returns:
      * 200: OK, list of intents
      * 404: User not found
