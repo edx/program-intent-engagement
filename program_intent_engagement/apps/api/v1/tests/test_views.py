@@ -264,22 +264,23 @@ class ProgramIntentRecentAndCertainViewTests(ProgramIntentAPITestCase):
         self.assertEqual(len(response.values()), 1)
         self.assertEqual(actual_value, expected_value)
 
-    def test_multiple_intents(self):
+    def test_multiple_intents_different(self):
         """
-        Test that when user has multiple program intents you get the correct responses
+        Test that when user has multiple program intents with different certainty,
+        you get the correct responses
         """
 
         p2_intent_certain = ProgramIntent.objects.create(
             lms_user_id=self.user.lms_user_id,
             program_uuid=self.program_id2,
-            reason="a reason",
+            reason="a reason for no",
             certainty="CERTAIN_NO",
             effective_timestamp=datetime.datetime(2021, 7, 17),
         )
         ProgramIntent.objects.create(
             lms_user_id=self.user.lms_user_id,
             program_uuid=self.program_id2,
-            reason="a reason",
+            reason="a reason for maybe",
             certainty="MAYBE",
             effective_timestamp=datetime.datetime(2021, 9, 17),
         )
@@ -291,10 +292,53 @@ class ProgramIntentRecentAndCertainViewTests(ProgramIntentAPITestCase):
 
         self.assertEqual(len(response.values()), 2)
 
-        actual_certainties = [
-            responses_list[0]["certainty"],
-            responses_list[1]["certainty"],
+        actual_reasons = [
+            responses_list[0]["reason"],
+            responses_list[1]["reason"],
         ]
 
-        self.assertIn(self.p1_intent_maybe.certainty, actual_certainties)
-        self.assertIn(p2_intent_certain.certainty, actual_certainties)
+        self.assertIn(self.p1_intent_maybe.reason, actual_reasons)
+        self.assertIn(p2_intent_certain.reason, actual_reasons)
+
+    def test_multiple_intents_same(self):
+        """
+        Test that when user has multiple program intents with the same certainty,
+        you get the most recent intent, checked based on reason.
+        """
+
+        p2_intent_certain_recent = ProgramIntent.objects.create(
+            lms_user_id=self.user.lms_user_id,
+            program_uuid=self.program_id2,
+            reason="a reason for yes",
+            certainty="CERTAIN_YES",
+            effective_timestamp=datetime.datetime(2021, 9, 17),
+        )
+        ProgramIntent.objects.create(
+            lms_user_id=self.user.lms_user_id,
+            program_uuid=self.program_id2,
+            reason="a reason for no",
+            certainty="CERTAIN_NO",
+            effective_timestamp=datetime.datetime(2021, 7, 17),
+        )
+        ProgramIntent.objects.create(
+            lms_user_id=self.user.lms_user_id,
+            program_uuid=self.program_id2,
+            reason="a reason for maybe",
+            certainty="MAYBE",
+            effective_timestamp=datetime.datetime(2021, 9, 17),
+        )
+
+        response = MostRecentAndCertainIntentsView.grab_best_intents(
+            ProgramIntent.objects
+        )
+        responses_list = list(response.values())
+
+        self.assertEqual(len(response.values()), 2)
+
+        actual_reasons = [
+            responses_list[0]["reason"],
+            responses_list[1]["reason"],
+        ]
+
+        self.assertIn(self.p1_intent_maybe.reason, actual_reasons)
+        self.assertIn(p2_intent_certain_recent.reason, actual_reasons)
