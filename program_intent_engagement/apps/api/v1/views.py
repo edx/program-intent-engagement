@@ -2,6 +2,7 @@
 V1 API Views
 """
 from itertools import groupby
+from operator import itemgetter
 
 from edx_rest_framework_extensions.auth.jwt.authentication import JwtAuthentication
 from rest_framework import status
@@ -112,12 +113,16 @@ class MostRecentAndCertainIntentsView(APIView):
         ):
             intents = list(intents)
 
-            # sort by certainty, effective_timestamp
+            # sort by effective_timestamp descending, then certainty ascending
+            intents.sort(
+                key=itemgetter("effective_timestamp"),
+                reverse=True,
+            )
+
             intents.sort(
                 key=lambda x: (
                     certainty_order[(x["certainty"])],
-                    x["effective_timestamp"],
-                )
+                ),
             )
 
             # grab the top intent
