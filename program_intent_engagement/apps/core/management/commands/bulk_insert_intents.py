@@ -54,11 +54,13 @@ class Command(BaseCommand):
             intents = []
             lines = csv.DictReader(csv_file)
             for line in lines:
-                program_uuid = line['program_uuid']
-                lms_user_id = line['user_id']
-                reason = line['intent_reason']
-                certainty = line['intent_certainty']
-                effective_timestamp = line['effective_time']
+                program_uuid = line['PROGRAM_UUID']
+                lms_user_id = line['USER_ID']
+                reason = line['INTENT_REASON']
+                certainty = line['INTENT_CERTAINTY']
+                # remove ' Z' from timestamp, because Django does not accept format
+                # and there is no timezone data
+                effective_timestamp = line['EFFECTIVE_TIME'][:-2]
 
                 existing_intent = ProgramIntent.objects.filter(
                     program_uuid=program_uuid,
