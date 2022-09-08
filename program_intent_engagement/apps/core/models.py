@@ -55,6 +55,9 @@ class ProgramIntent(TimeStampedModel):
     lms_user_id = models.IntegerField(db_index=True)
 
     program_uuid = models.UUIDField()
+    drop = models.CharField(
+        max_length=255,
+    )
 
     # The specific reason for how intent was measured.
     reason = models.CharField(
