@@ -139,6 +139,9 @@ class MostRecentAndCertainIntentsView(APIView):
         or the most recent MAYBE intent if a CERTAIN intent does not exist.
         """
 
+        # test that user is populated is not enough, the anonymous user exists but has no lms ID
+        if not self.request.user or not hasattr(self.request.user, "lms_user_id"):
+            return Response(status=status.HTTP_401_UNAUTHORIZED)
         lms_user_id = self.request.user.lms_user_id
 
         user_intents = ProgramIntent.objects.filter(lms_user_id=lms_user_id)
