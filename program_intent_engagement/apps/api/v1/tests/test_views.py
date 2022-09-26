@@ -177,6 +177,14 @@ class ProgramIntentRecentAndCertainViewTests(ProgramIntentAPITestCase):
         response = self.get_api(user)
         return response
 
+    def test_no_user(self):
+        """
+        Test that if there is no logged in user we get the appropriate 401
+        """
+        url = reverse("api:v1:intents-list")
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, 401)
+
     def test_user_no_intents(self):
         """
         Test that when user has no program intents you get 200 ok response with an empty list
