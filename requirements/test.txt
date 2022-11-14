@@ -55,7 +55,7 @@ coverage[toml]==6.5.0
     # via
     #   -r requirements/test.in
     #   pytest-cov
-cryptography==38.0.1
+cryptography==38.0.3
     # via
     #   -r requirements/base.txt
     #   pyjwt
@@ -141,9 +141,11 @@ edx-opaque-keys==2.3.0
     #   edx-drf-extensions
 edx-rest-api-client==5.5.0
     # via -r requirements/base.txt
+exceptiongroup==1.0.1
+    # via pytest
 factory-boy==3.2.1
     # via -r requirements/test.in
-faker==15.1.1
+faker==15.3.1
     # via factory-boy
 filelock==3.8.0
     # via
@@ -174,7 +176,7 @@ jinja2==3.1.2
     #   -r requirements/base.txt
     #   code-annotations
     #   coreschema
-lazy-object-proxy==1.7.1
+lazy-object-proxy==1.8.0
     # via astroid
 markupsafe==2.1.1
     # via
@@ -186,7 +188,7 @@ mock==4.0.3
     # via -r requirements/test.in
 mysqlclient==2.1.1
     # via -r requirements/base.txt
-newrelic==8.2.1
+newrelic==8.4.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -209,7 +211,7 @@ pbr==5.11.0
     # via
     #   -r requirements/base.txt
     #   stevedore
-platformdirs==2.5.2
+platformdirs==2.5.3
     # via
     #   pylint
     #   virtualenv
@@ -217,14 +219,12 @@ pluggy==1.0.0
     # via
     #   pytest
     #   tox
-psutil==5.9.3
+psutil==5.9.4
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
 py==1.11.0
-    # via
-    #   pytest
-    #   tox
+    # via tox
 pycparser==2.21
     # via
     #   -r requirements/base.txt
@@ -259,7 +259,7 @@ pylint-plugin-utils==0.7
     # via
     #   pylint-celery
     #   pylint-django
-pymongo==3.12.3
+pymongo==3.13.0
     # via
     #   -r requirements/base.txt
     #   edx-opaque-keys
@@ -271,7 +271,7 @@ pyparsing==3.0.9
     # via
     #   -r requirements/base.txt
     #   packaging
-pytest==7.1.3
+pytest==7.2.0
     # via
     #   pytest-cov
     #   pytest-django
@@ -290,7 +290,7 @@ python3-openid==3.2.0
     # via
     #   -r requirements/base.txt
     #   social-auth-core
-pytz==2022.5
+pytz==2022.6
     # via
     #   -r requirements/base.txt
     #   django
@@ -359,7 +359,7 @@ sqlparse==0.4.3
     # via
     #   -r requirements/base.txt
     #   django
-stevedore==4.1.0
+stevedore==4.1.1
     # via
     #   -r requirements/base.txt
     #   code-annotations
@@ -373,9 +373,9 @@ tomli==2.0.1
     #   pylint
     #   pytest
     #   tox
-tomlkit==0.11.5
+tomlkit==0.11.6
     # via pylint
-tox==3.26.0
+tox==3.27.0
     # via -r requirements/test.in
 typing-extensions==4.4.0
     # via
@@ -390,7 +390,7 @@ urllib3==1.26.12
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.16.5
+virtualenv==20.16.6
     # via tox
 wrapt==1.14.1
     # via astroid
