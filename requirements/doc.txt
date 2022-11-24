@@ -10,7 +10,7 @@ asgiref==3.5.2
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.12.12
+astroid==2.12.13
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -117,7 +117,7 @@ django-dynamic-fixture==3.1.2
     # via -r requirements/test.txt
 django-extensions==3.2.1
     # via -r requirements/test.txt
-django-model-utils==4.2.0
+django-model-utils==4.3.1
     # via -r requirements/test.txt
 django-rest-swagger==2.2.0
     # via -r requirements/test.txt
@@ -173,13 +173,13 @@ edx-rest-api-client==5.5.0
     # via -r requirements/test.txt
 edx-sphinx-theme==3.0.0
     # via -r requirements/doc.in
-exceptiongroup==1.0.1
+exceptiongroup==1.0.4
     # via
     #   -r requirements/test.txt
     #   pytest
 factory-boy==3.2.1
     # via -r requirements/test.txt
-faker==15.3.1
+faker==15.3.3
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -198,7 +198,7 @@ idna==3.4
     #   requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==5.0.0
+importlib-metadata==5.1.0
     # via
     #   keyring
     #   sphinx
@@ -280,7 +280,7 @@ pep517==0.13.0
     # via build
 pkginfo==1.8.3
     # via twine
-platformdirs==2.5.3
+platformdirs==2.5.4
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -324,7 +324,7 @@ pyjwt[crypto]==2.6.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.15.5
+pylint==2.15.6
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -370,7 +370,7 @@ python-dateutil==2.8.2
     #   -r requirements/test.txt
     #   edx-drf-extensions
     #   faker
-python-slugify==6.1.2
+python-slugify==7.0.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -431,7 +431,7 @@ semantic-version==2.10.0
     # via
     #   -r requirements/test.txt
     #   edx-drf-extensions
-simplejson==3.17.6
+simplejson==3.18.0
     # via
     #   -r requirements/test.txt
     #   django-rest-swagger
@@ -508,7 +508,7 @@ tomlkit==0.11.6
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==3.27.0
+tox==3.27.1
     # via -r requirements/test.txt
 twine==4.0.1
     # via -r requirements/doc.in
@@ -523,12 +523,12 @@ uritemplate==4.1.1
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-urllib3==1.26.12
+urllib3==1.26.13
     # via
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.16.6
+virtualenv==20.16.7
     # via
     #   -r requirements/test.txt
     #   tox
