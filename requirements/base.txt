@@ -25,7 +25,7 @@ coreschema==0.0.4
     # via
     #   coreapi
     #   drf-yasg
-cryptography==39.0.0
+cryptography==39.0.1
     # via
     #   pyjwt
     #   social-auth-core
@@ -33,7 +33,7 @@ defusedxml==0.7.1
     # via
     #   python3-openid
     #   social-auth-core
-django==3.2.16
+django==3.2.17
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/base.in
@@ -74,7 +74,7 @@ djangorestframework==3.14.0
     #   edx-drf-extensions
 drf-jwt==1.19.2
     # via edx-drf-extensions
-drf-yasg==1.21.4
+drf-yasg==1.21.5
     # via edx-api-doc-tools
 edx-api-doc-tools==1.6.0
     # via -r requirements/base.in
@@ -107,7 +107,7 @@ markupsafe==2.1.2
     # via jinja2
 mysqlclient==2.1.1
     # via -r requirements/base.in
-newrelic==8.5.0
+newrelic==8.6.0
     # via edx-django-utils
 oauthlib==3.2.2
     # via
@@ -123,7 +123,7 @@ psutil==5.9.4
     # via edx-django-utils
 pycparser==2.21
     # via cffi
-pycryptodomex==3.16.0
+pycryptodomex==3.17
     # via pyjwkest
 pyjwkest==1.4.2
     # via edx-drf-extensions
@@ -167,7 +167,7 @@ ruamel-yaml-clib==0.2.7
     # via ruamel-yaml
 semantic-version==2.10.0
     # via edx-drf-extensions
-simplejson==3.18.1
+simplejson==3.18.3
     # via django-rest-swagger
 six==1.16.0
     # via
