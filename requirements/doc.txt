@@ -10,7 +10,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.14.1
+astroid==2.14.2
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -64,7 +64,7 @@ coreschema==0.0.4
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-coverage[toml]==7.1.0
+coverage[toml]==7.2.0
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -89,7 +89,7 @@ distlib==0.3.6
     # via
     #   -r requirements/test.txt
     #   virtualenv
-django==3.2.17
+django==3.2.18
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -161,7 +161,7 @@ edx-django-utils==5.2.0
     #   edx-rest-api-client
 edx-drf-extensions==8.4.1
     # via -r requirements/test.txt
-edx-lint==5.3.0
+edx-lint==5.3.2
     # via -r requirements/test.txt
 edx-opaque-keys==2.3.0
     # via
@@ -177,7 +177,7 @@ exceptiongroup==1.1.0
     #   pytest
 factory-boy==3.2.1
     # via -r requirements/test.txt
-faker==16.8.1
+faker==17.0.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -201,7 +201,7 @@ importlib-metadata==6.0.0
     #   keyring
     #   sphinx
     #   twine
-importlib-resources==5.10.2
+importlib-resources==5.12.0
     # via keyring
 inflection==0.5.1
     # via
@@ -237,7 +237,7 @@ lazy-object-proxy==1.9.0
     # via
     #   -r requirements/test.txt
     #   astroid
-markdown-it-py==2.1.0
+markdown-it-py==2.2.0
     # via rich
 markupsafe==2.1.2
     # via
@@ -255,7 +255,7 @@ more-itertools==9.0.0
     # via jaraco-classes
 mysqlclient==2.1.1
     # via -r requirements/test.txt
-newrelic==8.6.0
+newrelic==8.7.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -326,7 +326,7 @@ pyjwt[crypto]==2.6.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.16.1
+pylint==2.16.2
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -484,7 +484,7 @@ sqlparse==0.4.3
     # via
     #   -r requirements/test.txt
     #   django
-stevedore==4.1.1
+stevedore==5.0.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -515,7 +515,7 @@ tox==3.28.0
     #   -r requirements/test.txt
 twine==4.0.2
     # via -r requirements/doc.in
-typing-extensions==4.4.0
+typing-extensions==4.5.0
     # via
     #   -r requirements/test.txt
     #   astroid
@@ -541,7 +541,7 @@ wrapt==1.14.1
     # via
     #   -r requirements/test.txt
     #   astroid
-zipp==3.13.0
+zipp==3.14.0
     # via
     #   importlib-metadata
     #   importlib-resources
