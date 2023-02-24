@@ -8,7 +8,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/validation.txt
     #   django
-astroid==2.14.1
+astroid==2.14.2
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -68,7 +68,7 @@ coreschema==0.0.4
     #   -r requirements/validation.txt
     #   coreapi
     #   drf-yasg
-coverage[toml]==7.1.0
+coverage[toml]==7.2.0
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -85,7 +85,7 @@ defusedxml==0.7.1
     #   -r requirements/validation.txt
     #   python3-openid
     #   social-auth-core
-diff-cover==7.4.0
+diff-cover==7.5.0
     # via -r requirements/dev.in
 dill==0.3.6
     # via
@@ -95,7 +95,7 @@ distlib==0.3.6
     # via
     #   -r requirements/validation.txt
     #   virtualenv
-django==3.2.17
+django==3.2.18
     # via
     #   -r requirements/validation.txt
     #   django-cors-headers
@@ -168,7 +168,7 @@ edx-drf-extensions==8.4.1
     # via -r requirements/validation.txt
 edx-i18n-tools==0.9.2
     # via -r requirements/dev.in
-edx-lint==5.3.0
+edx-lint==5.3.2
     # via -r requirements/validation.txt
 edx-opaque-keys==2.3.0
     # via
@@ -182,7 +182,7 @@ exceptiongroup==1.1.0
     #   pytest
 factory-boy==3.2.1
     # via -r requirements/validation.txt
-faker==16.8.1
+faker==17.0.0
     # via
     #   -r requirements/validation.txt
     #   factory-boy
@@ -204,7 +204,7 @@ importlib-metadata==6.0.0
     #   -r requirements/validation.txt
     #   keyring
     #   twine
-importlib-resources==5.10.2
+importlib-resources==5.12.0
     # via
     #   -r requirements/validation.txt
     #   keyring
@@ -247,7 +247,7 @@ lazy-object-proxy==1.9.0
     # via
     #   -r requirements/validation.txt
     #   astroid
-markdown-it-py==2.1.0
+markdown-it-py==2.2.0
     # via
     #   -r requirements/validation.txt
     #   rich
@@ -271,7 +271,7 @@ more-itertools==9.0.0
     #   jaraco-classes
 mysqlclient==2.1.1
     # via -r requirements/validation.txt
-newrelic==8.6.0
+newrelic==8.7.0
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
@@ -315,7 +315,7 @@ pluggy==1.0.0
     #   diff-cover
     #   pytest
     #   tox
-polib==1.1.1
+polib==1.2.0
     # via edx-i18n-tools
 psutil==5.9.4
     # via
@@ -355,7 +355,7 @@ pyjwt[crypto]==2.6.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.16.1
+pylint==2.16.2
     # via
     #   -r requirements/validation.txt
     #   edx-lint
@@ -507,7 +507,7 @@ sqlparse==0.4.3
     #   -r requirements/validation.txt
     #   django
     #   django-debug-toolbar
-stevedore==4.1.1
+stevedore==5.0.0
     # via
     #   -r requirements/validation.txt
     #   code-annotations
@@ -535,7 +535,7 @@ tox==3.28.0
     # via -r requirements/validation.txt
 twine==4.0.2
     # via -r requirements/validation.txt
-typing-extensions==4.4.0
+typing-extensions==4.5.0
     # via
     #   -r requirements/validation.txt
     #   astroid
@@ -567,7 +567,7 @@ wrapt==1.14.1
     # via
     #   -r requirements/validation.txt
     #   astroid
-zipp==3.13.0
+zipp==3.14.0
     # via
     #   -r requirements/validation.txt
     #   importlib-metadata
