@@ -8,7 +8,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/validation.txt
     #   django
-astroid==2.14.2
+astroid==2.15.0
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -36,7 +36,7 @@ cffi==1.15.1
     #   pynacl
 chardet==5.1.0
     # via diff-cover
-charset-normalizer==3.0.1
+charset-normalizer==3.1.0
     # via
     #   -r requirements/validation.txt
     #   requests
@@ -68,11 +68,11 @@ coreschema==0.0.4
     #   -r requirements/validation.txt
     #   coreapi
     #   drf-yasg
-coverage[toml]==7.2.0
+coverage[toml]==7.2.1
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
-cryptography==39.0.1
+cryptography==39.0.2
     # via
     #   -r requirements/validation.txt
     #   pyjwt
@@ -112,7 +112,7 @@ django==3.2.18
     #   edx-django-utils
     #   edx-drf-extensions
     #   edx-i18n-tools
-django-cors-headers==3.13.0
+django-cors-headers==3.14.0
     # via -r requirements/validation.txt
 django-crum==0.7.9
     # via
@@ -182,7 +182,7 @@ exceptiongroup==1.1.0
     #   pytest
 factory-boy==3.2.1
     # via -r requirements/validation.txt
-faker==17.0.0
+faker==17.6.0
     # via
     #   -r requirements/validation.txt
     #   factory-boy
@@ -265,7 +265,7 @@ mdurl==0.1.2
     #   markdown-it-py
 mock==5.0.1
     # via -r requirements/validation.txt
-more-itertools==9.0.0
+more-itertools==9.1.0
     # via
     #   -r requirements/validation.txt
     #   jaraco-classes
@@ -298,13 +298,13 @@ pbr==5.11.1
     # via
     #   -r requirements/validation.txt
     #   stevedore
-pip-tools==6.12.2
+pip-tools==6.12.3
     # via -r requirements/pip-tools.txt
 pkginfo==1.9.6
     # via
     #   -r requirements/validation.txt
     #   twine
-platformdirs==3.0.0
+platformdirs==3.1.0
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -355,7 +355,7 @@ pyjwt[crypto]==2.6.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.16.2
+pylint==2.17.0
     # via
     #   -r requirements/validation.txt
     #   edx-lint
@@ -387,7 +387,7 @@ pyproject-hooks==1.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
-pytest==7.2.1
+pytest==7.2.2
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -401,7 +401,7 @@ python-dateutil==2.8.2
     #   -r requirements/validation.txt
     #   edx-drf-extensions
     #   faker
-python-slugify==8.0.0
+python-slugify==8.0.1
     # via
     #   -r requirements/validation.txt
     #   code-annotations
@@ -449,7 +449,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/validation.txt
     #   twine
-rich==13.3.1
+rich==13.3.2
     # via
     #   -r requirements/validation.txt
     #   twine
@@ -551,7 +551,7 @@ urllib3==1.26.14
     #   -r requirements/validation.txt
     #   requests
     #   twine
-virtualenv==20.19.0
+virtualenv==20.20.0
     # via
     #   -r requirements/validation.txt
     #   tox
@@ -563,11 +563,11 @@ wheel==0.38.4
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-wrapt==1.14.1
+wrapt==1.15.0
     # via
     #   -r requirements/validation.txt
     #   astroid
-zipp==3.14.0
+zipp==3.15.0
     # via
     #   -r requirements/validation.txt
     #   importlib-metadata
