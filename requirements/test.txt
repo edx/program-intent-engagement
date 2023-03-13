@@ -8,7 +8,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/base.txt
     #   django
-astroid==2.14.2
+astroid==2.15.0
     # via
     #   pylint
     #   pylint-celery
@@ -23,7 +23,7 @@ cffi==1.15.1
     #   -r requirements/base.txt
     #   cryptography
     #   pynacl
-charset-normalizer==3.0.1
+charset-normalizer==3.1.0
     # via
     #   -r requirements/base.txt
     #   requests
@@ -51,11 +51,11 @@ coreschema==0.0.4
     #   -r requirements/base.txt
     #   coreapi
     #   drf-yasg
-coverage[toml]==7.2.0
+coverage[toml]==7.2.1
     # via
     #   -r requirements/test.in
     #   pytest-cov
-cryptography==39.0.1
+cryptography==39.0.2
     # via
     #   -r requirements/base.txt
     #   pyjwt
@@ -86,7 +86,7 @@ distlib==0.3.6
     #   edx-django-release-util
     #   edx-django-utils
     #   edx-drf-extensions
-django-cors-headers==3.13.0
+django-cors-headers==3.14.0
     # via -r requirements/base.txt
 django-crum==0.7.9
     # via
@@ -146,7 +146,7 @@ exceptiongroup==1.1.0
     # via pytest
 factory-boy==3.2.1
     # via -r requirements/test.in
-faker==17.0.0
+faker==17.6.0
     # via factory-boy
 filelock==3.9.0
     # via
@@ -212,7 +212,7 @@ pbr==5.11.1
     # via
     #   -r requirements/base.txt
     #   stevedore
-platformdirs==3.0.0
+platformdirs==3.1.0
     # via
     #   pylint
     #   virtualenv
@@ -246,7 +246,7 @@ pyjwt[crypto]==2.6.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.16.2
+pylint==2.17.0
     # via
     #   edx-lint
     #   pylint-celery
@@ -268,7 +268,7 @@ pynacl==1.5.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
-pytest==7.2.1
+pytest==7.2.2
     # via
     #   pytest-cov
     #   pytest-django
@@ -281,7 +281,7 @@ python-dateutil==2.8.2
     #   -r requirements/base.txt
     #   edx-drf-extensions
     #   faker
-python-slugify==8.0.0
+python-slugify==8.0.1
     # via code-annotations
 python3-openid==3.2.0
     # via
@@ -389,7 +389,7 @@ urllib3==1.26.14
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.19.0
+virtualenv==20.20.0
     # via tox
-wrapt==1.14.1
+wrapt==1.15.0
     # via astroid
