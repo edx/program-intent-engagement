@@ -71,12 +71,12 @@ coreschema==0.0.4
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-coverage[toml]==7.2.1
+coverage[toml]==7.2.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==39.0.2
+cryptography==40.0.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -185,7 +185,7 @@ edx-django-release-util==1.2.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-edx-django-utils==5.2.0
+edx-django-utils==5.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -195,7 +195,7 @@ edx-drf-extensions==8.4.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-edx-lint==5.3.2
+edx-lint==5.3.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -208,7 +208,7 @@ edx-rest-api-client==5.5.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-exceptiongroup==1.1.0
+exceptiongroup==1.1.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -217,12 +217,12 @@ factory-boy==3.2.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==17.6.0
+faker==18.3.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.9.0
+filelock==3.10.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -238,7 +238,7 @@ idna==3.4
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   requests
-importlib-metadata==6.0.0
+importlib-metadata==6.1.0
     # via
     #   -r requirements/quality.txt
     #   keyring
@@ -321,7 +321,7 @@ mysqlclient==2.1.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-newrelic==8.7.0
+newrelic==8.7.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -353,7 +353,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/quality.txt
     #   twine
-platformdirs==3.1.0
+platformdirs==3.1.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -408,7 +408,7 @@ pyjwt[crypto]==2.6.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.17.0
+pylint==2.17.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -538,7 +538,7 @@ semantic-version==2.10.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-drf-extensions
-simplejson==3.18.3
+simplejson==3.18.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -565,12 +565,12 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/quality.txt
     #   pydocstyle
-social-auth-app-django==5.0.0
+social-auth-app-django==5.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-auth-backends
-social-auth-core==4.3.0
+social-auth-core==4.4.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -625,13 +625,13 @@ uritemplate==4.1.1
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-urllib3==1.26.14
+urllib3==1.26.15
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.20.0
+virtualenv==20.21.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
