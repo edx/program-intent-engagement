@@ -8,7 +8,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/validation.txt
     #   django
-astroid==2.15.0
+astroid==2.15.2
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -72,7 +72,7 @@ coverage[toml]==7.2.2
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
-cryptography==40.0.0
+cryptography==40.0.1
     # via
     #   -r requirements/validation.txt
     #   pyjwt
@@ -112,13 +112,14 @@ django==3.2.18
     #   edx-django-utils
     #   edx-drf-extensions
     #   edx-i18n-tools
+    #   social-auth-app-django
 django-cors-headers==3.14.0
     # via -r requirements/validation.txt
 django-crum==0.7.9
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
-django-debug-toolbar==3.8.1
+django-debug-toolbar==4.0.0
     # via -r requirements/dev.in
 django-dynamic-fixture==3.1.2
     # via -r requirements/validation.txt
@@ -182,11 +183,11 @@ exceptiongroup==1.1.1
     #   pytest
 factory-boy==3.2.1
     # via -r requirements/validation.txt
-faker==18.3.1
+faker==18.3.2
     # via
     #   -r requirements/validation.txt
     #   factory-boy
-filelock==3.10.4
+filelock==3.10.7
     # via
     #   -r requirements/validation.txt
     #   tox
@@ -271,7 +272,7 @@ more-itertools==9.1.0
     #   jaraco-classes
 mysqlclient==2.1.1
     # via -r requirements/validation.txt
-newrelic==8.7.1
+newrelic==8.8.0
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
@@ -304,7 +305,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/validation.txt
     #   twine
-platformdirs==3.1.1
+platformdirs==3.2.0
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -355,7 +356,7 @@ pyjwt[crypto]==2.6.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.17.1
+pylint==2.17.2
     # via
     #   -r requirements/validation.txt
     #   edx-lint
@@ -409,7 +410,7 @@ python3-openid==3.2.0
     # via
     #   -r requirements/validation.txt
     #   social-auth-core
-pytz==2022.7.1
+pytz==2023.3
     # via
     #   -r requirements/validation.txt
     #   django
@@ -449,7 +450,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/validation.txt
     #   twine
-rich==13.3.2
+rich==13.3.3
     # via
     #   -r requirements/validation.txt
     #   twine
@@ -493,11 +494,11 @@ snowballstemmer==2.2.0
     # via
     #   -r requirements/validation.txt
     #   pydocstyle
-social-auth-app-django==5.1.0
+social-auth-app-django==5.2.0
     # via
     #   -r requirements/validation.txt
     #   edx-auth-backends
-social-auth-core==4.4.0
+social-auth-core==4.4.1
     # via
     #   -r requirements/validation.txt
     #   edx-auth-backends
@@ -527,7 +528,7 @@ tomli==2.0.1
     #   pyproject-hooks
     #   pytest
     #   tox
-tomlkit==0.11.6
+tomlkit==0.11.7
     # via
     #   -r requirements/validation.txt
     #   pylint
