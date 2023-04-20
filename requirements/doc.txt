@@ -10,7 +10,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.15.2
+astroid==2.15.3
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -68,6 +68,7 @@ cryptography==40.0.2
     # via
     #   -r requirements/test.txt
     #   pyjwt
+    #   secretstorage
     #   social-auth-core
 ddt==1.6.0
     # via -r requirements/test.txt
@@ -155,7 +156,7 @@ edx-django-utils==5.4.0
     #   -r requirements/test.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==8.6.0
+edx-drf-extensions==8.7.0
     # via -r requirements/test.txt
 edx-lint==5.3.4
     # via -r requirements/test.txt
@@ -177,7 +178,7 @@ faker==18.4.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.11.0
+filelock==3.12.0
     # via
     #   -r requirements/test.txt
     #   tox
@@ -192,7 +193,7 @@ idna==3.4
     #   requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.3.0
+importlib-metadata==6.5.0
     # via
     #   keyring
     #   sphinx
@@ -217,6 +218,10 @@ itypes==1.2.0
     #   coreapi
 jaraco-classes==3.2.3
     # via keyring
+jeepney==0.8.0
+    # via
+    #   keyring
+    #   secretstorage
 jinja2==3.1.2
     # via
     #   -r requirements/test.txt
@@ -241,7 +246,7 @@ mccabe==0.7.0
     #   pylint
 mdurl==0.1.2
     # via markdown-it-py
-mock==5.0.1
+mock==5.0.2
     # via -r requirements/test.txt
 more-itertools==9.1.0
     # via jaraco-classes
@@ -284,7 +289,7 @@ pluggy==1.0.0
     #   -r requirements/test.txt
     #   pytest
     #   tox
-psutil==5.9.4
+psutil==5.9.5
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -300,7 +305,7 @@ pycryptodomex==3.17
     # via
     #   -r requirements/test.txt
     #   pyjwkest
-pygments==2.15.0
+pygments==2.15.1
     # via
     #   doc8
     #   readme-renderer
@@ -417,6 +422,8 @@ ruamel-yaml-clib==0.2.7
     # via
     #   -r requirements/test.txt
     #   ruamel-yaml
+secretstorage==3.3.3
+    # via keyring
 semantic-version==2.10.0
     # via
     #   -r requirements/test.txt
@@ -470,7 +477,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-sqlparse==0.4.3
+sqlparse==0.4.4
     # via
     #   -r requirements/test.txt
     #   django
@@ -521,7 +528,7 @@ urllib3==1.26.15
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.21.0
+virtualenv==20.22.0
     # via
     #   -r requirements/test.txt
     #   tox
