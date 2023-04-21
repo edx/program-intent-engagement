@@ -8,7 +8,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/base.txt
     #   django
-astroid==2.15.2
+astroid==2.15.3
     # via
     #   pylint
     #   pylint-celery
@@ -131,7 +131,7 @@ edx-django-utils==5.4.0
     #   -r requirements/base.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==8.6.0
+edx-drf-extensions==8.7.0
     # via -r requirements/base.txt
 edx-lint==5.3.4
     # via -r requirements/test.in
@@ -147,7 +147,7 @@ factory-boy==3.2.1
     # via -r requirements/test.in
 faker==18.4.0
     # via factory-boy
-filelock==3.11.0
+filelock==3.12.0
     # via
     #   tox
     #   virtualenv
@@ -184,7 +184,7 @@ markupsafe==2.1.2
     #   jinja2
 mccabe==0.7.0
     # via pylint
-mock==5.0.1
+mock==5.0.2
     # via -r requirements/test.in
 mysqlclient==2.1.1
     # via -r requirements/base.txt
@@ -219,7 +219,7 @@ pluggy==1.0.0
     # via
     #   pytest
     #   tox
-psutil==5.9.4
+psutil==5.9.5
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -351,7 +351,7 @@ social-auth-core==4.4.1
     #   -r requirements/base.txt
     #   edx-auth-backends
     #   social-auth-app-django
-sqlparse==0.4.3
+sqlparse==0.4.4
     # via
     #   -r requirements/base.txt
     #   django
@@ -388,7 +388,7 @@ urllib3==1.26.15
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.21.0
+virtualenv==20.22.0
     # via tox
 wrapt==1.15.0
     # via astroid
