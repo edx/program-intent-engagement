@@ -8,7 +8,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/base.txt
     #   django
-certifi==2022.12.7
+certifi==2023.5.7
     # via
     #   -r requirements/base.txt
     #   requests
@@ -46,7 +46,7 @@ defusedxml==0.7.1
     #   -r requirements/base.txt
     #   python3-openid
     #   social-auth-core
-django==3.2.18
+django==3.2.19
     # via
     #   -r requirements/base.txt
     #   django-cors-headers
@@ -222,7 +222,7 @@ pyyaml==6.0
     #   -r requirements/base.txt
     #   -r requirements/production.in
     #   edx-django-release-util
-requests==2.29.0
+requests==2.30.0
     # via
     #   -r requirements/base.txt
     #   coreapi
@@ -236,7 +236,7 @@ requests-oauthlib==1.3.1
     # via
     #   -r requirements/base.txt
     #   social-auth-core
-ruamel-yaml==0.17.22
+ruamel-yaml==0.17.24
     # via
     #   -r requirements/base.txt
     #   drf-yasg
@@ -288,7 +288,7 @@ uritemplate==4.1.1
     #   -r requirements/base.txt
     #   coreapi
     #   drf-yasg
-urllib3==1.26.15
+urllib3==2.0.2
     # via
     #   -r requirements/base.txt
     #   requests
