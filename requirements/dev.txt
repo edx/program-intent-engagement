@@ -8,7 +8,7 @@ asgiref==3.6.0
     # via
     #   -r requirements/validation.txt
     #   django
-astroid==2.15.4
+astroid==2.15.5
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -109,13 +109,13 @@ django==3.2.19
     #   edx-drf-extensions
     #   edx-i18n-tools
     #   social-auth-app-django
-django-cors-headers==3.14.0
+django-cors-headers==4.0.0
     # via -r requirements/validation.txt
 django-crum==0.7.9
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
-django-debug-toolbar==4.0.0
+django-debug-toolbar==4.1.0
     # via -r requirements/dev.in
 django-dynamic-fixture==3.1.2
     # via -r requirements/validation.txt
@@ -138,7 +138,7 @@ djangorestframework==3.14.0
     #   drf-yasg
     #   edx-api-doc-tools
     #   edx-drf-extensions
-docutils==0.19
+docutils==0.20
     # via
     #   -r requirements/validation.txt
     #   readme-renderer
@@ -171,7 +171,7 @@ edx-opaque-keys==2.3.0
     # via
     #   -r requirements/validation.txt
     #   edx-drf-extensions
-edx-rest-api-client==5.5.0
+edx-rest-api-client==5.5.1
     # via -r requirements/validation.txt
 exceptiongroup==1.1.1
     # via
@@ -301,7 +301,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/validation.txt
     #   twine
-platformdirs==3.5.0
+platformdirs==3.5.1
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -344,7 +344,7 @@ pyjwkest==1.4.2
     # via
     #   -r requirements/validation.txt
     #   edx-drf-extensions
-pyjwt[crypto]==2.6.0
+pyjwt[crypto]==2.7.0
     # via
     #   -r requirements/validation.txt
     #   drf-jwt
@@ -367,7 +367,7 @@ pylint-django==2.5.3
     # via
     #   -r requirements/validation.txt
     #   edx-lint
-pylint-plugin-utils==0.7
+pylint-plugin-utils==0.8.1
     # via
     #   -r requirements/validation.txt
     #   pylint-celery
@@ -450,7 +450,7 @@ rich==13.3.5
     # via
     #   -r requirements/validation.txt
     #   twine
-ruamel-yaml==0.17.24
+ruamel-yaml==0.17.26
     # via
     #   -r requirements/validation.txt
     #   drf-yasg
@@ -504,7 +504,7 @@ sqlparse==0.4.4
     #   -r requirements/validation.txt
     #   django
     #   django-debug-toolbar
-stevedore==5.0.0
+stevedore==5.1.0
     # via
     #   -r requirements/validation.txt
     #   code-annotations
