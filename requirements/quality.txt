@@ -123,7 +123,7 @@ djangorestframework==3.14.0
     #   drf-yasg
     #   edx-api-doc-tools
     #   edx-drf-extensions
-docutils==0.20
+docutils==0.20.1
     # via readme-renderer
 drf-jwt==1.19.2
     # via
@@ -144,7 +144,7 @@ edx-django-utils==5.4.0
     #   -r requirements/test.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==8.7.0
+edx-drf-extensions==8.8.0
     # via -r requirements/test.txt
 edx-lint==5.3.4
     # via
@@ -154,7 +154,7 @@ edx-opaque-keys==2.3.0
     # via
     #   -r requirements/test.txt
     #   edx-drf-extensions
-edx-rest-api-client==5.5.1
+edx-rest-api-client==5.5.2
     # via -r requirements/test.txt
 exceptiongroup==1.1.1
     # via
@@ -162,7 +162,7 @@ exceptiongroup==1.1.1
     #   pytest
 factory-boy==3.2.1
     # via -r requirements/test.txt
-faker==18.7.0
+faker==18.9.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -171,10 +171,6 @@ filelock==3.12.0
     #   -r requirements/test.txt
     #   tox
     #   virtualenv
-future==0.18.3
-    # via
-    #   -r requirements/test.txt
-    #   pyjwkest
 idna==3.4
     # via
     #   -r requirements/test.txt
@@ -286,20 +282,12 @@ pycparser==2.21
     # via
     #   -r requirements/test.txt
     #   cffi
-pycryptodomex==3.17
-    # via
-    #   -r requirements/test.txt
-    #   pyjwkest
 pydocstyle==6.3.0
     # via -r requirements/quality.in
 pygments==2.15.1
     # via
     #   readme-renderer
     #   rich
-pyjwkest==1.4.2
-    # via
-    #   -r requirements/test.txt
-    #   edx-drf-extensions
 pyjwt[crypto]==2.7.0
     # via
     #   -r requirements/test.txt
@@ -323,7 +311,7 @@ pylint-django==2.5.3
     # via
     #   -r requirements/test.txt
     #   edx-lint
-pylint-plugin-utils==0.8.1
+pylint-plugin-utils==0.8.2
     # via
     #   -r requirements/test.txt
     #   pylint-celery
@@ -371,13 +359,12 @@ pyyaml==6.0
     #   edx-django-release-util
 readme-renderer==37.3
     # via twine
-requests==2.30.0
+requests==2.31.0
     # via
     #   -r requirements/test.txt
     #   coreapi
     #   edx-drf-extensions
     #   edx-rest-api-client
-    #   pyjwkest
     #   requests-oauthlib
     #   requests-toolbelt
     #   slumber
@@ -420,7 +407,6 @@ six==1.16.0
     #   edx-django-release-util
     #   edx-drf-extensions
     #   edx-lint
-    #   pyjwkest
     #   python-dateutil
     #   tox
 slumber==0.7.1
@@ -469,7 +455,7 @@ tox==3.28.0
     #   -r requirements/test.txt
 twine==4.0.2
     # via -r requirements/quality.in
-typing-extensions==4.5.0
+typing-extensions==4.6.0
     # via
     #   -r requirements/test.txt
     #   astroid
