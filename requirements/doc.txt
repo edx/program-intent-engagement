@@ -6,7 +6,7 @@
 #
 alabaster==0.7.13
     # via sphinx
-asgiref==3.6.0
+asgiref==3.7.2
     # via
     #   -r requirements/test.txt
     #   django
@@ -60,7 +60,7 @@ coreschema==0.0.4
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-coverage[toml]==7.2.5
+coverage[toml]==7.2.7
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -346,7 +346,7 @@ pytest==7.3.1
     #   -r requirements/test.txt
     #   pytest-cov
     #   pytest-django
-pytest-cov==4.0.0
+pytest-cov==4.1.0
     # via -r requirements/test.txt
 pytest-django==4.5.2
     # via -r requirements/test.txt
@@ -401,7 +401,7 @@ rfc3986==2.0.0
     # via twine
 rich==13.3.5
     # via twine
-ruamel-yaml==0.17.26
+ruamel-yaml==0.17.30
     # via
     #   -r requirements/test.txt
     #   drf-yasg
@@ -498,9 +498,10 @@ tox==3.28.0
     #   -r requirements/test.txt
 twine==4.0.2
     # via -r requirements/doc.in
-typing-extensions==4.6.0
+typing-extensions==4.6.2
     # via
     #   -r requirements/test.txt
+    #   asgiref
     #   astroid
     #   pylint
     #   rich
