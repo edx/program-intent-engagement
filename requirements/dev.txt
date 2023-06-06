@@ -68,7 +68,7 @@ coverage[toml]==7.2.7
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
-cryptography==40.0.2
+cryptography==41.0.1
     # via
     #   -r requirements/validation.txt
     #   pyjwt
@@ -119,7 +119,7 @@ django-debug-toolbar==4.1.0
     # via -r requirements/dev.in
 django-dynamic-fixture==3.1.2
     # via -r requirements/validation.txt
-django-extensions==3.2.1
+django-extensions==3.2.3
     # via -r requirements/validation.txt
 django-model-utils==4.3.1
     # via -r requirements/validation.txt
@@ -156,7 +156,7 @@ edx-auth-backends==4.1.0
     # via -r requirements/validation.txt
 edx-django-release-util==1.2.0
     # via -r requirements/validation.txt
-edx-django-utils==5.4.0
+edx-django-utils==5.5.0
     # via
     #   -r requirements/validation.txt
     #   edx-drf-extensions
@@ -179,7 +179,7 @@ exceptiongroup==1.1.1
     #   pytest
 factory-boy==3.2.1
     # via -r requirements/validation.txt
-faker==18.9.0
+faker==18.10.1
     # via
     #   -r requirements/validation.txt
     #   factory-boy
@@ -244,7 +244,7 @@ markdown-it-py==2.2.0
     # via
     #   -r requirements/validation.txt
     #   rich
-markupsafe==2.1.2
+markupsafe==2.1.3
     # via
     #   -r requirements/validation.txt
     #   jinja2
@@ -433,11 +433,11 @@ rfc3986==2.0.0
     # via
     #   -r requirements/validation.txt
     #   twine
-rich==13.3.5
+rich==13.4.1
     # via
     #   -r requirements/validation.txt
     #   twine
-ruamel-yaml==0.17.30
+ruamel-yaml==0.17.31
     # via
     #   -r requirements/validation.txt
     #   drf-yasg
@@ -518,7 +518,7 @@ tox==3.28.0
     # via -r requirements/validation.txt
 twine==4.0.2
     # via -r requirements/validation.txt
-typing-extensions==4.6.2
+typing-extensions==4.6.3
     # via
     #   -r requirements/validation.txt
     #   asgiref
