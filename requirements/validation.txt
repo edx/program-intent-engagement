@@ -96,7 +96,7 @@ distlib==0.3.6
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==3.2.19
+django==3.2.20
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -202,7 +202,7 @@ edx-rest-api-client==5.5.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-exceptiongroup==1.1.1
+exceptiongroup==1.1.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -211,7 +211,7 @@ factory-boy==3.2.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==18.11.1
+faker==18.11.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -580,7 +580,7 @@ tox==3.28.0
     #   -r requirements/test.txt
 twine==4.0.2
     # via -r requirements/quality.txt
-typing-extensions==4.6.3
+typing-extensions==4.7.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
