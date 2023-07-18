@@ -34,7 +34,7 @@ charset-normalizer==3.2.0
     # via
     #   -r requirements/test.txt
     #   requests
-click==8.1.4
+click==8.1.5
     # via
     #   -r requirements/test.txt
     #   click-log
@@ -79,7 +79,7 @@ dill==0.3.6
     # via
     #   -r requirements/test.txt
     #   pylint
-distlib==0.3.6
+distlib==0.3.7
     # via
     #   -r requirements/test.txt
     #   virtualenv
@@ -172,7 +172,7 @@ exceptiongroup==1.1.2
     #   pytest
 factory-boy==3.2.1
     # via -r requirements/test.txt
-faker==18.13.0
+faker==19.1.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -273,7 +273,7 @@ pbr==5.11.1
     #   stevedore
 pkginfo==1.9.6
     # via twine
-platformdirs==3.8.1
+platformdirs==3.9.1
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -368,7 +368,7 @@ pytz==2023.3
     #   django
     #   djangorestframework
     #   drf-yasg
-pyyaml==6.0
+pyyaml==6.0.1
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -493,6 +493,7 @@ typing-extensions==4.7.1
     #   -r requirements/test.txt
     #   asgiref
     #   astroid
+    #   faker
     #   pylint
     #   rich
 uritemplate==4.1.1
@@ -505,7 +506,7 @@ urllib3==2.0.3
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.23.1
+virtualenv==20.24.0
     # via
     #   -r requirements/test.txt
     #   tox
@@ -515,7 +516,7 @@ wrapt==1.15.0
     # via
     #   -r requirements/test.txt
     #   astroid
-zipp==3.16.0
+zipp==3.16.2
     # via
     #   importlib-metadata
     #   importlib-resources
