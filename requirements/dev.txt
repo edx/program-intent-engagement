@@ -21,7 +21,7 @@ build==0.10.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-certifi==2023.5.7
+certifi==2023.7.22
     # via
     #   -r requirements/validation.txt
     #   requests
@@ -36,7 +36,7 @@ charset-normalizer==3.2.0
     # via
     #   -r requirements/validation.txt
     #   requests
-click==8.1.5
+click==8.1.6
     # via
     #   -r requirements/pip-tools.txt
     #   -r requirements/validation.txt
@@ -49,7 +49,7 @@ click-log==0.4.0
     # via
     #   -r requirements/validation.txt
     #   edx-lint
-code-annotations==1.3.0
+code-annotations==1.5.0
     # via
     #   -r requirements/validation.txt
     #   edx-lint
@@ -81,7 +81,7 @@ defusedxml==0.7.1
     #   social-auth-core
 diff-cover==7.7.0
     # via -r requirements/dev.in
-dill==0.3.6
+dill==0.3.7
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -144,17 +144,17 @@ drf-jwt==1.19.2
     # via
     #   -r requirements/validation.txt
     #   edx-drf-extensions
-drf-yasg==1.21.6
+drf-yasg==1.21.7
     # via
     #   -r requirements/validation.txt
     #   edx-api-doc-tools
-edx-api-doc-tools==1.6.0
+edx-api-doc-tools==1.7.0
     # via -r requirements/validation.txt
 edx-auth-backends==4.1.0
     # via -r requirements/validation.txt
-edx-django-release-util==1.2.0
+edx-django-release-util==1.3.0
     # via -r requirements/validation.txt
-edx-django-utils==5.5.0
+edx-django-utils==5.6.0
     # via
     #   -r requirements/validation.txt
     #   edx-drf-extensions
@@ -175,9 +175,9 @@ exceptiongroup==1.1.2
     # via
     #   -r requirements/validation.txt
     #   pytest
-factory-boy==3.2.1
+factory-boy==3.3.0
     # via -r requirements/validation.txt
-faker==19.1.0
+faker==19.2.0
     # via
     #   -r requirements/validation.txt
     #   factory-boy
@@ -256,7 +256,7 @@ mdurl==0.1.2
     #   markdown-it-py
 mock==5.1.0
     # via -r requirements/validation.txt
-more-itertools==9.1.0
+more-itertools==10.0.0
     # via
     #   -r requirements/validation.txt
     #   jaraco-classes
@@ -289,7 +289,7 @@ pbr==5.11.1
     # via
     #   -r requirements/validation.txt
     #   stevedore
-pip-tools==7.0.0
+pip-tools==7.1.0
     # via -r requirements/pip-tools.txt
 pkginfo==1.9.6
     # via
@@ -330,7 +330,7 @@ pygments==2.15.1
     #   diff-cover
     #   readme-renderer
     #   rich
-pyjwt[crypto]==2.7.0
+pyjwt[crypto]==2.8.0
     # via
     #   -r requirements/validation.txt
     #   drf-jwt
@@ -523,12 +523,12 @@ uritemplate==4.1.1
     #   -r requirements/validation.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.0.3
+urllib3==2.0.4
     # via
     #   -r requirements/validation.txt
     #   requests
     #   twine
-virtualenv==20.24.0
+virtualenv==20.24.2
     # via
     #   -r requirements/validation.txt
     #   tox
@@ -536,7 +536,7 @@ webencodings==0.5.1
     # via
     #   -r requirements/validation.txt
     #   bleach
-wheel==0.40.0
+wheel==0.41.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
