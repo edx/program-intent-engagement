@@ -17,7 +17,7 @@ bleach==6.0.0
     # via
     #   -r requirements/validation.txt
     #   readme-renderer
-build==0.10.0
+build==1.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
@@ -89,7 +89,7 @@ distlib==0.3.7
     # via
     #   -r requirements/validation.txt
     #   virtualenv
-django==3.2.20
+django==3.2.21
     # via
     #   -r requirements/validation.txt
     #   django-cors-headers
@@ -193,7 +193,9 @@ idna==3.4
     #   requests
 importlib-metadata==6.8.0
     # via
+    #   -r requirements/pip-tools.txt
     #   -r requirements/validation.txt
+    #   build
     #   keyring
     #   twine
 importlib-resources==6.0.1
@@ -371,7 +373,7 @@ pyproject-hooks==1.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
-pytest==7.4.0
+pytest==7.4.1
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -393,7 +395,7 @@ python3-openid==3.2.0
     # via
     #   -r requirements/validation.txt
     #   social-auth-core
-pytz==2023.3
+pytz==2023.3.post1
     # via
     #   -r requirements/validation.txt
     #   django
@@ -548,6 +550,7 @@ wrapt==1.15.0
     #   astroid
 zipp==3.16.2
     # via
+    #   -r requirements/pip-tools.txt
     #   -r requirements/validation.txt
     #   importlib-metadata
     #   importlib-resources

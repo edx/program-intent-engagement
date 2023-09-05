@@ -96,7 +96,7 @@ distlib==0.3.7
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==3.2.20
+django==3.2.21
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -422,7 +422,7 @@ pynacl==1.5.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-django-utils
-pytest==7.4.0
+pytest==7.4.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -452,7 +452,7 @@ python3-openid==3.2.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   social-auth-core
-pytz==2023.3
+pytz==2023.3.post1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
