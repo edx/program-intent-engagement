@@ -9,7 +9,7 @@ asgiref==3.7.2
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   django
-astroid==2.15.6
+astroid==2.15.8
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -65,7 +65,7 @@ coverage[toml]==7.3.1
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==41.0.3
+cryptography==41.0.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -190,7 +190,7 @@ edx-lint==5.3.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-edx-opaque-keys==2.5.0
+edx-opaque-keys==2.5.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -208,7 +208,7 @@ factory-boy==3.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==19.6.1
+faker==19.6.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -229,7 +229,7 @@ importlib-metadata==6.8.0
     #   -r requirements/quality.txt
     #   keyring
     #   twine
-importlib-resources==6.0.1
+importlib-resources==6.1.0
     # via
     #   -r requirements/quality.txt
     #   keyring
@@ -307,7 +307,7 @@ mysqlclient==2.2.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-newrelic==9.0.0
+newrelic==9.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -388,7 +388,7 @@ pyjwt[crypto]==2.8.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==2.17.5
+pylint==2.17.6
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -593,7 +593,7 @@ uritemplate==4.1.1
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.0.4
+urllib3==2.0.5
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
