@@ -18,6 +18,10 @@ astroid==3.0.1
     #   pylint-celery
 babel==2.13.1
     # via sphinx
+backports-zoneinfo==0.2.1
+    # via
+    #   -r requirements/test.txt
+    #   django
 build==1.0.3
     # via -r requirements/doc.in
 cachetools==5.3.2
@@ -78,7 +82,6 @@ cryptography==41.0.5
     # via
     #   -r requirements/test.txt
     #   pyjwt
-    #   secretstorage
     #   social-auth-core
 ddt==1.7.0
     # via -r requirements/test.txt
@@ -95,9 +98,9 @@ distlib==0.3.7
     # via
     #   -r requirements/test.txt
     #   virtualenv
-django==3.2.23
+django==4.2.7
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   -c requirements/constraints.txt
     #   -r requirements/test.txt
     #   django-cors-headers
     #   django-crum
@@ -226,10 +229,6 @@ itypes==1.2.0
     #   coreapi
 jaraco-classes==3.3.0
     # via keyring
-jeepney==0.8.0
-    # via
-    #   keyring
-    #   secretstorage
 jinja2==3.1.2
     # via
     #   -r requirements/test.txt
@@ -288,7 +287,7 @@ pkginfo==1.9.6
     # via twine
 platformdirs==3.11.0
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
+    #   -c requirements/common_constraints.txt
     #   -r requirements/test.txt
     #   pylint
     #   tox
@@ -306,7 +305,7 @@ pycparser==2.21
     # via
     #   -r requirements/test.txt
     #   cffi
-pygments==2.17.1
+pygments==2.17.2
     # via
     #   doc8
     #   readme-renderer
@@ -380,7 +379,6 @@ pytz==2023.3.post1
     # via
     #   -r requirements/test.txt
     #   babel
-    #   django
     #   djangorestframework
     #   drf-yasg
 pyyaml==6.0.1
@@ -415,8 +413,6 @@ rfc3986==2.0.0
     # via twine
 rich==13.7.0
     # via twine
-secretstorage==3.3.3
-    # via keyring
 semantic-version==2.10.0
     # via
     #   -r requirements/test.txt
@@ -517,7 +513,7 @@ urllib3==2.1.0
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.24.6
+virtualenv==20.24.7
     # via
     #   -r requirements/test.txt
     #   tox

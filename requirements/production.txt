@@ -9,6 +9,10 @@ asgiref==3.7.2
     #   -r requirements/base.txt
     #   django
     #   django-cors-headers
+backports-zoneinfo==0.2.1
+    # via
+    #   -r requirements/base.txt
+    #   django
 certifi==2023.11.17
     # via
     #   -r requirements/base.txt
@@ -45,7 +49,7 @@ defusedxml==0.8.0rc2
     #   -r requirements/base.txt
     #   python3-openid
     #   social-auth-core
-django==3.2.23
+django==4.2.7
     # via
     #   -r requirements/base.txt
     #   django-cors-headers
@@ -200,7 +204,6 @@ python3-openid==3.2.0
 pytz==2023.3.post1
     # via
     #   -r requirements/base.txt
-    #   django
     #   djangorestframework
     #   drf-yasg
 pyyaml==6.0.1
