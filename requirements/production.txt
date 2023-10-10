@@ -44,7 +44,7 @@ defusedxml==0.8.0rc2
     #   -r requirements/base.txt
     #   python3-openid
     #   social-auth-core
-django==3.2.21
+django==3.2.22
     # via
     #   -r requirements/base.txt
     #   django-cors-headers
@@ -224,7 +224,7 @@ semantic-version==2.10.0
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
-simplejson==3.19.1
+simplejson==3.19.2
     # via
     #   -r requirements/base.txt
     #   django-rest-swagger
@@ -272,7 +272,7 @@ urllib3==2.0.6
     #   requests
 zope-event==5.0
     # via gevent
-zope-interface==6.0
+zope-interface==6.1
     # via gevent
 
 # The following packages are considered to be unsafe in a requirements file:
