@@ -92,7 +92,7 @@ distlib==0.3.7
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==3.2.21
+django==3.2.22
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -208,7 +208,7 @@ factory-boy==3.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==19.6.2
+faker==19.8.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -507,7 +507,7 @@ semantic-version==2.10.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-drf-extensions
-simplejson==3.19.1
+simplejson==3.19.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
