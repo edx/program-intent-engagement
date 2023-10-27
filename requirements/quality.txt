@@ -8,7 +8,7 @@ asgiref==3.7.2
     # via
     #   -r requirements/test.txt
     #   django
-astroid==2.15.8
+astroid==3.0.1
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -22,7 +22,7 @@ cffi==1.16.0
     #   -r requirements/test.txt
     #   cryptography
     #   pynacl
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
     # via
     #   -r requirements/test.txt
     #   requests
@@ -53,8 +53,9 @@ coreschema==0.0.4
 coverage[toml]==7.3.2
     # via
     #   -r requirements/test.txt
+    #   coverage
     #   pytest-cov
-cryptography==41.0.4
+cryptography==41.0.5
     # via
     #   -r requirements/test.txt
     #   pyjwt
@@ -143,7 +144,7 @@ edx-django-utils==5.7.0
     #   edx-rest-api-client
 edx-drf-extensions==8.12.0
     # via -r requirements/test.txt
-edx-lint==5.3.4
+edx-lint==5.3.6
     # via
     #   -r requirements/quality.in
     #   -r requirements/test.txt
@@ -159,11 +160,11 @@ exceptiongroup==1.1.3
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==19.10.0
+faker==19.12.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.12.4
+filelock==3.13.0
     # via
     #   -r requirements/test.txt
     #   tox
@@ -208,10 +209,6 @@ jinja2==3.1.2
     #   coreschema
 keyring==24.2.0
     # via twine
-lazy-object-proxy==1.9.0
-    # via
-    #   -r requirements/test.txt
-    #   astroid
 markdown-it-py==3.0.0
     # via rich
 markupsafe==2.1.3
@@ -230,7 +227,7 @@ more-itertools==10.1.0
     # via jaraco-classes
 mysqlclient==2.2.0
     # via -r requirements/test.txt
-newrelic==9.1.0
+newrelic==9.1.1
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -294,8 +291,9 @@ pyjwt[crypto]==2.8.0
     #   edx-auth-backends
     #   edx-drf-extensions
     #   edx-rest-api-client
+    #   pyjwt
     #   social-auth-core
-pylint==2.17.7
+pylint==3.0.2
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -306,7 +304,7 @@ pylint-celery==0.3
     # via
     #   -r requirements/test.txt
     #   edx-lint
-pylint-django==2.5.3
+pylint-django==2.5.5
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -323,7 +321,7 @@ pynacl==1.5.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
-pytest==7.4.2
+pytest==7.4.3
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -457,19 +455,15 @@ uritemplate==4.1.1
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.0.6
+urllib3==2.0.7
     # via
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.24.5
+virtualenv==20.24.6
     # via
     #   -r requirements/test.txt
     #   tox
-wrapt==1.15.0
-    # via
-    #   -r requirements/test.txt
-    #   astroid
 zipp==3.17.0
     # via
     #   importlib-metadata
