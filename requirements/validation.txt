@@ -16,6 +16,11 @@ astroid==3.0.1
     #   -r requirements/test.txt
     #   pylint
     #   pylint-celery
+backports-zoneinfo==0.2.1
+    # via
+    #   -r requirements/quality.txt
+    #   -r requirements/test.txt
+    #   django
 cachetools==5.3.2
     # via
     #   -r requirements/quality.txt
@@ -87,7 +92,6 @@ cryptography==41.0.7
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pyjwt
-    #   secretstorage
     #   social-auth-core
 ddt==1.7.0
     # via
@@ -109,7 +113,7 @@ distlib==0.3.7
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==3.2.23
+django==4.2.7
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -274,11 +278,6 @@ jaraco-classes==3.3.0
     # via
     #   -r requirements/quality.txt
     #   keyring
-jeepney==0.8.0
-    # via
-    #   -r requirements/quality.txt
-    #   keyring
-    #   secretstorage
 jinja2==3.1.2
     # via
     #   -r requirements/quality.txt
@@ -470,7 +469,6 @@ pytz==2023.3.post1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-    #   django
     #   djangorestframework
     #   drf-yasg
 pyyaml==6.0.1
@@ -513,10 +511,6 @@ rich==13.7.0
     # via
     #   -r requirements/quality.txt
     #   twine
-secretstorage==3.3.3
-    # via
-    #   -r requirements/quality.txt
-    #   keyring
 semantic-version==2.10.0
     # via
     #   -r requirements/quality.txt
