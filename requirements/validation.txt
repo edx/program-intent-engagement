@@ -92,6 +92,7 @@ cryptography==41.0.7
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pyjwt
+    #   secretstorage
     #   social-auth-core
 ddt==1.7.0
     # via
@@ -113,7 +114,7 @@ distlib==0.3.7
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==4.2.7
+django==4.2.8
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -245,7 +246,7 @@ idna==3.6
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   requests
-importlib-metadata==6.8.0
+importlib-metadata==7.0.0
     # via
     #   -r requirements/quality.txt
     #   keyring
@@ -278,6 +279,11 @@ jaraco-classes==3.3.0
     # via
     #   -r requirements/quality.txt
     #   keyring
+jeepney==0.8.0
+    # via
+    #   -r requirements/quality.txt
+    #   keyring
+    #   secretstorage
 jinja2==3.1.2
     # via
     #   -r requirements/quality.txt
@@ -355,7 +361,7 @@ pkginfo==1.9.6
     # via
     #   -r requirements/quality.txt
     #   twine
-platformdirs==3.11.0
+platformdirs==4.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -511,6 +517,10 @@ rich==13.7.0
     # via
     #   -r requirements/quality.txt
     #   twine
+secretstorage==3.3.3
+    # via
+    #   -r requirements/quality.txt
+    #   keyring
 semantic-version==2.10.0
     # via
     #   -r requirements/quality.txt
@@ -543,7 +553,7 @@ social-auth-app-django==5.4.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-auth-backends
-social-auth-core==4.5.0
+social-auth-core==4.5.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -608,7 +618,7 @@ urllib3==2.1.0
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.24.7
+virtualenv==20.25.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt

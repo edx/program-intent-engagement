@@ -216,9 +216,8 @@ pbr==6.0.0
     # via
     #   -r requirements/base.txt
     #   stevedore
-platformdirs==3.11.0
+platformdirs==4.1.0
     # via
-    #   -c requirements/common_constraints.txt
     #   pylint
     #   tox
     #   virtualenv
@@ -330,7 +329,7 @@ social-auth-app-django==5.4.0
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.5.0
+social-auth-core==4.5.1
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
@@ -375,5 +374,5 @@ urllib3==2.1.0
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.24.7
+virtualenv==20.25.0
     # via tox
