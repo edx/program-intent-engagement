@@ -58,7 +58,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-coverage[toml]==7.3.3
+coverage[toml]==7.3.4
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -225,7 +225,7 @@ pluggy==1.3.0
     # via
     #   pytest
     #   tox
-psutil==5.9.6
+psutil==5.9.7
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
