@@ -78,7 +78,7 @@ cryptography==41.0.7
     #   pyjwt
     #   secretstorage
     #   social-auth-core
-ddt==1.7.0
+ddt==1.7.1
     # via -r requirements/test.txt
 defusedxml==0.8.0rc2
     # via
@@ -159,7 +159,7 @@ edx-django-utils==5.9.0
     #   -r requirements/test.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==9.0.1
+edx-drf-extensions==9.1.2
     # via -r requirements/test.txt
 edx-lint==5.3.6
     # via
@@ -177,7 +177,7 @@ exceptiongroup==1.2.0
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==22.0.0
+faker==22.1.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -240,11 +240,11 @@ mdurl==0.1.2
     # via markdown-it-py
 mock==5.1.0
     # via -r requirements/test.txt
-more-itertools==10.1.0
+more-itertools==10.2.0
     # via jaraco-classes
 mysqlclient==2.2.1
     # via -r requirements/test.txt
-newrelic==9.3.0
+newrelic==9.4.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
