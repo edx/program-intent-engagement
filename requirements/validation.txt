@@ -230,7 +230,7 @@ factory-boy==3.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==22.1.0
+faker==22.2.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -284,7 +284,7 @@ jeepney==0.8.0
     #   -r requirements/quality.txt
     #   keyring
     #   secretstorage
-jinja2==3.1.2
+jinja2==3.1.3
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -324,7 +324,7 @@ mysqlclient==2.2.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-newrelic==9.4.0
+newrelic==9.5.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -590,7 +590,7 @@ tomlkit==0.12.3
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pylint
-tox==4.11.4
+tox==4.12.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
