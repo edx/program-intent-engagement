@@ -39,7 +39,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-cryptography==42.0.0
+cryptography==42.0.1
     # via
     #   -r requirements/base.txt
     #   pyjwt
@@ -110,7 +110,7 @@ edx-django-utils==5.10.1
     #   -r requirements/base.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==9.1.2
+edx-drf-extensions==10.1.0
     # via -r requirements/base.txt
 edx-opaque-keys==2.5.1
     # via
@@ -148,7 +148,7 @@ mysqlclient==2.2.1
     # via
     #   -r requirements/base.txt
     #   -r requirements/production.in
-newrelic==9.5.0
+newrelic==9.6.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -201,7 +201,7 @@ python3-openid==3.2.0
     # via
     #   -r requirements/base.txt
     #   social-auth-core
-pytz==2023.3.post1
+pytz==2023.4
     # via
     #   -r requirements/base.txt
     #   djangorestframework
@@ -246,7 +246,7 @@ social-auth-app-django==5.4.0
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.5.1
+social-auth-core==4.5.2
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
@@ -270,7 +270,7 @@ uritemplate==4.1.1
     #   -r requirements/base.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.1.0
+urllib3==2.2.0
     # via
     #   -r requirements/base.txt
     #   requests
