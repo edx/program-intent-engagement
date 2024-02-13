@@ -121,7 +121,7 @@ django-dynamic-fixture==4.0.1
     # via -r requirements/test.txt
 django-extensions==3.2.3
     # via -r requirements/test.txt
-django-model-utils==4.3.1
+django-model-utils==4.4.0
     # via -r requirements/test.txt
 django-rest-swagger==2.2.0
     # via -r requirements/test.txt
@@ -177,7 +177,7 @@ exceptiongroup==1.2.0
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==22.7.0
+faker==23.1.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -213,7 +213,7 @@ itypes==1.2.0
     # via
     #   -r requirements/test.txt
     #   coreapi
-jaraco-classes==3.3.0
+jaraco-classes==3.3.1
     # via keyring
 jeepney==0.8.0
     # via
@@ -242,7 +242,7 @@ mock==5.1.0
     # via -r requirements/test.txt
 more-itertools==10.2.0
     # via jaraco-classes
-mysqlclient==2.2.3
+mysqlclient==2.2.4
     # via -r requirements/test.txt
 newrelic==9.6.0
     # via
@@ -353,7 +353,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/test.txt
     #   faker
-python-slugify==8.0.3
+python-slugify==8.0.4
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -455,7 +455,7 @@ tomlkit==0.12.3
     #   pylint
 tox==4.12.1
     # via -r requirements/test.txt
-twine==4.0.2
+twine==5.0.0
     # via -r requirements/quality.in
 typing-extensions==4.9.0
     # via

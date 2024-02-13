@@ -149,7 +149,7 @@ django-extensions==3.2.3
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-django-model-utils==4.3.1
+django-model-utils==4.4.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -230,7 +230,7 @@ factory-boy==3.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==22.7.0
+faker==23.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -275,7 +275,7 @@ itypes==1.2.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   coreapi
-jaraco-classes==3.3.0
+jaraco-classes==3.3.1
     # via
     #   -r requirements/quality.txt
     #   keyring
@@ -320,7 +320,7 @@ more-itertools==10.2.0
     # via
     #   -r requirements/quality.txt
     #   jaraco-classes
-mysqlclient==2.2.3
+mysqlclient==2.2.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -461,7 +461,7 @@ python-dateutil==2.8.2
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   faker
-python-slugify==8.0.3
+python-slugify==8.0.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -594,7 +594,7 @@ tox==4.12.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-twine==4.0.2
+twine==5.0.0
     # via -r requirements/quality.txt
 typing-extensions==4.9.0
     # via
