@@ -79,7 +79,7 @@ coverage[toml]==7.4.1
     #   -r requirements/validation.txt
     #   coverage
     #   pytest-cov
-cryptography==42.0.2
+cryptography==42.0.3
     # via
     #   -r requirements/validation.txt
     #   pyjwt
@@ -133,7 +133,7 @@ django-dynamic-fixture==4.0.1
     # via -r requirements/validation.txt
 django-extensions==3.2.3
     # via -r requirements/validation.txt
-django-model-utils==4.3.1
+django-model-utils==4.4.0
     # via -r requirements/validation.txt
 django-rest-swagger==2.2.0
     # via -r requirements/validation.txt
@@ -191,7 +191,7 @@ exceptiongroup==1.2.0
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/validation.txt
-faker==22.7.0
+faker==23.2.1
     # via
     #   -r requirements/validation.txt
     #   factory-boy
@@ -231,7 +231,7 @@ itypes==1.2.0
     # via
     #   -r requirements/validation.txt
     #   coreapi
-jaraco-classes==3.3.0
+jaraco-classes==3.3.1
     # via
     #   -r requirements/validation.txt
     #   keyring
@@ -274,7 +274,7 @@ more-itertools==10.2.0
     # via
     #   -r requirements/validation.txt
     #   jaraco-classes
-mysqlclient==2.2.3
+mysqlclient==2.2.4
     # via -r requirements/validation.txt
 newrelic==9.6.0
     # via
@@ -308,7 +308,7 @@ pbr==6.0.0
     # via
     #   -r requirements/validation.txt
     #   stevedore
-pip-tools==7.3.0
+pip-tools==7.4.0
     # via -r requirements/pip-tools.txt
 pkginfo==1.9.6
     # via
@@ -391,7 +391,8 @@ pyproject-hooks==1.0.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
-pytest==8.0.0
+    #   pip-tools
+pytest==8.0.1
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -404,7 +405,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/validation.txt
     #   faker
-python-slugify==8.0.3
+python-slugify==8.0.4
     # via
     #   -r requirements/validation.txt
     #   code-annotations
@@ -486,7 +487,7 @@ social-auth-app-django==5.4.0
     # via
     #   -r requirements/validation.txt
     #   edx-auth-backends
-social-auth-core==4.5.2
+social-auth-core==4.5.3
     # via
     #   -r requirements/validation.txt
     #   edx-auth-backends
@@ -522,9 +523,9 @@ tomlkit==0.12.3
     # via
     #   -r requirements/validation.txt
     #   pylint
-tox==4.12.1
+tox==4.13.0
     # via -r requirements/validation.txt
-twine==4.0.2
+twine==5.0.0
     # via -r requirements/validation.txt
 typing-extensions==4.9.0
     # via
@@ -540,7 +541,7 @@ uritemplate==4.1.1
     #   -r requirements/validation.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.0
+urllib3==2.2.1
     # via
     #   -r requirements/validation.txt
     #   requests
