@@ -39,7 +39,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-cryptography==42.0.2
+cryptography==42.0.3
     # via
     #   -r requirements/base.txt
     #   pyjwt
@@ -74,7 +74,7 @@ django-crum==0.7.9
     #   edx-django-utils
 django-extensions==3.2.3
     # via -r requirements/base.txt
-django-model-utils==4.3.1
+django-model-utils==4.4.0
     # via -r requirements/base.txt
 django-rest-swagger==2.2.0
     # via -r requirements/base.txt
@@ -118,7 +118,7 @@ edx-opaque-keys==2.5.1
     #   edx-drf-extensions
 edx-rest-api-client==5.6.1
     # via -r requirements/base.txt
-gevent==23.9.1
+gevent==24.2.1
     # via -r requirements/production.in
 greenlet==3.0.3
     # via gevent
@@ -144,7 +144,7 @@ markupsafe==2.1.5
     # via
     #   -r requirements/base.txt
     #   jinja2
-mysqlclient==2.2.3
+mysqlclient==2.2.4
     # via
     #   -r requirements/base.txt
     #   -r requirements/production.in
@@ -246,7 +246,7 @@ social-auth-app-django==5.4.0
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.5.2
+social-auth-core==4.5.3
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
@@ -270,13 +270,13 @@ uritemplate==4.1.1
     #   -r requirements/base.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.0
+urllib3==2.2.1
     # via
     #   -r requirements/base.txt
     #   requests
 zope-event==5.0
     # via gevent
-zope-interface==6.1
+zope-interface==6.2
     # via gevent
 
 # The following packages are considered to be unsafe in a requirements file:

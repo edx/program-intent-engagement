@@ -78,7 +78,7 @@ coverage[toml]==7.4.1
     #   -r requirements/test.txt
     #   coverage
     #   pytest-cov
-cryptography==42.0.2
+cryptography==42.0.3
     # via
     #   -r requirements/test.txt
     #   pyjwt
@@ -127,7 +127,7 @@ django-dynamic-fixture==4.0.1
     # via -r requirements/test.txt
 django-extensions==3.2.3
     # via -r requirements/test.txt
-django-model-utils==4.3.1
+django-model-utils==4.4.0
     # via -r requirements/test.txt
 django-rest-swagger==2.2.0
     # via -r requirements/test.txt
@@ -189,7 +189,7 @@ exceptiongroup==1.2.0
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==22.7.0
+faker==23.2.1
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -228,7 +228,7 @@ itypes==1.2.0
     # via
     #   -r requirements/test.txt
     #   coreapi
-jaraco-classes==3.3.0
+jaraco-classes==3.3.1
     # via keyring
 jeepney==0.8.0
     # via
@@ -258,7 +258,7 @@ mock==5.1.0
     # via -r requirements/test.txt
 more-itertools==10.2.0
     # via jaraco-classes
-mysqlclient==2.2.3
+mysqlclient==2.2.4
     # via -r requirements/test.txt
 newrelic==9.6.0
     # via
@@ -358,7 +358,7 @@ pyproject-api==1.6.1
     #   tox
 pyproject-hooks==1.0.0
     # via build
-pytest==8.0.0
+pytest==8.0.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -371,7 +371,7 @@ python-dateutil==2.8.2
     # via
     #   -r requirements/test.txt
     #   faker
-python-slugify==8.0.3
+python-slugify==8.0.4
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -445,7 +445,7 @@ social-auth-app-django==5.4.0
     # via
     #   -r requirements/test.txt
     #   edx-auth-backends
-social-auth-core==4.5.2
+social-auth-core==4.5.3
     # via
     #   -r requirements/test.txt
     #   edx-auth-backends
@@ -496,9 +496,9 @@ tomlkit==0.12.3
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.12.1
+tox==4.13.0
     # via -r requirements/test.txt
-twine==4.0.2
+twine==5.0.0
     # via -r requirements/doc.in
 typing-extensions==4.9.0
     # via
@@ -514,7 +514,7 @@ uritemplate==4.1.1
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.0
+urllib3==2.2.1
     # via
     #   -r requirements/test.txt
     #   requests
