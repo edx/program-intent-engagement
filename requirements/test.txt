@@ -17,6 +17,7 @@ backports-zoneinfo==0.2.1
     # via
     #   -r requirements/base.txt
     #   django
+    #   djangorestframework
 cachetools==5.3.3
     # via tox
 certifi==2024.2.2
@@ -43,7 +44,7 @@ click==8.1.7
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==1.6.0
+code-annotations==1.7.0
     # via
     #   -r requirements/test.in
     #   edx-lint
@@ -58,7 +59,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-coverage[toml]==7.4.3
+coverage[toml]==7.4.4
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -115,7 +116,7 @@ django-waffle==4.1.0
     #   -r requirements/base.txt
     #   edx-django-utils
     #   edx-drf-extensions
-djangorestframework==3.14.0
+djangorestframework==3.15.0
     # via
     #   -r requirements/base.txt
     #   django-rest-swagger
@@ -156,7 +157,7 @@ exceptiongroup==1.2.0
     # via pytest
 factory-boy==3.3.0
     # via -r requirements/test.in
-faker==24.1.0
+faker==24.3.0
     # via factory-boy
 filelock==3.13.1
     # via
@@ -285,7 +286,6 @@ python3-openid==3.2.0
 pytz==2024.1
     # via
     #   -r requirements/base.txt
-    #   djangorestframework
     #   drf-yasg
 pyyaml==6.0.1
     # via

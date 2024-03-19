@@ -18,6 +18,7 @@ backports-zoneinfo==0.2.1
     # via
     #   -r requirements/test.txt
     #   django
+    #   djangorestframework
 cachetools==5.3.3
     # via
     #   -r requirements/test.txt
@@ -50,7 +51,7 @@ click-log==0.4.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
-code-annotations==1.6.0
+code-annotations==1.7.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -67,7 +68,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/test.txt
     #   coreapi
-coverage[toml]==7.4.3
+coverage[toml]==7.4.4
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -130,7 +131,7 @@ django-waffle==4.1.0
     #   -r requirements/test.txt
     #   edx-django-utils
     #   edx-drf-extensions
-djangorestframework==3.14.0
+djangorestframework==3.15.0
     # via
     #   -r requirements/test.txt
     #   django-rest-swagger
@@ -177,7 +178,7 @@ exceptiongroup==1.2.0
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==24.1.0
+faker==24.3.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -190,11 +191,12 @@ idna==3.6
     # via
     #   -r requirements/test.txt
     #   requests
-importlib-metadata==7.0.2
+importlib-metadata==6.11.0
     # via
+    #   -c requirements/common_constraints.txt
     #   keyring
     #   twine
-importlib-resources==6.1.3
+importlib-resources==6.3.1
     # via keyring
 inflection==0.5.1
     # via
@@ -363,7 +365,6 @@ python3-openid==3.2.0
 pytz==2024.1
     # via
     #   -r requirements/test.txt
-    #   djangorestframework
     #   drf-yasg
 pyyaml==6.0.1
     # via
@@ -479,7 +480,7 @@ virtualenv==20.25.1
     # via
     #   -r requirements/test.txt
     #   tox
-zipp==3.17.0
+zipp==3.18.1
     # via
     #   importlib-metadata
     #   importlib-resources
