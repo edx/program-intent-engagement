@@ -100,7 +100,7 @@ drf-yasg==1.21.7
     # via
     #   -r requirements/base.txt
     #   edx-api-doc-tools
-edx-api-doc-tools==1.7.0
+edx-api-doc-tools==1.8.0
     # via -r requirements/base.txt
 edx-auth-backends==4.3.0
     # via -r requirements/base.txt
@@ -117,7 +117,7 @@ edx-opaque-keys==2.5.1
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
-edx-rest-api-client==5.6.1
+edx-rest-api-client==5.7.0
     # via -r requirements/base.txt
 gevent==24.2.1
     # via -r requirements/production.in
@@ -259,7 +259,7 @@ stevedore==5.2.0
     #   -r requirements/base.txt
     #   edx-django-utils
     #   edx-opaque-keys
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via
     #   -r requirements/base.txt
     #   asgiref

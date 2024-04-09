@@ -16,6 +16,10 @@ astroid==3.1.0
     #   -r requirements/test.txt
     #   pylint
     #   pylint-celery
+backports-tarfile==1.0.0
+    # via
+    #   -r requirements/quality.txt
+    #   jaraco-context
 backports-zoneinfo==0.2.1
     # via
     #   -r requirements/quality.txt
@@ -61,7 +65,7 @@ click-log==0.4.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-lint
-code-annotations==1.7.0
+code-annotations==1.8.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -186,7 +190,7 @@ drf-yasg==1.21.7
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-api-doc-tools
-edx-api-doc-tools==1.7.0
+edx-api-doc-tools==1.8.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -217,7 +221,7 @@ edx-opaque-keys==2.5.1
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-drf-extensions
-edx-rest-api-client==5.6.1
+edx-rest-api-client==5.7.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -230,7 +234,7 @@ factory-boy==3.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==24.4.0
+faker==24.7.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -279,7 +283,7 @@ jaraco-classes==3.4.0
     # via
     #   -r requirements/quality.txt
     #   keyring
-jaraco-context==4.3.0
+jaraco-context==5.3.0
     # via
     #   -r requirements/quality.txt
     #   keyring
@@ -603,7 +607,7 @@ tox==4.14.2
     #   -r requirements/test.txt
 twine==5.0.0
     # via -r requirements/quality.txt
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
