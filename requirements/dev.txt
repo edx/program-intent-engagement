@@ -14,6 +14,10 @@ astroid==3.1.0
     #   -r requirements/validation.txt
     #   pylint
     #   pylint-celery
+backports-tarfile==1.0.0
+    # via
+    #   -r requirements/validation.txt
+    #   jaraco-context
 backports-zoneinfo==0.2.1
     # via
     #   -r requirements/validation.txt
@@ -58,7 +62,7 @@ click-log==0.4.0
     # via
     #   -r requirements/validation.txt
     #   edx-lint
-code-annotations==1.7.0
+code-annotations==1.8.0
     # via
     #   -r requirements/validation.txt
     #   edx-lint
@@ -162,7 +166,7 @@ drf-yasg==1.21.7
     # via
     #   -r requirements/validation.txt
     #   edx-api-doc-tools
-edx-api-doc-tools==1.7.0
+edx-api-doc-tools==1.8.0
     # via -r requirements/validation.txt
 edx-auth-backends==4.3.0
     # via -r requirements/validation.txt
@@ -183,7 +187,7 @@ edx-opaque-keys==2.5.1
     # via
     #   -r requirements/validation.txt
     #   edx-drf-extensions
-edx-rest-api-client==5.6.1
+edx-rest-api-client==5.7.0
     # via -r requirements/validation.txt
 exceptiongroup==1.2.0
     # via
@@ -191,7 +195,7 @@ exceptiongroup==1.2.0
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/validation.txt
-faker==24.4.0
+faker==24.7.1
     # via
     #   -r requirements/validation.txt
     #   factory-boy
@@ -235,7 +239,7 @@ jaraco-classes==3.4.0
     # via
     #   -r requirements/validation.txt
     #   keyring
-jaraco-context==4.3.0
+jaraco-context==5.3.0
     # via
     #   -r requirements/validation.txt
     #   keyring
@@ -258,7 +262,7 @@ keyring==25.1.0
     # via
     #   -r requirements/validation.txt
     #   twine
-lxml==5.2.0
+lxml==5.2.1
     # via edx-i18n-tools
 markdown-it-py==3.0.0
     # via
@@ -311,7 +315,7 @@ packaging==24.0
     #   pyproject-api
     #   pytest
     #   tox
-path==16.10.0
+path==16.14.0
     # via edx-i18n-tools
 pbr==6.0.0
     # via
@@ -534,7 +538,7 @@ tox==4.14.2
     # via -r requirements/validation.txt
 twine==5.0.0
     # via -r requirements/validation.txt
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via
     #   -r requirements/validation.txt
     #   asgiref

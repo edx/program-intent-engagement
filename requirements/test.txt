@@ -44,7 +44,7 @@ click==8.1.7
     #   edx-lint
 click-log==0.4.0
     # via edx-lint
-code-annotations==1.7.0
+code-annotations==1.8.0
     # via
     #   -r requirements/test.in
     #   edx-lint
@@ -132,7 +132,7 @@ drf-yasg==1.21.7
     # via
     #   -r requirements/base.txt
     #   edx-api-doc-tools
-edx-api-doc-tools==1.7.0
+edx-api-doc-tools==1.8.0
     # via -r requirements/base.txt
 edx-auth-backends==4.3.0
     # via -r requirements/base.txt
@@ -151,13 +151,13 @@ edx-opaque-keys==2.5.1
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
-edx-rest-api-client==5.6.1
+edx-rest-api-client==5.7.0
     # via -r requirements/base.txt
 exceptiongroup==1.2.0
     # via pytest
 factory-boy==3.3.0
     # via -r requirements/test.in
-faker==24.4.0
+faker==24.7.1
     # via factory-boy
 filelock==3.13.3
     # via
@@ -357,7 +357,7 @@ tomlkit==0.12.4
     # via pylint
 tox==4.14.2
     # via -r requirements/test.in
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via
     #   -r requirements/base.txt
     #   asgiref
