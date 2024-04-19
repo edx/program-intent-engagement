@@ -18,7 +18,7 @@ astroid==3.1.0
     #   pylint-celery
 babel==2.14.0
     # via sphinx
-backports-tarfile==1.0.0
+backports-tarfile==1.1.0
     # via jaraco-context
 backports-zoneinfo==0.2.1
     # via
@@ -192,16 +192,16 @@ exceptiongroup==1.2.0
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==24.7.1
+faker==24.9.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.13.3
+filelock==3.13.4
     # via
     #   -r requirements/test.txt
     #   tox
     #   virtualenv
-idna==3.6
+idna==3.7
     # via
     #   -r requirements/test.txt
     #   requests
@@ -474,7 +474,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via
     #   -r requirements/test.txt
     #   django
