@@ -59,7 +59,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-coverage[toml]==7.4.4
+coverage[toml]==7.5.0
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -124,6 +124,10 @@ djangorestframework==3.15.1
     #   drf-yasg
     #   edx-api-doc-tools
     #   edx-drf-extensions
+dnspython==2.6.1
+    # via
+    #   -r requirements/base.txt
+    #   pymongo
 drf-jwt==1.19.2
     # via
     #   -r requirements/base.txt
@@ -147,17 +151,17 @@ edx-drf-extensions==10.3.0
     # via -r requirements/base.txt
 edx-lint==5.3.6
     # via -r requirements/test.in
-edx-opaque-keys==2.5.1
+edx-opaque-keys==2.9.0
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
 edx-rest-api-client==5.7.0
     # via -r requirements/base.txt
-exceptiongroup==1.2.0
+exceptiongroup==1.2.1
     # via pytest
 factory-boy==3.3.0
     # via -r requirements/test.in
-faker==24.9.0
+faker==24.14.0
     # via factory-boy
 filelock==3.13.4
     # via
@@ -194,7 +198,7 @@ mock==5.1.0
     # via -r requirements/test.in
 mysqlclient==2.2.4
     # via -r requirements/base.txt
-newrelic==9.8.0
+newrelic==9.9.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -218,12 +222,12 @@ pbr==6.0.0
     # via
     #   -r requirements/base.txt
     #   stevedore
-platformdirs==4.2.0
+platformdirs==4.2.1
     # via
     #   pylint
     #   tox
     #   virtualenv
-pluggy==1.4.0
+pluggy==1.5.0
     # via
     #   pytest
     #   tox
@@ -257,7 +261,7 @@ pylint-plugin-utils==0.8.2
     # via
     #   pylint-celery
     #   pylint-django
-pymongo==3.13.0
+pymongo==4.4.0
     # via
     #   -r requirements/base.txt
     #   edx-opaque-keys
@@ -325,11 +329,11 @@ slumber==0.7.1
     # via
     #   -r requirements/base.txt
     #   edx-rest-api-client
-social-auth-app-django==5.4.0
+social-auth-app-django==5.4.1
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.5.3
+social-auth-core==4.5.4
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
@@ -374,5 +378,5 @@ urllib3==2.2.1
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.25.1
+virtualenv==20.26.0
     # via tox
