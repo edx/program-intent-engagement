@@ -142,7 +142,7 @@ edx-auth-backends==4.3.0
     # via -r requirements/base.txt
 edx-django-release-util==1.4.0
     # via -r requirements/base.txt
-edx-django-utils==5.12.0
+edx-django-utils==5.13.0
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
@@ -161,9 +161,9 @@ exceptiongroup==1.2.1
     # via pytest
 factory-boy==3.3.0
     # via -r requirements/test.in
-faker==24.14.0
+faker==25.0.0
     # via factory-boy
-filelock==3.13.4
+filelock==3.14.0
     # via
     #   tox
     #   virtualenv
@@ -271,7 +271,7 @@ pynacl==1.5.0
     #   edx-django-utils
 pyproject-api==1.6.1
     # via tox
-pytest==8.1.1
+pytest==8.2.0
     # via
     #   pytest-cov
     #   pytest-django
@@ -359,7 +359,7 @@ tomli==2.0.1
     #   tox
 tomlkit==0.12.4
     # via pylint
-tox==4.14.2
+tox==4.15.0
     # via -r requirements/test.in
 typing-extensions==4.11.0
     # via
@@ -367,7 +367,6 @@ typing-extensions==4.11.0
     #   asgiref
     #   astroid
     #   edx-opaque-keys
-    #   faker
     #   pylint
 uritemplate==4.1.1
     # via
@@ -378,5 +377,5 @@ urllib3==2.2.1
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.26.0
+virtualenv==20.26.1
     # via tox
