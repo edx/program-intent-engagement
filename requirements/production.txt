@@ -50,7 +50,7 @@ defusedxml==0.8.0rc2
     #   -r requirements/base.txt
     #   python3-openid
     #   social-auth-core
-django==4.2.11
+django==4.2.13
     # via
     #   -r requirements/base.txt
     #   django-cors-headers
@@ -153,7 +153,7 @@ mysqlclient==2.2.4
     # via
     #   -r requirements/base.txt
     #   -r requirements/production.in
-newrelic==9.9.0
+newrelic==9.9.1
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
