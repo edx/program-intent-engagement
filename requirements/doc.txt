@@ -11,7 +11,7 @@ asgiref==3.8.1
     #   -r requirements/test.txt
     #   django
     #   django-cors-headers
-astroid==3.2.0
+astroid==3.2.2
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -304,7 +304,7 @@ pbr==6.0.0
     #   stevedore
 pkginfo==1.10.0
     # via twine
-platformdirs==4.2.1
+platformdirs==4.2.2
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -337,7 +337,7 @@ pyjwt[crypto]==2.8.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==3.2.0
+pylint==3.2.2
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -371,7 +371,7 @@ pyproject-api==1.6.1
     #   tox
 pyproject-hooks==1.1.0
     # via build
-pytest==8.2.0
+pytest==8.2.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -509,7 +509,7 @@ tomlkit==0.12.5
     #   pylint
 tox==4.15.0
     # via -r requirements/test.txt
-twine==5.0.0
+twine==5.1.0
     # via -r requirements/doc.in
 typing-extensions==4.11.0
     # via
@@ -533,7 +533,7 @@ virtualenv==20.26.2
     # via
     #   -r requirements/test.txt
     #   tox
-zipp==3.18.1
+zipp==3.18.2
     # via
     #   importlib-metadata
     #   importlib-resources
