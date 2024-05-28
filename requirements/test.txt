@@ -59,7 +59,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-coverage[toml]==7.5.1
+coverage[toml]==7.5.3
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -142,7 +142,7 @@ edx-auth-backends==4.3.0
     # via -r requirements/base.txt
 edx-django-release-util==1.4.0
     # via -r requirements/base.txt
-edx-django-utils==5.13.0
+edx-django-utils==5.14.1
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
@@ -161,7 +161,7 @@ exceptiongroup==1.2.1
     # via pytest
 factory-boy==3.3.0
     # via -r requirements/test.in
-faker==25.2.0
+faker==25.3.0
     # via factory-boy
 filelock==3.14.0
     # via
@@ -198,7 +198,7 @@ mock==5.1.0
     # via -r requirements/test.in
 mysqlclient==2.2.4
     # via -r requirements/base.txt
-newrelic==9.9.1
+newrelic==9.10.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -361,7 +361,7 @@ tomlkit==0.12.5
     # via pylint
 tox==4.15.0
     # via -r requirements/test.in
-typing-extensions==4.11.0
+typing-extensions==4.12.0
     # via
     #   -r requirements/base.txt
     #   asgiref

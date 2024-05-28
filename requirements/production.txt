@@ -110,7 +110,7 @@ edx-auth-backends==4.3.0
     # via -r requirements/base.txt
 edx-django-release-util==1.4.0
     # via -r requirements/base.txt
-edx-django-utils==5.13.0
+edx-django-utils==5.14.1
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
@@ -153,7 +153,7 @@ mysqlclient==2.2.4
     # via
     #   -r requirements/base.txt
     #   -r requirements/production.in
-newrelic==9.9.1
+newrelic==9.10.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -263,7 +263,7 @@ stevedore==5.2.0
     #   -r requirements/base.txt
     #   edx-django-utils
     #   edx-opaque-keys
-typing-extensions==4.11.0
+typing-extensions==4.12.0
     # via
     #   -r requirements/base.txt
     #   asgiref
@@ -279,7 +279,7 @@ urllib3==2.2.1
     #   requests
 zope-event==5.0
     # via gevent
-zope-interface==6.4
+zope-interface==6.4.post2
     # via gevent
 
 # The following packages are considered to be unsafe in a requirements file:
