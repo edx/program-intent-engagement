@@ -18,7 +18,7 @@ astroid==3.2.2
     #   pylint-celery
 babel==2.15.0
     # via sphinx
-backports-tarfile==1.1.1
+backports-tarfile==1.2.0
     # via jaraco-context
 backports-zoneinfo==0.2.1
     # via
@@ -31,7 +31,7 @@ cachetools==5.3.3
     # via
     #   -r requirements/test.txt
     #   tox
-certifi==2024.2.2
+certifi==2024.6.2
     # via
     #   -r requirements/test.txt
     #   requests
@@ -76,7 +76,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/test.txt
     #   coreapi
-coverage[toml]==7.5.1
+coverage[toml]==7.5.3
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -173,7 +173,7 @@ edx-auth-backends==4.3.0
     # via -r requirements/test.txt
 edx-django-release-util==1.4.0
     # via -r requirements/test.txt
-edx-django-utils==5.13.0
+edx-django-utils==5.14.2
     # via
     #   -r requirements/test.txt
     #   edx-drf-extensions
@@ -196,7 +196,7 @@ exceptiongroup==1.2.1
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==25.2.0
+faker==25.4.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -274,7 +274,7 @@ more-itertools==10.2.0
     #   jaraco-functools
 mysqlclient==2.2.4
     # via -r requirements/test.txt
-newrelic==9.9.1
+newrelic==9.10.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -302,7 +302,7 @@ pbr==6.0.0
     # via
     #   -r requirements/test.txt
     #   stevedore
-pkginfo==1.10.0
+pkginfo==1.11.0
     # via twine
 platformdirs==4.2.2
     # via
@@ -371,7 +371,7 @@ pyproject-api==1.6.1
     #   tox
 pyproject-hooks==1.1.0
     # via build
-pytest==8.2.1
+pytest==8.2.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -511,7 +511,7 @@ tox==4.15.0
     # via -r requirements/test.txt
 twine==5.1.0
     # via -r requirements/doc.in
-typing-extensions==4.11.0
+typing-extensions==4.12.1
     # via
     #   -r requirements/test.txt
     #   asgiref
@@ -533,7 +533,7 @@ virtualenv==20.26.2
     # via
     #   -r requirements/test.txt
     #   tox
-zipp==3.18.2
+zipp==3.19.1
     # via
     #   importlib-metadata
     #   importlib-resources
