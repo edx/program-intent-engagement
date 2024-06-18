@@ -244,7 +244,7 @@ faker==25.8.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.14.0
+filelock==3.15.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -342,7 +342,7 @@ mysqlclient==2.2.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-newrelic==9.10.0
+newrelic==9.11.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -397,7 +397,7 @@ psutil==5.9.8
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-django-utils
-pycodestyle==2.11.1
+pycodestyle==2.12.0
     # via -r requirements/quality.txt
 pycparser==2.22
     # via
@@ -627,7 +627,7 @@ uritemplate==4.1.1
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.1
+urllib3==2.2.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt

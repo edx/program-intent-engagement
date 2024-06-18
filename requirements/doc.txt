@@ -200,7 +200,7 @@ faker==25.8.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.14.0
+filelock==3.15.1
     # via
     #   -r requirements/test.txt
     #   tox
@@ -274,7 +274,7 @@ more-itertools==10.3.0
     #   jaraco-functools
 mysqlclient==2.2.4
     # via -r requirements/test.txt
-newrelic==9.10.0
+newrelic==9.11.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -524,7 +524,7 @@ uritemplate==4.1.1
     #   -r requirements/test.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.1
+urllib3==2.2.2
     # via
     #   -r requirements/test.txt
     #   requests
