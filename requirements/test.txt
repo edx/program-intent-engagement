@@ -59,7 +59,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-coverage[toml]==7.5.3
+coverage[toml]==7.5.4
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -97,7 +97,7 @@ distlib==0.3.8
     #   edx-django-utils
     #   edx-drf-extensions
     #   social-auth-app-django
-django-cors-headers==4.3.1
+django-cors-headers==4.4.0
     # via -r requirements/base.txt
 django-crum==0.7.9
     # via
@@ -116,7 +116,7 @@ django-waffle==4.1.0
     #   -r requirements/base.txt
     #   edx-django-utils
     #   edx-drf-extensions
-djangorestframework==3.15.1
+djangorestframework==3.15.2
     # via
     #   -r requirements/base.txt
     #   django-rest-swagger
@@ -155,15 +155,15 @@ edx-opaque-keys==2.10.0
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
-edx-rest-api-client==5.7.0
+edx-rest-api-client==5.7.1
     # via -r requirements/base.txt
 exceptiongroup==1.2.1
     # via pytest
 factory-boy==3.3.0
     # via -r requirements/test.in
-faker==25.8.0
+faker==25.9.1
     # via factory-boy
-filelock==3.15.1
+filelock==3.15.4
     # via
     #   tox
     #   virtualenv
@@ -231,7 +231,7 @@ pluggy==1.5.0
     # via
     #   pytest
     #   tox
-psutil==5.9.8
+psutil==6.0.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -269,7 +269,7 @@ pynacl==1.5.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
-pyproject-api==1.6.1
+pyproject-api==1.7.1
     # via tox
 pytest==8.2.2
     # via
@@ -297,7 +297,7 @@ pyyaml==6.0.1
     #   code-annotations
     #   drf-yasg
     #   edx-django-release-util
-requests==2.31.0
+requests==2.32.3
     # via
     #   -r requirements/base.txt
     #   coreapi
@@ -377,5 +377,5 @@ urllib3==2.2.2
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.26.2
+virtualenv==20.26.3
     # via tox
