@@ -25,7 +25,7 @@ cachetools==5.3.3
     # via
     #   -r requirements/test.txt
     #   tox
-certifi==2024.6.2
+certifi==2024.7.4
     # via
     #   -r requirements/test.txt
     #   requests
@@ -95,7 +95,7 @@ distlib==0.3.8
     # via
     #   -r requirements/test.txt
     #   virtualenv
-django==4.2.13
+django==4.2.14
     # via
     #   -c requirements/common_constraints.txt
     #   -c requirements/constraints.txt
@@ -262,7 +262,7 @@ newrelic==9.11.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
-nh3==0.2.17
+nh3==0.2.18
     # via readme-renderer
 oauthlib==3.2.2
     # via
@@ -465,7 +465,7 @@ tomlkit==0.12.5
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.15.1
+tox==4.16.0
     # via -r requirements/test.txt
 twine==5.1.1
     # via -r requirements/quality.in
