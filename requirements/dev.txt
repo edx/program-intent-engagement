@@ -183,7 +183,7 @@ edx-django-utils==5.14.2
     #   edx-rest-api-client
 edx-drf-extensions==10.3.0
     # via -r requirements/validation.txt
-edx-i18n-tools==1.6.0
+edx-i18n-tools==1.6.1
     # via -r requirements/dev.in
 edx-lint==5.3.7
     # via -r requirements/validation.txt
@@ -270,7 +270,7 @@ lxml[html-clean,html_clean]==5.2.2
     # via
     #   edx-i18n-tools
     #   lxml-html-clean
-lxml-html-clean==0.1.1
+lxml-html-clean==0.2.0
     # via lxml
 markdown-it-py==3.0.0
     # via
@@ -323,7 +323,7 @@ packaging==24.1
     #   pyproject-api
     #   pytest
     #   tox
-path==16.14.0
+path==17.0.0
     # via edx-i18n-tools
 pbr==6.0.0
     # via
