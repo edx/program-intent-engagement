@@ -70,7 +70,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/test.txt
     #   coreapi
-coverage[toml]==7.6.0
+coverage[toml]==7.6.1
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -95,7 +95,7 @@ distlib==0.3.8
     # via
     #   -r requirements/test.txt
     #   virtualenv
-django==4.2.14
+django==4.2.15
     # via
     #   -c requirements/common_constraints.txt
     #   -c requirements/constraints.txt
@@ -161,7 +161,7 @@ edx-auth-backends==4.3.0
     # via -r requirements/test.txt
 edx-django-release-util==1.4.0
     # via -r requirements/test.txt
-edx-django-utils==5.14.2
+edx-django-utils==5.15.0
     # via
     #   -r requirements/test.txt
     #   edx-drf-extensions
@@ -184,7 +184,7 @@ exceptiongroup==1.2.2
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==26.0.0
+faker==26.2.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -225,7 +225,7 @@ jaraco-classes==3.4.0
     # via keyring
 jaraco-context==5.3.0
     # via keyring
-jaraco-functools==4.0.1
+jaraco-functools==4.0.2
     # via keyring
 jeepney==0.8.0
     # via
@@ -236,7 +236,7 @@ jinja2==3.1.4
     #   -r requirements/test.txt
     #   code-annotations
     #   coreschema
-keyring==25.2.1
+keyring==25.3.0
     # via twine
 markdown-it-py==3.0.0
     # via rich
@@ -301,7 +301,7 @@ psutil==6.0.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
-pycodestyle==2.12.0
+pycodestyle==2.12.1
     # via -r requirements/quality.in
 pycparser==2.22
     # via
@@ -313,7 +313,7 @@ pygments==2.18.0
     # via
     #   readme-renderer
     #   rich
-pyjwt[crypto]==2.8.0
+pyjwt[crypto]==2.9.0
     # via
     #   -r requirements/test.txt
     #   drf-jwt
@@ -465,7 +465,7 @@ tomlkit==0.13.0
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.16.0
+tox==4.17.0
     # via -r requirements/test.txt
 twine==5.1.1
     # via -r requirements/quality.in
