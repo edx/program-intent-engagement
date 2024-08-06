@@ -86,7 +86,7 @@ coreschema==0.0.4
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   coreapi
-coverage[toml]==7.6.0
+coverage[toml]==7.6.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -118,7 +118,7 @@ distlib==0.3.8
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==4.2.14
+django==4.2.15
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -207,7 +207,7 @@ edx-django-release-util==1.4.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-edx-django-utils==5.14.2
+edx-django-utils==5.15.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -239,7 +239,7 @@ factory-boy==3.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==26.0.0
+faker==26.2.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -292,7 +292,7 @@ jaraco-context==5.3.0
     # via
     #   -r requirements/quality.txt
     #   keyring
-jaraco-functools==4.0.1
+jaraco-functools==4.0.2
     # via
     #   -r requirements/quality.txt
     #   keyring
@@ -307,7 +307,7 @@ jinja2==3.1.4
     #   -r requirements/test.txt
     #   code-annotations
     #   coreschema
-keyring==25.2.1
+keyring==25.3.0
     # via
     #   -r requirements/quality.txt
     #   twine
@@ -397,7 +397,7 @@ psutil==6.0.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-django-utils
-pycodestyle==2.12.0
+pycodestyle==2.12.1
     # via -r requirements/quality.txt
 pycparser==2.22
     # via
@@ -411,7 +411,7 @@ pygments==2.18.0
     #   -r requirements/quality.txt
     #   readme-renderer
     #   rich
-pyjwt[crypto]==2.8.0
+pyjwt[crypto]==2.9.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -606,7 +606,7 @@ tomlkit==0.13.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pylint
-tox==4.16.0
+tox==4.17.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt

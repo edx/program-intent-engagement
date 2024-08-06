@@ -79,7 +79,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/validation.txt
     #   coreapi
-coverage[toml]==7.6.0
+coverage[toml]==7.6.1
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -106,7 +106,7 @@ distlib==0.3.8
     # via
     #   -r requirements/validation.txt
     #   virtualenv
-django==4.2.14
+django==4.2.15
     # via
     #   -r requirements/validation.txt
     #   django-cors-headers
@@ -176,14 +176,14 @@ edx-auth-backends==4.3.0
     # via -r requirements/validation.txt
 edx-django-release-util==1.4.0
     # via -r requirements/validation.txt
-edx-django-utils==5.14.2
+edx-django-utils==5.15.0
     # via
     #   -r requirements/validation.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
 edx-drf-extensions==10.3.0
     # via -r requirements/validation.txt
-edx-i18n-tools==1.6.1
+edx-i18n-tools==1.6.2
     # via -r requirements/dev.in
 edx-lint==5.3.7
     # via -r requirements/validation.txt
@@ -199,7 +199,7 @@ exceptiongroup==1.2.2
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/validation.txt
-faker==26.0.0
+faker==26.2.0
     # via
     #   -r requirements/validation.txt
     #   factory-boy
@@ -247,7 +247,7 @@ jaraco-context==5.3.0
     # via
     #   -r requirements/validation.txt
     #   keyring
-jaraco-functools==4.0.1
+jaraco-functools==4.0.2
     # via
     #   -r requirements/validation.txt
     #   keyring
@@ -262,16 +262,12 @@ jinja2==3.1.4
     #   code-annotations
     #   coreschema
     #   diff-cover
-keyring==25.2.1
+keyring==25.3.0
     # via
     #   -r requirements/validation.txt
     #   twine
-lxml[html-clean,html_clean]==5.2.2
-    # via
-    #   edx-i18n-tools
-    #   lxml-html-clean
-lxml-html-clean==0.2.0
-    # via lxml
+lxml==5.2.2
+    # via edx-i18n-tools
 markdown-it-py==3.0.0
     # via
     #   -r requirements/validation.txt
@@ -323,7 +319,7 @@ packaging==24.1
     #   pyproject-api
     #   pytest
     #   tox
-path==17.0.0
+path==16.16.0
     # via edx-i18n-tools
 pbr==6.0.0
     # via
@@ -353,7 +349,7 @@ psutil==6.0.0
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
-pycodestyle==2.12.0
+pycodestyle==2.12.1
     # via -r requirements/validation.txt
 pycparser==2.22
     # via
@@ -367,7 +363,7 @@ pygments==2.18.0
     #   diff-cover
     #   readme-renderer
     #   rich
-pyjwt[crypto]==2.8.0
+pyjwt[crypto]==2.9.0
     # via
     #   -r requirements/validation.txt
     #   drf-jwt
@@ -541,7 +537,7 @@ tomlkit==0.13.0
     # via
     #   -r requirements/validation.txt
     #   pylint
-tox==4.16.0
+tox==4.17.0
     # via -r requirements/validation.txt
 twine==5.1.1
     # via -r requirements/validation.txt
@@ -567,7 +563,7 @@ virtualenv==20.26.3
     # via
     #   -r requirements/validation.txt
     #   tox
-wheel==0.43.0
+wheel==0.44.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
