@@ -16,7 +16,7 @@ astroid==3.2.4
     #   -r requirements/test.txt
     #   pylint
     #   pylint-celery
-babel==2.15.0
+babel==2.16.0
     # via sphinx
 backports-tarfile==1.2.0
     # via jaraco-context
@@ -35,7 +35,7 @@ certifi==2024.7.4
     # via
     #   -r requirements/test.txt
     #   requests
-cffi==1.16.0
+cffi==1.17.0
     # via
     #   -r requirements/test.txt
     #   cryptography
@@ -196,7 +196,7 @@ exceptiongroup==1.2.2
     #   pytest
 factory-boy==3.3.0
     # via -r requirements/test.txt
-faker==26.2.0
+faker==27.0.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -211,9 +211,8 @@ idna==3.7
     #   requests
 imagesize==1.4.1
     # via sphinx
-importlib-metadata==6.11.0
+importlib-metadata==8.2.0
     # via
-    #   -c requirements/common_constraints.txt
     #   build
     #   keyring
     #   sphinx
@@ -268,13 +267,13 @@ mdurl==0.1.2
     # via markdown-it-py
 mock==5.1.0
     # via -r requirements/test.txt
-more-itertools==10.3.0
+more-itertools==10.4.0
     # via
     #   jaraco-classes
     #   jaraco-functools
 mysqlclient==2.2.4
     # via -r requirements/test.txt
-newrelic==9.12.0
+newrelic==9.13.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -397,7 +396,7 @@ pytz==2024.1
     #   -r requirements/test.txt
     #   babel
     #   drf-yasg
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -507,7 +506,7 @@ tomlkit==0.13.0
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.17.0
+tox==4.17.1
     # via -r requirements/test.txt
 twine==5.1.1
     # via -r requirements/doc.in
@@ -533,7 +532,7 @@ virtualenv==20.26.3
     # via
     #   -r requirements/test.txt
     #   tox
-zipp==3.19.2
+zipp==3.20.0
     # via
     #   importlib-metadata
     #   importlib-resources
