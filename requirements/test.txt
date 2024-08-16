@@ -24,7 +24,7 @@ certifi==2024.7.4
     # via
     #   -r requirements/base.txt
     #   requests
-cffi==1.16.0
+cffi==1.17.0
     # via
     #   -r requirements/base.txt
     #   cryptography
@@ -161,7 +161,7 @@ exceptiongroup==1.2.2
     # via pytest
 factory-boy==3.3.0
     # via -r requirements/test.in
-faker==26.2.0
+faker==27.0.0
     # via factory-boy
 filelock==3.15.4
     # via
@@ -198,7 +198,7 @@ mock==5.1.0
     # via -r requirements/test.in
 mysqlclient==2.2.4
     # via -r requirements/base.txt
-newrelic==9.12.0
+newrelic==9.13.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
@@ -291,7 +291,7 @@ pytz==2024.1
     # via
     #   -r requirements/base.txt
     #   drf-yasg
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via
     #   -r requirements/base.txt
     #   code-annotations
@@ -359,7 +359,7 @@ tomli==2.0.1
     #   tox
 tomlkit==0.13.0
     # via pylint
-tox==4.17.0
+tox==4.17.1
     # via -r requirements/test.in
 typing-extensions==4.12.2
     # via

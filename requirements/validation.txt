@@ -36,7 +36,7 @@ certifi==2024.7.4
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   requests
-cffi==1.16.0
+cffi==1.17.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -239,7 +239,7 @@ factory-boy==3.3.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==26.2.0
+faker==27.0.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -255,7 +255,7 @@ idna==3.7
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   requests
-importlib-metadata==6.11.0
+importlib-metadata==8.2.0
     # via
     #   -r requirements/quality.txt
     #   keyring
@@ -333,7 +333,7 @@ mock==5.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-more-itertools==10.3.0
+more-itertools==10.4.0
     # via
     #   -r requirements/quality.txt
     #   jaraco-classes
@@ -342,7 +342,7 @@ mysqlclient==2.2.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-newrelic==9.12.0
+newrelic==9.13.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -493,7 +493,7 @@ pytz==2024.1
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   drf-yasg
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -606,7 +606,7 @@ tomlkit==0.13.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pylint
-tox==4.17.0
+tox==4.17.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -638,7 +638,7 @@ virtualenv==20.26.3
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   tox
-zipp==3.19.2
+zipp==3.20.0
     # via
     #   -r requirements/quality.txt
     #   importlib-metadata
