@@ -18,7 +18,7 @@ backports-zoneinfo==0.2.1
     #   -r requirements/base.txt
     #   django
     #   djangorestframework
-cachetools==5.4.0
+cachetools==5.5.0
     # via tox
 certifi==2024.7.4
     # via
@@ -159,7 +159,7 @@ edx-rest-api-client==5.7.1
     # via -r requirements/base.txt
 exceptiongroup==1.2.2
     # via pytest
-factory-boy==3.3.0
+factory-boy==3.3.1
     # via -r requirements/test.in
 faker==27.0.0
     # via factory-boy
@@ -314,7 +314,7 @@ semantic-version==2.10.0
     # via
     #   -r requirements/base.txt
     #   edx-drf-extensions
-simplejson==3.19.2
+simplejson==3.19.3
     # via
     #   -r requirements/base.txt
     #   django-rest-swagger
@@ -357,9 +357,9 @@ tomli==2.0.1
     #   pyproject-api
     #   pytest
     #   tox
-tomlkit==0.13.0
+tomlkit==0.13.2
     # via pylint
-tox==4.17.1
+tox==4.18.0
     # via -r requirements/test.in
 typing-extensions==4.12.2
     # via
