@@ -86,6 +86,7 @@ cryptography==43.0.1
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pyjwt
+    #   secretstorage
     #   social-auth-core
 ddt==1.7.2
     # via
@@ -215,7 +216,7 @@ edx-opaque-keys==2.11.0
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-drf-extensions
-edx-rest-api-client==5.7.1
+edx-rest-api-client==6.0.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -228,7 +229,7 @@ faker==28.4.1
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.15.4
+filelock==3.16.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -275,6 +276,11 @@ jaraco-functools==4.0.2
     # via
     #   -r requirements/quality.txt
     #   keyring
+jeepney==0.8.0
+    # via
+    #   -r requirements/quality.txt
+    #   keyring
+    #   secretstorage
 jinja2==3.1.4
     # via
     #   -r requirements/quality.txt
@@ -307,7 +313,7 @@ mock==5.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-more-itertools==10.4.0
+more-itertools==10.5.0
     # via
     #   -r requirements/quality.txt
     #   jaraco-classes
@@ -353,7 +359,7 @@ pkginfo==1.10.0
     # via
     #   -r requirements/quality.txt
     #   twine
-platformdirs==4.2.2
+platformdirs==4.3.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -487,7 +493,6 @@ requests==2.32.3
     #   edx-rest-api-client
     #   requests-oauthlib
     #   requests-toolbelt
-    #   slumber
     #   social-auth-core
     #   twine
 requests-oauthlib==2.0.0
@@ -507,6 +512,10 @@ rich==13.8.0
     # via
     #   -r requirements/quality.txt
     #   twine
+secretstorage==3.3.3
+    # via
+    #   -r requirements/quality.txt
+    #   keyring
 semantic-version==2.10.0
     # via
     #   -r requirements/quality.txt
@@ -525,11 +534,6 @@ six==1.16.0
     #   edx-django-release-util
     #   edx-lint
     #   python-dateutil
-slumber==0.7.1
-    # via
-    #   -r requirements/quality.txt
-    #   -r requirements/test.txt
-    #   edx-rest-api-client
 snowballstemmer==2.2.0
     # via
     #   -r requirements/quality.txt
@@ -567,7 +571,7 @@ tomlkit==0.13.2
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pylint
-tox==4.18.0
+tox==4.18.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -590,7 +594,7 @@ urllib3==2.2.2
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.26.3
+virtualenv==20.26.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt

@@ -95,7 +95,7 @@ edx-drf-extensions==10.4.0
     # via -r requirements/base.in
 edx-opaque-keys==2.11.0
     # via edx-drf-extensions
-edx-rest-api-client==5.7.1
+edx-rest-api-client==6.0.0
     # via -r requirements/base.in
 idna==3.8
     # via requests
@@ -152,7 +152,6 @@ requests==2.32.3
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   requests-oauthlib
-    #   slumber
     #   social-auth-core
 requests-oauthlib==2.0.0
     # via social-auth-core
@@ -164,8 +163,6 @@ six==1.16.0
     # via
     #   edx-auth-backends
     #   edx-django-release-util
-slumber==0.7.1
-    # via edx-rest-api-client
 social-auth-app-django==5.4.2
     # via edx-auth-backends
 social-auth-core==4.5.4
