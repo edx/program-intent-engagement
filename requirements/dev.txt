@@ -163,7 +163,7 @@ drf-yasg==1.21.7
     #   edx-api-doc-tools
 edx-api-doc-tools==1.8.0
     # via -r requirements/validation.txt
-edx-auth-backends==4.3.0
+edx-auth-backends==4.4.0
     # via -r requirements/validation.txt
 edx-django-release-util==1.4.0
     # via -r requirements/validation.txt
@@ -392,7 +392,7 @@ pyproject-hooks==1.1.0
     #   -r requirements/pip-tools.txt
     #   build
     #   pip-tools
-pytest==8.3.2
+pytest==8.3.3
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -450,7 +450,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/validation.txt
     #   twine
-rich==13.8.0
+rich==13.8.1
     # via
     #   -r requirements/validation.txt
     #   twine

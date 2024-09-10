@@ -82,7 +82,7 @@ drf-yasg==1.21.7
     # via edx-api-doc-tools
 edx-api-doc-tools==1.8.0
     # via -r requirements/base.in
-edx-auth-backends==4.3.0
+edx-auth-backends==4.4.0
     # via -r requirements/base.in
 edx-django-release-util==1.4.0
     # via -r requirements/base.in

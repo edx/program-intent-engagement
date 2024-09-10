@@ -162,7 +162,7 @@ drf-yasg==1.21.7
     #   edx-api-doc-tools
 edx-api-doc-tools==1.8.0
     # via -r requirements/test.txt
-edx-auth-backends==4.3.0
+edx-auth-backends==4.4.0
     # via -r requirements/test.txt
 edx-django-release-util==1.4.0
     # via -r requirements/test.txt
@@ -353,7 +353,7 @@ pyproject-api==1.7.1
     #   tox
 pyproject-hooks==1.1.0
     # via build
-pytest==8.3.2
+pytest==8.3.3
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -407,7 +407,7 @@ restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==13.8.0
+rich==13.8.1
     # via twine
 secretstorage==3.3.3
     # via keyring
