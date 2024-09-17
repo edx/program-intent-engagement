@@ -131,9 +131,9 @@ drf-yasg==1.21.7
     # via
     #   -r requirements/base.txt
     #   edx-api-doc-tools
-edx-api-doc-tools==1.8.0
+edx-api-doc-tools==2.0.0
     # via -r requirements/base.txt
-edx-auth-backends==4.3.0
+edx-auth-backends==4.4.0
     # via -r requirements/base.txt
 edx-django-release-util==1.4.0
     # via -r requirements/base.txt
@@ -160,7 +160,7 @@ filelock==3.16.0
     # via
     #   tox
     #   virtualenv
-idna==3.8
+idna==3.10
     # via
     #   -r requirements/base.txt
     #   requests
@@ -215,7 +215,7 @@ pbr==6.1.0
     # via
     #   -r requirements/base.txt
     #   stevedore
-platformdirs==4.3.2
+platformdirs==4.3.3
     # via
     #   pylint
     #   tox
@@ -264,7 +264,7 @@ pynacl==1.5.0
     #   edx-django-utils
 pyproject-api==1.7.1
     # via tox
-pytest==8.3.2
+pytest==8.3.3
     # via
     #   pytest-cov
     #   pytest-django
@@ -280,7 +280,7 @@ python3-openid==3.2.0
     # via
     #   -r requirements/base.txt
     #   social-auth-core
-pytz==2024.1
+pytz==2024.2
     # via
     #   -r requirements/base.txt
     #   drf-yasg
@@ -351,9 +351,12 @@ uritemplate==4.1.1
     #   -r requirements/base.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.2
+urllib3==2.2.3
     # via
     #   -r requirements/base.txt
     #   requests
 virtualenv==20.26.4
     # via tox
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools

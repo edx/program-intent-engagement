@@ -161,9 +161,9 @@ drf-yasg==1.21.7
     # via
     #   -r requirements/validation.txt
     #   edx-api-doc-tools
-edx-api-doc-tools==1.8.0
+edx-api-doc-tools==2.0.0
     # via -r requirements/validation.txt
-edx-auth-backends==4.3.0
+edx-auth-backends==4.4.0
     # via -r requirements/validation.txt
 edx-django-release-util==1.4.0
     # via -r requirements/validation.txt
@@ -195,11 +195,11 @@ filelock==3.16.0
     #   -r requirements/validation.txt
     #   tox
     #   virtualenv
-idna==3.8
+idna==3.10
     # via
     #   -r requirements/validation.txt
     #   requests
-importlib-metadata==8.4.0
+importlib-metadata==8.5.0
     # via
     #   -r requirements/validation.txt
     #   twine
@@ -315,7 +315,7 @@ pkginfo==1.10.0
     # via
     #   -r requirements/validation.txt
     #   twine
-platformdirs==4.3.2
+platformdirs==4.3.3
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -392,7 +392,7 @@ pyproject-hooks==1.1.0
     #   -r requirements/pip-tools.txt
     #   build
     #   pip-tools
-pytest==8.3.2
+pytest==8.3.3
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -413,7 +413,7 @@ python3-openid==3.2.0
     # via
     #   -r requirements/validation.txt
     #   social-auth-core
-pytz==2024.1
+pytz==2024.2
     # via
     #   -r requirements/validation.txt
     #   drf-yasg
@@ -450,7 +450,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/validation.txt
     #   twine
-rich==13.8.0
+rich==13.8.1
     # via
     #   -r requirements/validation.txt
     #   twine
@@ -518,7 +518,7 @@ uritemplate==4.1.1
     #   -r requirements/validation.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.2
+urllib3==2.2.3
     # via
     #   -r requirements/validation.txt
     #   requests
@@ -531,7 +531,7 @@ wheel==0.44.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-zipp==3.20.1
+zipp==3.20.2
     # via
     #   -r requirements/validation.txt
     #   importlib-metadata
