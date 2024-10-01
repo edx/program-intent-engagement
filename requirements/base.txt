@@ -80,9 +80,9 @@ drf-jwt==1.19.2
     # via edx-drf-extensions
 drf-yasg==1.21.7
     # via edx-api-doc-tools
-edx-api-doc-tools==1.8.0
+edx-api-doc-tools==2.0.0
     # via -r requirements/base.in
-edx-auth-backends==4.3.0
+edx-auth-backends==4.4.0
     # via -r requirements/base.in
 edx-django-release-util==1.4.0
     # via -r requirements/base.in
@@ -97,7 +97,7 @@ edx-opaque-keys==2.11.0
     # via edx-drf-extensions
 edx-rest-api-client==6.0.0
     # via -r requirements/base.in
-idna==3.8
+idna==3.10
     # via requests
 inflection==0.5.1
     # via drf-yasg
@@ -109,7 +109,7 @@ markupsafe==2.1.5
     # via jinja2
 mysqlclient==2.2.4
     # via -r requirements/base.in
-newrelic==9.13.0
+newrelic==10.0.0
     # via edx-django-utils
 oauthlib==3.2.2
     # via
@@ -132,13 +132,13 @@ pyjwt[crypto]==2.9.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pymongo==4.8.0
+pymongo==4.10.0
     # via edx-opaque-keys
 pynacl==1.5.0
     # via edx-django-utils
 python3-openid==3.2.0
     # via social-auth-core
-pytz==2024.1
+pytz==2024.2
     # via
     #   -r requirements/base.in
     #   drf-yasg
@@ -181,5 +181,8 @@ uritemplate==4.1.1
     # via
     #   coreapi
     #   drf-yasg
-urllib3==2.2.2
+urllib3==2.2.3
     # via requests
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
