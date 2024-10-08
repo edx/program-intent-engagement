@@ -9,12 +9,12 @@ asgiref==3.8.1
     #   -r requirements/validation.txt
     #   django
     #   django-cors-headers
-astroid==3.2.4
+astroid==3.3.5
     # via
     #   -r requirements/validation.txt
     #   pylint
     #   pylint-celery
-build==1.2.2
+build==1.2.2.post1
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
@@ -89,7 +89,7 @@ defusedxml==0.8.0rc2
     #   social-auth-core
 diff-cover==9.2.0
     # via -r requirements/dev.in
-dill==0.3.8
+dill==0.3.9
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -145,7 +145,7 @@ djangorestframework==3.15.2
     #   drf-yasg
     #   edx-api-doc-tools
     #   edx-drf-extensions
-dnspython==2.6.1
+dnspython==2.7.0
     # via
     #   -r requirements/validation.txt
     #   pymongo
@@ -161,13 +161,13 @@ drf-yasg==1.21.7
     # via
     #   -r requirements/validation.txt
     #   edx-api-doc-tools
-edx-api-doc-tools==1.8.0
+edx-api-doc-tools==2.0.0
     # via -r requirements/validation.txt
-edx-auth-backends==4.3.0
+edx-auth-backends==4.4.0
     # via -r requirements/validation.txt
 edx-django-release-util==1.4.0
     # via -r requirements/validation.txt
-edx-django-utils==5.15.0
+edx-django-utils==5.16.0
     # via
     #   -r requirements/validation.txt
     #   edx-drf-extensions
@@ -186,20 +186,20 @@ edx-rest-api-client==6.0.0
     # via -r requirements/validation.txt
 factory-boy==3.3.1
     # via -r requirements/validation.txt
-faker==28.4.1
+faker==30.3.0
     # via
     #   -r requirements/validation.txt
     #   factory-boy
-filelock==3.16.0
+filelock==3.16.1
     # via
     #   -r requirements/validation.txt
     #   tox
     #   virtualenv
-idna==3.8
+idna==3.10
     # via
     #   -r requirements/validation.txt
     #   requests
-importlib-metadata==8.4.0
+importlib-metadata==8.5.0
     # via
     #   -r requirements/validation.txt
     #   twine
@@ -227,7 +227,7 @@ jaraco-context==6.0.1
     # via
     #   -r requirements/validation.txt
     #   keyring
-jaraco-functools==4.0.2
+jaraco-functools==4.1.0
     # via
     #   -r requirements/validation.txt
     #   keyring
@@ -242,7 +242,7 @@ jinja2==3.1.4
     #   code-annotations
     #   coreschema
     #   diff-cover
-keyring==25.3.0
+keyring==25.4.1
     # via
     #   -r requirements/validation.txt
     #   twine
@@ -256,7 +256,7 @@ markdown-it-py==3.0.0
     # via
     #   -r requirements/validation.txt
     #   rich
-markupsafe==2.1.5
+markupsafe==3.0.0
     # via
     #   -r requirements/validation.txt
     #   jinja2
@@ -277,7 +277,7 @@ more-itertools==10.5.0
     #   jaraco-functools
 mysqlclient==2.2.4
     # via -r requirements/validation.txt
-newrelic==9.13.0
+newrelic==10.0.0
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
@@ -315,7 +315,7 @@ pkginfo==1.10.0
     # via
     #   -r requirements/validation.txt
     #   twine
-platformdirs==4.3.2
+platformdirs==4.3.6
     # via
     #   -r requirements/validation.txt
     #   pylint
@@ -355,7 +355,7 @@ pyjwt[crypto]==2.9.0
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==3.2.7
+pylint==3.3.1
     # via
     #   -r requirements/validation.txt
     #   edx-lint
@@ -375,7 +375,7 @@ pylint-plugin-utils==0.8.2
     #   -r requirements/validation.txt
     #   pylint-celery
     #   pylint-django
-pymongo==4.8.0
+pymongo==4.10.1
     # via
     #   -r requirements/validation.txt
     #   edx-opaque-keys
@@ -383,16 +383,16 @@ pynacl==1.5.0
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
-pyproject-api==1.7.1
+pyproject-api==1.8.0
     # via
     #   -r requirements/validation.txt
     #   tox
-pyproject-hooks==1.1.0
+pyproject-hooks==1.2.0
     # via
     #   -r requirements/pip-tools.txt
     #   build
     #   pip-tools
-pytest==8.3.2
+pytest==8.3.3
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -413,7 +413,7 @@ python3-openid==3.2.0
     # via
     #   -r requirements/validation.txt
     #   social-auth-core
-pytz==2024.1
+pytz==2024.2
     # via
     #   -r requirements/validation.txt
     #   drf-yasg
@@ -450,7 +450,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/validation.txt
     #   twine
-rich==13.8.0
+rich==13.9.2
     # via
     #   -r requirements/validation.txt
     #   twine
@@ -505,7 +505,7 @@ tomlkit==0.13.2
     # via
     #   -r requirements/validation.txt
     #   pylint
-tox==4.18.1
+tox==4.21.2
     # via -r requirements/validation.txt
 twine==5.1.1
     # via -r requirements/validation.txt
@@ -513,17 +513,18 @@ typing-extensions==4.12.2
     # via
     #   -r requirements/validation.txt
     #   edx-opaque-keys
+    #   faker
 uritemplate==4.1.1
     # via
     #   -r requirements/validation.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.2
+urllib3==2.2.3
     # via
     #   -r requirements/validation.txt
     #   requests
     #   twine
-virtualenv==20.26.4
+virtualenv==20.26.6
     # via
     #   -r requirements/validation.txt
     #   tox
@@ -531,7 +532,7 @@ wheel==0.44.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-zipp==3.20.1
+zipp==3.20.2
     # via
     #   -r requirements/validation.txt
     #   importlib-metadata
