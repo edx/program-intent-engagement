@@ -13,15 +13,15 @@
 | program\_intent\_engagement/apps/api/urls.py                                                            |        4 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/api/v1/\_\_init\_\_.py                                                 |        0 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/api/v1/tests/\_\_init\_\_.py                                           |        0 |        0 |        0 |        0 |    100% |           |
-| program\_intent\_engagement/apps/api/v1/tests/test\_views.py                                            |      122 |        0 |        4 |        0 |    100% |           |
+| program\_intent\_engagement/apps/api/v1/tests/test\_views.py                                            |      122 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/api/v1/urls.py                                                         |        4 |        0 |        0 |        0 |    100% |           |
-| program\_intent\_engagement/apps/api/v1/views.py                                                        |       51 |        0 |       15 |        0 |    100% |           |
+| program\_intent\_engagement/apps/api/v1/views.py                                                        |       51 |        0 |        8 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/\_\_init\_\_.py                                                   |        0 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/constants.py                                                      |        3 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/context\_processors.py                                            |        3 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/management/\_\_init\_\_.py                                        |        0 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/management/commands/\_\_init\_\_.py                               |        0 |        0 |        0 |        0 |    100% |           |
-| program\_intent\_engagement/apps/core/management/commands/bulk\_insert\_intents.py                      |       38 |        0 |       10 |        0 |    100% |           |
+| program\_intent\_engagement/apps/core/management/commands/bulk\_insert\_intents.py                      |       38 |        0 |        8 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/management/tests/\_\_init\_\_.py                                  |        0 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/management/tests/test\_bulk\_insert\_intents.py                   |       16 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/migrations/0001\_initial.py                                       |        8 |        0 |        0 |        0 |    100% |           |
@@ -31,15 +31,15 @@
 | program\_intent\_engagement/apps/core/migrations/0005\_remove\_programintent\_lms\_user\_id\_default.py |        4 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/migrations/0006\_alter\_user\_lms\_user\_id.py                    |        4 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/migrations/\_\_init\_\_.py                                        |        0 |        0 |        0 |        0 |    100% |           |
-| program\_intent\_engagement/apps/core/models.py                                                         |       30 |        0 |        2 |        0 |    100% |           |
+| program\_intent\_engagement/apps/core/models.py                                                         |       30 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/tests/\_\_init\_\_.py                                             |        0 |        0 |        0 |        0 |    100% |           |
-| program\_intent\_engagement/apps/core/tests/test\_context\_processors.py                                |        8 |        0 |        2 |        0 |    100% |           |
+| program\_intent\_engagement/apps/core/tests/test\_context\_processors.py                                |        8 |        0 |        0 |        0 |    100% |           |
 | program\_intent\_engagement/apps/core/tests/test\_models.py                                             |       30 |        0 |        0 |        0 |    100% |           |
-| program\_intent\_engagement/apps/core/tests/test\_views.py                                              |       37 |        0 |        6 |        0 |    100% |           |
-| program\_intent\_engagement/apps/core/views.py                                                          |       38 |        0 |        6 |        0 |    100% |           |
+| program\_intent\_engagement/apps/core/tests/test\_views.py                                              |       37 |        0 |        0 |        0 |    100% |           |
+| program\_intent\_engagement/apps/core/views.py                                                          |       38 |        0 |        4 |        0 |    100% |           |
 | program\_intent\_engagement/docker\_gunicorn\_configuration.py                                          |       27 |       27 |       10 |        0 |      0% |      4-57 |
 | program\_intent\_engagement/urls.py                                                                     |       10 |        0 |        0 |        0 |    100% |           |
-|                                                                                               **TOTAL** |  **460** |   **27** |   **55** |    **0** | **93%** |           |
+|                                                                                               **TOTAL** |  **460** |   **27** |   **30** |    **0** | **92%** |           |
 
 
 ## Setup coverage badge
