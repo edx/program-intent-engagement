@@ -76,12 +76,12 @@ coreschema==0.0.4
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   coreapi
-coverage[toml]==7.6.3
+coverage[toml]==7.6.4
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==43.0.1
+cryptography==43.0.3
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -180,7 +180,7 @@ drf-jwt==1.19.2
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   edx-drf-extensions
-drf-yasg==1.21.7
+drf-yasg==1.21.8
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -197,7 +197,7 @@ edx-django-release-util==1.4.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-edx-django-utils==6.0.0
+edx-django-utils==7.0.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -224,7 +224,7 @@ factory-boy==3.3.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==30.3.0
+faker==30.8.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -295,7 +295,7 @@ markdown-it-py==3.0.0
     # via
     #   -r requirements/quality.txt
     #   rich
-markupsafe==3.0.1
+markupsafe==3.0.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -318,11 +318,11 @@ more-itertools==10.5.0
     #   -r requirements/quality.txt
     #   jaraco-classes
     #   jaraco-functools
-mysqlclient==2.2.4
+mysqlclient==2.2.5
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-newrelic==10.1.0
+newrelic==10.2.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -372,7 +372,7 @@ pluggy==1.5.0
     #   -r requirements/test.txt
     #   pytest
     #   tox
-psutil==6.0.0
+psutil==6.1.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -571,7 +571,7 @@ tomlkit==0.13.2
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
     #   pylint
-tox==4.21.2
+tox==4.23.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -595,7 +595,7 @@ urllib3==2.2.3
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.26.6
+virtualenv==20.27.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt

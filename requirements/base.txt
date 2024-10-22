@@ -24,7 +24,7 @@ coreapi==2.3.3
     #   openapi-codec
 coreschema==0.0.4
     # via coreapi
-cryptography==43.0.1
+cryptography==43.0.3
     # via
     #   pyjwt
     #   social-auth-core
@@ -78,7 +78,7 @@ dnspython==2.7.0
     # via pymongo
 drf-jwt==1.19.2
     # via edx-drf-extensions
-drf-yasg==1.21.7
+drf-yasg==1.21.8
     # via edx-api-doc-tools
 edx-api-doc-tools==2.0.0
     # via -r requirements/base.in
@@ -86,7 +86,7 @@ edx-auth-backends==4.4.0
     # via -r requirements/base.in
 edx-django-release-util==1.4.0
     # via -r requirements/base.in
-edx-django-utils==6.0.0
+edx-django-utils==7.0.0
     # via
     #   -r requirements/base.in
     #   edx-drf-extensions
@@ -105,11 +105,11 @@ itypes==1.2.0
     # via coreapi
 jinja2==3.1.4
     # via coreschema
-markupsafe==3.0.1
+markupsafe==3.0.2
     # via jinja2
-mysqlclient==2.2.4
+mysqlclient==2.2.5
     # via -r requirements/base.in
-newrelic==10.1.0
+newrelic==10.2.0
     # via edx-django-utils
 oauthlib==3.2.2
     # via
@@ -121,7 +121,7 @@ packaging==24.1
     # via drf-yasg
 pbr==6.1.0
     # via stevedore
-psutil==6.0.0
+psutil==6.1.0
     # via edx-django-utils
 pycparser==2.22
     # via cffi
