@@ -63,11 +63,11 @@ coreschema==0.0.4
     # via
     #   -r requirements/test.txt
     #   coreapi
-coverage[toml]==7.6.3
+coverage[toml]==7.6.4
     # via
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==43.0.1
+cryptography==43.0.3
     # via
     #   -r requirements/test.txt
     #   pyjwt
@@ -144,7 +144,7 @@ drf-jwt==1.19.2
     # via
     #   -r requirements/test.txt
     #   edx-drf-extensions
-drf-yasg==1.21.7
+drf-yasg==1.21.8
     # via
     #   -r requirements/test.txt
     #   edx-api-doc-tools
@@ -154,7 +154,7 @@ edx-auth-backends==4.4.0
     # via -r requirements/test.txt
 edx-django-release-util==1.4.0
     # via -r requirements/test.txt
-edx-django-utils==6.0.0
+edx-django-utils==7.0.0
     # via
     #   -r requirements/test.txt
     #   edx-drf-extensions
@@ -173,7 +173,7 @@ edx-rest-api-client==6.0.0
     # via -r requirements/test.txt
 factory-boy==3.3.1
     # via -r requirements/test.txt
-faker==30.3.0
+faker==30.8.0
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -224,7 +224,7 @@ keyring==25.4.1
     # via twine
 markdown-it-py==3.0.0
     # via rich
-markupsafe==3.0.1
+markupsafe==3.0.2
     # via
     #   -r requirements/test.txt
     #   jinja2
@@ -240,9 +240,9 @@ more-itertools==10.5.0
     # via
     #   jaraco-classes
     #   jaraco-functools
-mysqlclient==2.2.4
+mysqlclient==2.2.5
     # via -r requirements/test.txt
-newrelic==10.1.0
+newrelic==10.2.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -281,7 +281,7 @@ pluggy==1.5.0
     #   -r requirements/test.txt
     #   pytest
     #   tox
-psutil==6.0.0
+psutil==6.1.0
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -436,7 +436,7 @@ tomlkit==0.13.2
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.21.2
+tox==4.23.2
     # via -r requirements/test.txt
 twine==5.1.1
     # via -r requirements/quality.in
@@ -455,7 +455,7 @@ urllib3==2.2.3
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.26.6
+virtualenv==20.27.0
     # via
     #   -r requirements/test.txt
     #   tox
