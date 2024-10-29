@@ -92,7 +92,7 @@ distlib==0.3.9
     #   edx-django-utils
     #   edx-drf-extensions
     #   social-auth-app-django
-django-cors-headers==4.5.0
+django-cors-headers==4.6.0
     # via -r requirements/base.txt
 django-crum==0.7.9
     # via
@@ -142,9 +142,9 @@ edx-django-utils==7.0.0
     #   -r requirements/base.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==10.4.0
+edx-drf-extensions==10.5.0
     # via -r requirements/base.txt
-edx-lint==5.4.0
+edx-lint==5.4.1
     # via -r requirements/test.in
 edx-opaque-keys==2.11.0
     # via
@@ -154,7 +154,7 @@ edx-rest-api-client==6.0.0
     # via -r requirements/base.txt
 factory-boy==3.3.1
     # via -r requirements/test.in
-faker==30.8.0
+faker==30.8.1
     # via factory-boy
 filelock==3.16.1
     # via
@@ -356,7 +356,7 @@ urllib3==2.2.3
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.27.0
+virtualenv==20.27.1
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
