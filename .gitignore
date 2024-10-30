@@ -64,7 +64,6 @@ coverage.xml
 diff_*.html
 *.report
 report
-venv
 acceptance_tests.*.log
 acceptance_tests.*.png
 

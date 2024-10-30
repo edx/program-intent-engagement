@@ -90,8 +90,8 @@ top_level_doc = 'index'
 
 # General information about the project.
 project = 'program_intent_engagement'
-copyright = "2024, edX Inc."  # pylint: disable=redefined-builtin
-author = "edX org"
+copyright = "2024, edX LLC"  # pylint: disable=redefined-builtin
+author = "edX LLC"
 project_title = 'program_intent_engagement'
 documentation_title = f"{project_title}"
 
@@ -198,10 +198,10 @@ html_theme_options = {
         These works by
             <a
                 xmlns:cc="https://creativecommons.org/ns#"
-                href="https://openedx.org"
+                href="https://edx.org"
                 property="cc:attributionName"
                 rel="cc:attributionURL"
-            >Axim Collaborative</a>
+            >edX LLC</a>
         are licensed under a
             <a
                 rel="license"
