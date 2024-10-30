@@ -4,6 +4,8 @@
 #
 #    make upgrade
 #
+accessible-pygments==0.0.4
+    # via pydata-sphinx-theme
 alabaster==0.7.16
     # via sphinx
 asgiref==3.8.1
@@ -16,6 +18,8 @@ astroid==3.3.5
     #   -r requirements/test.txt
     #   pylint
     #   pylint-celery
+beautifulsoup4==4.12.3
+    # via pydata-sphinx-theme
 babel==2.16.0
     # via sphinx
 build==1.2.2.post1
@@ -98,7 +102,6 @@ django==4.2.16
     # via
     #   -c requirements/common_constraints.txt
     #   -c requirements/constraints.txt
-    #   -r requirements/test.txt
     #   django-cors-headers
     #   django-crum
     #   django-extensions
@@ -149,6 +152,7 @@ doc8==1.1.2
 docutils==0.19
     # via
     #   doc8
+    #   pydata-sphinx-theme
     #   readme-renderer
     #   restructuredtext-lint
     #   sphinx
@@ -181,8 +185,10 @@ edx-opaque-keys==2.11.0
     #   edx-drf-extensions
 edx-rest-api-client==6.0.0
     # via -r requirements/test.txt
-edx-sphinx-theme==3.1.0
-    # via -r requirements/doc.in
+exceptiongroup==1.2.2
+    # via
+    #   -r requirements/test.txt
+    #   pytest
 factory-boy==3.3.1
     # via -r requirements/test.txt
 faker==30.8.0
@@ -276,6 +282,7 @@ packaging==24.1
     #   -r requirements/test.txt
     #   build
     #   drf-yasg
+    #   pydata-sphinx-theme
     #   pyproject-api
     #   pytest
     #   sphinx
@@ -305,9 +312,13 @@ pycparser==2.22
     # via
     #   -r requirements/test.txt
     #   cffi
+pydata-sphinx-theme==0.14.4
+    # via sphinx-book-theme
 pygments==2.18.0
     # via
+    #   accessible-pygments
     #   doc8
+    #   pydata-sphinx-theme
     #   readme-renderer
     #   rich
     #   sphinx
@@ -425,7 +436,6 @@ six==1.16.0
     #   edx-auth-backends
     #   edx-django-release-util
     #   edx-lint
-    #   edx-sphinx-theme
     #   python-dateutil
 snowballstemmer==2.2.0
     # via sphinx
@@ -438,11 +448,16 @@ social-auth-core==4.5.4
     #   -r requirements/test.txt
     #   edx-auth-backends
     #   social-auth-app-django
+soupsieve==2.5
+    # via beautifulsoup4
 sphinx==5.3.0
     # via
     #   -r requirements/doc.in
-    #   edx-sphinx-theme
-sphinxcontrib-applehelp==2.0.0
+    #   pydata-sphinx-theme
+    #   sphinx-book-theme
+sphinx-book-theme==1.0.1
+    # via -r requirements/doc.in
+sphinxcontrib-applehelp==1.0.4
     # via sphinx
 sphinxcontrib-devhelp==2.0.0
     # via sphinx
@@ -481,6 +496,9 @@ typing-extensions==4.12.2
     # via
     #   -r requirements/test.txt
     #   edx-opaque-keys
+    #   pydata-sphinx-theme
+    #   pylint
+    #   rich
     #   faker
 uritemplate==4.1.1
     # via
