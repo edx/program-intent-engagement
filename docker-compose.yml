@@ -16,11 +16,7 @@ services:
     container_name: program_intent_engagement.memcache
 
   app:
-    # Uncomment this line to use the official program_intent_engagement base image
-    # image: openedx/program_intent_engagement
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: edxops/program-intent-engagement-dev
     container_name: program_intent_engagement.app
     volumes:
       - .:/edx/app/program-intent-engagement
