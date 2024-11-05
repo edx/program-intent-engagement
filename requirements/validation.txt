@@ -126,7 +126,7 @@ django==4.2.16
     #   edx-django-utils
     #   edx-drf-extensions
     #   social-auth-app-django
-django-cors-headers==4.5.0
+django-cors-headers==4.6.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -203,11 +203,11 @@ edx-django-utils==7.0.0
     #   -r requirements/test.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==10.4.0
+edx-drf-extensions==10.5.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-edx-lint==5.4.0
+edx-lint==5.4.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -224,7 +224,7 @@ factory-boy==3.3.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
-faker==30.8.0
+faker==30.8.2
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -287,7 +287,7 @@ jinja2==3.1.4
     #   -r requirements/test.txt
     #   code-annotations
     #   coreschema
-keyring==25.4.1
+keyring==25.5.0
     # via
     #   -r requirements/quality.txt
     #   twine
@@ -445,7 +445,7 @@ pytest==8.3.3
     #   -r requirements/test.txt
     #   pytest-cov
     #   pytest-django
-pytest-cov==5.0.0
+pytest-cov==6.0.0
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
@@ -508,7 +508,7 @@ rfc3986==2.0.0
     # via
     #   -r requirements/quality.txt
     #   twine
-rich==13.9.2
+rich==13.9.4
     # via
     #   -r requirements/quality.txt
     #   twine
@@ -595,7 +595,7 @@ urllib3==2.2.3
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.27.0
+virtualenv==20.27.1
     # via
     #   -r requirements/quality.txt
     #   -r requirements/test.txt
