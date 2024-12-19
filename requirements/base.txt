@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via
     #   django
     #   django-cors-headers
-certifi==2024.8.30
+certifi==2024.12.14
     # via requests
 cffi==1.17.1
     # via
@@ -24,7 +24,7 @@ coreapi==2.3.3
     #   openapi-codec
 coreschema==0.0.4
     # via coreapi
-cryptography==43.0.3
+cryptography==44.0.0
     # via
     #   pyjwt
     #   social-auth-core
@@ -32,10 +32,10 @@ defusedxml==0.8.0rc2
     # via
     #   python3-openid
     #   social-auth-core
-django==4.2.16
+django==4.2.17
     # via
-    #   -c requirements/common_constraints.txt
-    #   -c requirements/constraints.txt
+    #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/common_constraints.txt
+    #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/constraints.txt
     #   -r requirements/base.in
     #   django-cors-headers
     #   django-crum
@@ -61,7 +61,7 @@ django-model-utils==5.0.0
     # via -r requirements/base.in
 django-rest-swagger==2.2.0
     # via -r requirements/base.in
-django-waffle==4.1.0
+django-waffle==4.2.0
     # via
     #   -r requirements/base.in
     #   edx-django-utils
@@ -86,7 +86,7 @@ edx-auth-backends==4.4.0
     # via -r requirements/base.in
 edx-django-release-util==1.4.0
     # via -r requirements/base.in
-edx-django-utils==7.0.0
+edx-django-utils==7.1.0
     # via
     #   -r requirements/base.in
     #   edx-drf-extensions
@@ -107,9 +107,9 @@ jinja2==3.1.4
     # via coreschema
 markupsafe==3.0.2
     # via jinja2
-mysqlclient==2.2.5
+mysqlclient==2.2.6
     # via -r requirements/base.in
-newrelic==10.2.0
+newrelic==10.4.0
     # via edx-django-utils
 oauthlib==3.2.2
     # via
@@ -125,7 +125,7 @@ psutil==6.1.0
     # via edx-django-utils
 pycparser==2.22
     # via cffi
-pyjwt[crypto]==2.9.0
+pyjwt[crypto]==2.10.1
     # via
     #   drf-jwt
     #   edx-auth-backends
@@ -159,7 +159,7 @@ semantic-version==2.10.0
     # via edx-drf-extensions
 simplejson==3.19.3
     # via django-rest-swagger
-six==1.16.0
+six==1.17.0
     # via
     #   edx-auth-backends
     #   edx-django-release-util
@@ -169,9 +169,9 @@ social-auth-core==4.5.4
     # via
     #   edx-auth-backends
     #   social-auth-app-django
-sqlparse==0.5.1
+sqlparse==0.5.3
     # via django
-stevedore==5.3.0
+stevedore==5.4.0
     # via
     #   edx-django-utils
     #   edx-opaque-keys
