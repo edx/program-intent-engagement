@@ -9,7 +9,7 @@ asgiref==3.8.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   django
     #   django-cors-headers
-astroid==3.3.6
+astroid==3.3.8
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint
@@ -36,11 +36,11 @@ chardet==5.2.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   diff-cover
     #   tox
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   requests
-click==8.1.7
+click==8.1.8
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/pip-tools.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
@@ -70,7 +70,7 @@ coreschema==0.0.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   coreapi
-coverage[toml]==7.6.9
+coverage[toml]==7.6.10
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pytest-cov
@@ -232,13 +232,13 @@ jeepney==0.8.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   keyring
     #   secretstorage
-jinja2==3.1.4
+jinja2==3.1.5
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   code-annotations
     #   coreschema
     #   diff-cover
-keyring==25.5.0
+keyring==25.6.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   twine
@@ -326,7 +326,7 @@ pluggy==1.5.0
     #   tox
 polib==1.2.0
     # via edx-i18n-tools
-psutil==6.1.0
+psutil==6.1.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-django-utils
@@ -352,7 +352,7 @@ pyjwt[crypto]==2.10.1
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==3.3.2
+pylint==3.3.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-lint
@@ -516,7 +516,7 @@ uritemplate==4.1.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.3
+urllib3==2.3.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   requests
