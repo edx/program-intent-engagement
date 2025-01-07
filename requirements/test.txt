@@ -154,7 +154,7 @@ edx-rest-api-client==6.0.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
 factory-boy==3.3.1
     # via -r requirements/test.in
-faker==33.1.0
+faker==33.3.0
     # via factory-boy
 filelock==3.16.1
     # via
@@ -352,11 +352,12 @@ uritemplate==4.1.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.3.0
+urllib3==2.2.3
     # via
+    #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/common_constraints.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   requests
-virtualenv==20.28.0
+virtualenv==20.28.1
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
