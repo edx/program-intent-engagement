@@ -186,7 +186,7 @@ edx-rest-api-client==6.0.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 factory-boy==3.3.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-faker==33.1.0
+faker==33.3.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   factory-boy
@@ -338,7 +338,7 @@ pycparser==2.22
     #   cffi
 pydocstyle==6.3.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-pygments==2.18.0
+pygments==2.19.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   diff-cover
@@ -516,12 +516,12 @@ uritemplate==4.1.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.3.0
+urllib3==2.2.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   requests
     #   twine
-virtualenv==20.28.0
+virtualenv==20.28.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   tox

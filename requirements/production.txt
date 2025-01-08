@@ -262,7 +262,7 @@ uritemplate==4.1.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.3.0
+urllib3==2.2.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   requests

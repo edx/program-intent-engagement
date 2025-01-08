@@ -181,8 +181,10 @@ uritemplate==4.1.1
     # via
     #   coreapi
     #   drf-yasg
-urllib3==2.3.0
-    # via requests
+urllib3==2.2.3
+    # via
+    #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/common_constraints.txt
+    #   requests
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
