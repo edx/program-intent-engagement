@@ -45,7 +45,7 @@ defusedxml==0.8.0rc2
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   python3-openid
     #   social-auth-core
-django==4.2.17
+django==4.2.18
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   django-cors-headers
@@ -144,7 +144,7 @@ markupsafe==3.0.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   jinja2
-mysqlclient==2.2.6
+mysqlclient==2.2.7
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   -r requirements/production.in

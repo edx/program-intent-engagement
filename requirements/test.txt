@@ -154,7 +154,7 @@ edx-rest-api-client==6.0.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
 factory-boy==3.3.1
     # via -r requirements/test.in
-faker==33.3.0
+faker==33.3.1
     # via factory-boy
 filelock==3.16.1
     # via
@@ -189,7 +189,7 @@ mccabe==0.7.0
     # via pylint
 mock==5.1.0
     # via -r requirements/test.in
-mysqlclient==2.2.6
+mysqlclient==2.2.7
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
 newrelic==10.4.0
     # via
