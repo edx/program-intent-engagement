@@ -32,7 +32,7 @@ defusedxml==0.8.0rc2
     # via
     #   python3-openid
     #   social-auth-core
-django==4.2.17
+django==4.2.18
     # via
     #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/common_constraints.txt
     #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/constraints.txt
@@ -107,7 +107,7 @@ jinja2==3.1.5
     # via coreschema
 markupsafe==3.0.2
     # via jinja2
-mysqlclient==2.2.6
+mysqlclient==2.2.7
     # via -r requirements/base.in
 newrelic==10.4.0
     # via edx-django-utils
