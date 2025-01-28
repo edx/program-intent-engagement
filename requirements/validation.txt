@@ -16,7 +16,7 @@ astroid==3.3.8
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
     #   pylint-celery
-cachetools==5.5.0
+cachetools==5.5.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -207,7 +207,7 @@ edx-drf-extensions==10.5.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-edx-lint==5.4.1
+edx-lint==5.6.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -224,17 +224,21 @@ factory-boy==3.3.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-faker==33.3.1
+faker==35.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   factory-boy
-filelock==3.16.1
+filelock==3.17.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   tox
     #   virtualenv
+id==1.5.0
+    # via
+    #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
+    #   twine
 idna==3.10
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
@@ -250,7 +254,7 @@ iniconfig==2.0.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest
-isort==5.13.2
+isort==6.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -352,10 +356,6 @@ pbr==6.1.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   stevedore
-pkginfo==1.12.0
-    # via
-    #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
-    #   twine
 platformdirs==4.3.6
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
@@ -397,7 +397,7 @@ pyjwt[crypto]==2.10.1
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==3.3.3
+pylint==3.3.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -431,7 +431,7 @@ pynacl==1.5.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-django-utils
-pyproject-api==1.8.0
+pyproject-api==1.9.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -488,6 +488,7 @@ requests==2.32.3
     #   coreapi
     #   edx-drf-extensions
     #   edx-rest-api-client
+    #   id
     #   requests-oauthlib
     #   requests-toolbelt
     #   social-auth-core
@@ -568,11 +569,11 @@ tomlkit==0.13.2
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
-tox==4.23.2
+tox==4.24.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-twine==6.0.1
+twine==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
 typing-extensions==4.12.2
     # via
