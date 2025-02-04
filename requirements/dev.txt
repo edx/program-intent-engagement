@@ -18,11 +18,11 @@ build==1.2.2.post1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/pip-tools.txt
     #   pip-tools
-cachetools==5.5.0
+cachetools==5.5.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   tox
-certifi==2024.12.14
+certifi==2025.1.31
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   requests
@@ -87,7 +87,7 @@ defusedxml==0.8.0rc2
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   python3-openid
     #   social-auth-core
-diff-cover==9.2.1
+diff-cover==9.2.2
     # via -r requirements/dev.in
 dill==0.3.9
     # via
@@ -176,7 +176,7 @@ edx-drf-extensions==10.5.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 edx-i18n-tools==1.6.3
     # via -r requirements/dev.in
-edx-lint==5.4.1
+edx-lint==5.6.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 edx-opaque-keys==2.11.0
     # via
@@ -184,17 +184,21 @@ edx-opaque-keys==2.11.0
     #   edx-drf-extensions
 edx-rest-api-client==6.0.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-factory-boy==3.3.1
+factory-boy==3.3.3
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-faker==33.3.1
+faker==35.2.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   factory-boy
-filelock==3.16.1
+filelock==3.17.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   tox
     #   virtualenv
+id==1.5.0
+    # via
+    #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
+    #   twine
 idna==3.10
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
@@ -207,7 +211,7 @@ iniconfig==2.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pytest
-isort==5.13.2
+isort==6.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint
@@ -273,7 +277,7 @@ more-itertools==10.6.0
     #   jaraco-functools
 mysqlclient==2.2.7
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-newrelic==10.4.0
+newrelic==10.5.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-django-utils
@@ -302,16 +306,12 @@ packaging==24.2
     #   twine
 path==16.16.0
     # via edx-i18n-tools
-pbr==6.1.0
+pbr==6.1.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   stevedore
 pip-tools==7.4.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/pip-tools.txt
-pkginfo==1.12.0
-    # via
-    #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-    #   twine
 platformdirs==4.3.6
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
@@ -352,7 +352,7 @@ pyjwt[crypto]==2.10.1
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==3.3.3
+pylint==3.3.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-lint
@@ -372,7 +372,7 @@ pylint-plugin-utils==0.8.2
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint-celery
     #   pylint-django
-pymongo==4.10.1
+pymongo==4.11
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-opaque-keys
@@ -380,7 +380,7 @@ pynacl==1.5.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-django-utils
-pyproject-api==1.8.0
+pyproject-api==1.9.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   tox
@@ -410,7 +410,7 @@ python3-openid==3.2.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   social-auth-core
-pytz==2024.2
+pytz==2025.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   drf-yasg
@@ -431,6 +431,7 @@ requests==2.32.3
     #   coreapi
     #   edx-drf-extensions
     #   edx-rest-api-client
+    #   id
     #   requests-oauthlib
     #   requests-toolbelt
     #   social-auth-core
@@ -502,9 +503,9 @@ tomlkit==0.13.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint
-tox==4.23.2
+tox==4.24.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-twine==6.0.1
+twine==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 typing-extensions==4.12.2
     # via
