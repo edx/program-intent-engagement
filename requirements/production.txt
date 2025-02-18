@@ -35,12 +35,12 @@ coreschema==0.0.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi
-cryptography==44.0.0
+cryptography==44.0.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   pyjwt
     #   social-auth-core
-defusedxml==0.8.0rc2
+defusedxml==0.7.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   python3-openid
@@ -116,7 +116,7 @@ edx-opaque-keys==2.11.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-drf-extensions
-edx-rest-api-client==6.0.0
+edx-rest-api-client==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
 gevent==24.11.1
     # via -r requirements/production.in
@@ -170,7 +170,7 @@ pbr==6.1.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   stevedore
-psutil==6.1.1
+psutil==7.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-django-utils
@@ -226,7 +226,7 @@ semantic-version==2.10.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-drf-extensions
-simplejson==3.19.3
+simplejson==3.20.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   django-rest-swagger
@@ -235,11 +235,11 @@ six==1.17.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-auth-backends
     #   edx-django-release-util
-social-auth-app-django==5.4.2
+social-auth-app-django==5.4.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.5.4
+social-auth-core==4.5.6
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-auth-backends
