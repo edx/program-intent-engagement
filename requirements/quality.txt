@@ -14,7 +14,7 @@ astroid==3.3.8
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
     #   pylint-celery
-cachetools==5.5.1
+cachetools==5.5.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   tox
@@ -67,7 +67,7 @@ coverage[toml]==7.6.12
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest-cov
-cryptography==44.0.0
+cryptography==44.0.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pyjwt
@@ -75,7 +75,7 @@ cryptography==44.0.0
     #   social-auth-core
 ddt==1.7.2
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-defusedxml==0.8.0rc2
+defusedxml==0.7.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   python3-openid
@@ -144,7 +144,7 @@ drf-jwt==1.19.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-drf-extensions
-drf-yasg==1.21.8
+drf-yasg==1.21.9
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-api-doc-tools
@@ -169,11 +169,11 @@ edx-opaque-keys==2.11.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-drf-extensions
-edx-rest-api-client==6.0.0
+edx-rest-api-client==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
 factory-boy==3.3.3
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-faker==36.1.0
+faker==36.1.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   factory-boy
@@ -246,7 +246,7 @@ newrelic==10.6.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-django-utils
-nh3==0.2.20
+nh3==0.2.21
     # via readme-renderer
 oauthlib==3.2.2
     # via
@@ -280,7 +280,7 @@ pluggy==1.5.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest
     #   tox
-psutil==6.1.1
+psutil==7.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-django-utils
@@ -392,7 +392,7 @@ semantic-version==2.10.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-drf-extensions
-simplejson==3.19.3
+simplejson==3.20.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   django-rest-swagger
@@ -404,11 +404,11 @@ six==1.17.0
     #   edx-lint
 snowballstemmer==2.2.0
     # via pydocstyle
-social-auth-app-django==5.4.2
+social-auth-app-django==5.4.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-auth-backends
-social-auth-core==4.5.4
+social-auth-core==4.5.6
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-auth-backends
@@ -417,7 +417,7 @@ sqlparse==0.5.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   django
-stevedore==5.4.0
+stevedore==5.4.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   code-annotations

@@ -24,11 +24,11 @@ coreapi==2.3.3
     #   openapi-codec
 coreschema==0.0.4
     # via coreapi
-cryptography==44.0.0
+cryptography==44.0.1
     # via
     #   pyjwt
     #   social-auth-core
-defusedxml==0.8.0rc2
+defusedxml==0.7.1
     # via
     #   python3-openid
     #   social-auth-core
@@ -78,7 +78,7 @@ dnspython==2.7.0
     # via pymongo
 drf-jwt==1.19.2
     # via edx-drf-extensions
-drf-yasg==1.21.8
+drf-yasg==1.21.9
     # via edx-api-doc-tools
 edx-api-doc-tools==2.0.0
     # via -r requirements/base.in
@@ -95,7 +95,7 @@ edx-drf-extensions==10.5.0
     # via -r requirements/base.in
 edx-opaque-keys==2.11.0
     # via edx-drf-extensions
-edx-rest-api-client==6.0.0
+edx-rest-api-client==6.1.0
     # via -r requirements/base.in
 idna==3.10
     # via requests
@@ -121,7 +121,7 @@ packaging==24.2
     # via drf-yasg
 pbr==6.1.1
     # via stevedore
-psutil==6.1.1
+psutil==7.0.0
     # via edx-django-utils
 pycparser==2.22
     # via cffi
@@ -157,21 +157,21 @@ requests-oauthlib==2.0.0
     # via social-auth-core
 semantic-version==2.10.0
     # via edx-drf-extensions
-simplejson==3.19.3
+simplejson==3.20.1
     # via django-rest-swagger
 six==1.17.0
     # via
     #   edx-auth-backends
     #   edx-django-release-util
-social-auth-app-django==5.4.2
+social-auth-app-django==5.4.3
     # via edx-auth-backends
-social-auth-core==4.5.4
+social-auth-core==4.5.6
     # via
     #   edx-auth-backends
     #   social-auth-app-django
 sqlparse==0.5.3
     # via django
-stevedore==5.4.0
+stevedore==5.4.1
     # via
     #   edx-django-utils
     #   edx-opaque-keys
