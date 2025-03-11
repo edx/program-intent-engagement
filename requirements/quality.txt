@@ -9,12 +9,12 @@ asgiref==3.8.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   django
     #   django-cors-headers
-astroid==3.3.8
+astroid==3.3.9
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
     #   pylint-celery
-cachetools==5.5.1
+cachetools==5.5.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   tox
@@ -67,7 +67,7 @@ coverage[toml]==7.6.12
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest-cov
-cryptography==44.0.0
+cryptography==44.0.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pyjwt
@@ -75,7 +75,7 @@ cryptography==44.0.0
     #   social-auth-core
 ddt==1.7.2
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-defusedxml==0.8.0rc2
+defusedxml==0.7.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   python3-openid
@@ -88,7 +88,7 @@ distlib==0.3.9
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   virtualenv
-django==4.2.19
+django==4.2.20
     # via
     #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/common_constraints.txt
     #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/constraints.txt
@@ -144,7 +144,7 @@ drf-jwt==1.19.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-drf-extensions
-drf-yasg==1.21.8
+drf-yasg==1.21.10
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-api-doc-tools
@@ -154,7 +154,7 @@ edx-auth-backends==4.4.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
 edx-django-release-util==1.4.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-edx-django-utils==7.1.0
+edx-django-utils==7.2.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-drf-extensions
@@ -169,11 +169,11 @@ edx-opaque-keys==2.11.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-drf-extensions
-edx-rest-api-client==6.0.0
+edx-rest-api-client==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
 factory-boy==3.3.3
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-faker==36.1.0
+faker==37.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   factory-boy
@@ -196,7 +196,7 @@ iniconfig==2.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest
-isort==6.0.0
+isort==6.0.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   -r requirements/quality.in
@@ -211,11 +211,11 @@ jaraco-context==6.0.1
     # via keyring
 jaraco-functools==4.1.0
     # via keyring
-jeepney==0.8.0
+jeepney==0.9.0
     # via
     #   keyring
     #   secretstorage
-jinja2==3.1.5
+jinja2==3.1.6
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   code-annotations
@@ -234,7 +234,7 @@ mccabe==0.7.0
     #   pylint
 mdurl==0.1.2
     # via markdown-it-py
-mock==5.1.0
+mock==5.2.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
 more-itertools==10.6.0
     # via
@@ -242,11 +242,11 @@ more-itertools==10.6.0
     #   jaraco-functools
 mysqlclient==2.2.7
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-newrelic==10.6.0
+newrelic==10.7.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-django-utils
-nh3==0.2.20
+nh3==0.2.21
     # via readme-renderer
 oauthlib==3.2.2
     # via
@@ -280,7 +280,7 @@ pluggy==1.5.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest
     #   tox
-psutil==6.1.1
+psutil==7.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-django-utils
@@ -304,7 +304,7 @@ pyjwt[crypto]==2.10.1
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==3.3.4
+pylint==3.3.5
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-lint
@@ -324,7 +324,7 @@ pylint-plugin-utils==0.8.2
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint-celery
     #   pylint-django
-pymongo==4.11.1
+pymongo==4.11.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-opaque-keys
@@ -336,7 +336,7 @@ pyproject-api==1.9.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   tox
-pytest==8.3.4
+pytest==8.3.5
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest-cov
@@ -392,7 +392,7 @@ semantic-version==2.10.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-drf-extensions
-simplejson==3.19.3
+simplejson==3.20.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   django-rest-swagger
@@ -404,11 +404,11 @@ six==1.17.0
     #   edx-lint
 snowballstemmer==2.2.0
     # via pydocstyle
-social-auth-app-django==5.4.2
+social-auth-app-django==5.4.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-auth-backends
-social-auth-core==4.5.4
+social-auth-core==4.5.6
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-auth-backends
@@ -417,7 +417,7 @@ sqlparse==0.5.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   django
-stevedore==5.4.0
+stevedore==5.4.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   code-annotations
@@ -431,7 +431,7 @@ tomlkit==0.13.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
-tox==4.24.1
+tox==4.24.2
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
 twine==6.1.0
     # via -r requirements/quality.in
@@ -454,7 +454,7 @@ urllib3==2.2.3
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.29.2
+virtualenv==20.29.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   tox
