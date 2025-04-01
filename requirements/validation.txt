@@ -76,7 +76,7 @@ coreschema==0.0.4
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   coreapi
-coverage[toml]==7.7.1
+coverage[toml]==7.8.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -157,7 +157,7 @@ django-waffle==4.2.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-django-utils
     #   edx-drf-extensions
-djangorestframework==3.15.2
+djangorestframework==3.16.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -322,7 +322,7 @@ mysqlclient==2.2.7
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-newrelic==10.7.0
+newrelic==10.8.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -374,7 +374,7 @@ psutil==7.0.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-django-utils
-pycodestyle==2.12.1
+pycodestyle==2.13.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
 pycparser==2.22
     # via
@@ -442,7 +442,7 @@ pytest==8.3.5
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest-cov
     #   pytest-django
-pytest-cov==6.0.0
+pytest-cov==6.1.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -501,7 +501,7 @@ rfc3986==2.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   twine
-rich==13.9.4
+rich==14.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   twine
@@ -563,13 +563,13 @@ tomlkit==0.13.2
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
-tox==4.24.2
+tox==4.25.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
 twine==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
-typing-extensions==4.12.2
+typing-extensions==4.13.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -591,7 +591,7 @@ urllib3==2.2.3
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.29.3
+virtualenv==20.30.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
