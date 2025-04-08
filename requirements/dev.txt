@@ -53,7 +53,7 @@ click-log==0.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-lint
-code-annotations==2.2.0
+code-annotations==2.3.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-lint
@@ -126,7 +126,7 @@ django-debug-toolbar==5.1.0
     # via -r requirements/dev.in
 django-dynamic-fixture==4.0.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-django-extensions==3.2.3
+django-extensions==4.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 django-model-utils==5.0.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
@@ -172,7 +172,7 @@ edx-django-utils==7.2.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==10.5.0
+edx-drf-extensions==10.6.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 edx-i18n-tools==1.7.0
     # via -r requirements/dev.in
@@ -246,7 +246,7 @@ keyring==25.6.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   twine
-lxml[html-clean,html_clean]==5.3.1
+lxml[html-clean,html_clean]==5.3.2
     # via
     #   edx-i18n-tools
     #   lxml-html-clean
@@ -372,7 +372,7 @@ pylint-plugin-utils==0.8.2
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint-celery
     #   pylint-django
-pymongo==4.11.3
+pymongo==4.12.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-opaque-keys
@@ -394,9 +394,9 @@ pytest==8.3.5
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pytest-cov
     #   pytest-django
-pytest-cov==6.1.0
+pytest-cov==6.1.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-pytest-django==4.10.0
+pytest-django==4.11.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 python-slugify==8.0.4
     # via
@@ -502,7 +502,7 @@ tox==4.25.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 twine==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-typing-extensions==4.13.0
+typing-extensions==4.13.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-opaque-keys

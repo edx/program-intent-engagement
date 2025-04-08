@@ -55,7 +55,7 @@ click-log==0.4.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-lint
-code-annotations==2.2.0
+code-annotations==2.3.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -139,7 +139,7 @@ django-dynamic-fixture==4.0.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-django-extensions==3.2.3
+django-extensions==4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -203,7 +203,7 @@ edx-django-utils==7.2.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-drf-extensions
     #   edx-rest-api-client
-edx-drf-extensions==10.5.0
+edx-drf-extensions==10.6.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -421,7 +421,7 @@ pylint-plugin-utils==0.8.2
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint-celery
     #   pylint-django
-pymongo==4.11.3
+pymongo==4.12.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -442,11 +442,11 @@ pytest==8.3.5
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest-cov
     #   pytest-django
-pytest-cov==6.1.0
+pytest-cov==6.1.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-pytest-django==4.10.0
+pytest-django==4.11.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -569,7 +569,7 @@ tox==4.25.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
 twine==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
-typing-extensions==4.13.0
+typing-extensions==4.13.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
