@@ -100,7 +100,7 @@ django-crum==0.7.9
     #   edx-django-utils
 django-dynamic-fixture==4.0.1
     # via -r requirements/test.in
-django-extensions==4.0
+django-extensions==4.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
 django-model-utils==5.0.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
@@ -133,11 +133,11 @@ drf-yasg==1.21.10
     #   edx-api-doc-tools
 edx-api-doc-tools==2.0.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
-edx-auth-backends==4.4.0
+edx-auth-backends==4.5.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
 edx-django-release-util==1.4.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
-edx-django-utils==7.2.0
+edx-django-utils==7.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-drf-extensions
@@ -150,7 +150,7 @@ edx-opaque-keys==2.12.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-drf-extensions
-edx-rest-api-client==6.1.0
+edx-rest-api-client==6.2.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
 factory-boy==3.3.3
     # via -r requirements/test.in
@@ -191,7 +191,7 @@ mock==5.2.0
     # via -r requirements/test.in
 mysqlclient==2.2.7
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
-newrelic==10.8.1
+newrelic==10.9.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-django-utils
@@ -339,7 +339,7 @@ tomlkit==0.13.2
     # via pylint
 tox==4.25.0
     # via -r requirements/test.in
-typing-extensions==4.13.1
+typing-extensions==4.13.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-opaque-keys
