@@ -22,7 +22,7 @@ cachetools==5.5.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   tox
-certifi==2025.1.31
+certifi==2025.4.26
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   requests
@@ -122,7 +122,7 @@ django-crum==0.7.9
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-django-utils
-django-debug-toolbar==5.1.0
+django-debug-toolbar==5.2.0
     # via -r requirements/dev.in
 django-dynamic-fixture==4.0.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
@@ -165,7 +165,7 @@ edx-api-doc-tools==2.0.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 edx-auth-backends==4.5.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-edx-django-release-util==1.4.0
+edx-django-release-util==1.5.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 edx-django-utils==7.4.0
     # via
@@ -174,11 +174,11 @@ edx-django-utils==7.4.0
     #   edx-rest-api-client
 edx-drf-extensions==10.6.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-edx-i18n-tools==1.7.0
+edx-i18n-tools==1.9.0
     # via -r requirements/dev.in
 edx-lint==5.6.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-edx-opaque-keys==2.12.0
+edx-opaque-keys==3.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-drf-extensions
@@ -246,7 +246,7 @@ keyring==25.6.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   twine
-lxml[html-clean,html_clean]==5.3.2
+lxml[html-clean,html_clean]==5.4.0
     # via
     #   edx-i18n-tools
     #   lxml-html-clean
@@ -277,7 +277,7 @@ more-itertools==10.7.0
     #   jaraco-functools
 mysqlclient==2.2.7
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-newrelic==10.9.0
+newrelic==10.10.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-django-utils
@@ -474,7 +474,7 @@ social-auth-app-django==5.4.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-auth-backends
-social-auth-core==4.5.6
+social-auth-core==4.6.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-auth-backends
