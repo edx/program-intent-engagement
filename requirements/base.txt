@@ -173,9 +173,9 @@ stevedore==5.4.1
     # via
     #   edx-django-utils
     #   edx-opaque-keys
-typing-extensions==4.13.2
+typing-extensions==4.14.0
     # via edx-opaque-keys
-uritemplate==4.1.1
+uritemplate==4.2.0
     # via
     #   coreapi
     #   drf-yasg
