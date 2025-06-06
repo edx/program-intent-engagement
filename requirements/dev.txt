@@ -87,7 +87,7 @@ defusedxml==0.7.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   python3-openid
     #   social-auth-core
-diff-cover==9.3.1
+diff-cover==9.3.2
     # via -r requirements/dev.in
 dill==0.4.0
     # via
@@ -338,6 +338,7 @@ pygments==2.19.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   diff-cover
+    #   pytest
     #   readme-renderer
     #   rich
 pyjwt[crypto]==2.10.1
@@ -385,7 +386,7 @@ pyproject-hooks==1.2.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/pip-tools.txt
     #   build
     #   pip-tools
-pytest==8.3.5
+pytest==8.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pytest-cov
@@ -498,7 +499,7 @@ tox==4.26.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 twine==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-typing-extensions==4.13.2
+typing-extensions==4.14.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-opaque-keys
@@ -506,7 +507,7 @@ tzdata==2025.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   faker
-uritemplate==4.1.1
+uritemplate==4.2.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   coreapi

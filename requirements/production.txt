@@ -249,11 +249,11 @@ stevedore==5.4.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-django-utils
     #   edx-opaque-keys
-typing-extensions==4.13.2
+typing-extensions==4.14.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-opaque-keys
-uritemplate==4.1.1
+uritemplate==4.2.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi

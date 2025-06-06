@@ -228,6 +228,8 @@ pycparser==2.22
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   cffi
+pygments==2.19.1
+    # via pytest
 pyjwt[crypto]==2.10.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
@@ -260,7 +262,7 @@ pynacl==1.5.0
     #   edx-django-utils
 pyproject-api==1.9.1
     # via tox
-pytest==8.3.5
+pytest==8.4.0
     # via
     #   pytest-cov
     #   pytest-django
@@ -335,13 +337,13 @@ tomlkit==0.13.2
     # via pylint
 tox==4.26.0
     # via -r requirements/test.in
-typing-extensions==4.13.2
+typing-extensions==4.14.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-opaque-keys
 tzdata==2025.2
     # via faker
-uritemplate==4.1.1
+uritemplate==4.2.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi
