@@ -27,13 +27,23 @@ One Time Setup
   git clone git@github.com:edx/edx-program-intent-engagement.git
   cd edx-program-intent-engagement
 
-  # Set up a virtualenv using virtualenvwrapper with the same name as the repo and activate it
-  mkvirtualenv -p python3.8 edx-program-intent-engagement
+  # Set up a virtualenv with the same name as the repo and activate it
+  # pick the right command for your virtualenv tooling
+  mkvirtualenv -p python3.12 edx-program-intent-engagement
+  workon edx-program-intent-engagement
 
-  # Return to the program-intent-engagement repo directory and provision credentials:
+  # or
+  pyenv virtualenv -p python3.12 edx-program-intent-engagement
+  pyenv activate edx-program-intent-engagement
+
+  # initialize the sandbox
+  make requirements
+  make migrate
+
+  # Provision edx-program-intent-engagement:
   bash local-provision-program-intent-engagement.sh
 
-  # Run edx-exams locally
+  # Run edx-program-intent-engagement locally
   python manage.py runserver localhost:18781 --settings=program_intent_engagement.settings.local
 
 Every time you develop something in this repo
