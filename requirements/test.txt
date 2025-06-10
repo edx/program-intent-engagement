@@ -58,7 +58,7 @@ coverage[toml]==7.8.2
     # via
     #   -r requirements/test.in
     #   pytest-cov
-cryptography==45.0.3
+cryptography==45.0.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   pyjwt
@@ -286,7 +286,7 @@ pyyaml==6.0.2
     #   code-annotations
     #   drf-yasg
     #   edx-django-release-util
-requests==2.32.3
+requests==2.32.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi
@@ -333,7 +333,7 @@ stevedore==5.4.1
     #   edx-opaque-keys
 text-unidecode==1.3
     # via python-slugify
-tomlkit==0.13.2
+tomlkit==0.13.3
     # via pylint
 tox==4.26.0
     # via -r requirements/test.in

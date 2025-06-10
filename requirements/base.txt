@@ -24,7 +24,7 @@ coreapi==2.3.3
     #   openapi-codec
 coreschema==0.0.4
     # via coreapi
-cryptography==45.0.3
+cryptography==45.0.4
     # via
     #   pyjwt
     #   social-auth-core
@@ -32,7 +32,7 @@ defusedxml==0.7.1
     # via
     #   python3-openid
     #   social-auth-core
-django==4.2.21
+django==4.2.23
     # via
     #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/common_constraints.txt
     #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/constraints.txt
@@ -144,7 +144,7 @@ pyyaml==6.0.2
     # via
     #   drf-yasg
     #   edx-django-release-util
-requests==2.32.3
+requests==2.32.4
     # via
     #   coreapi
     #   edx-drf-extensions
