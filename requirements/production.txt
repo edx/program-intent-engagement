@@ -35,7 +35,7 @@ coreschema==0.0.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi
-cryptography==45.0.3
+cryptography==45.0.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   pyjwt
@@ -45,7 +45,7 @@ defusedxml==0.7.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   python3-openid
     #   social-auth-core
-django==4.2.21
+django==4.2.23
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   django-cors-headers
@@ -120,7 +120,7 @@ edx-rest-api-client==6.2.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
 gevent==25.5.1
     # via -r requirements/production.in
-greenlet==3.2.2
+greenlet==3.2.3
     # via gevent
 gunicorn==23.0.0
     # via -r requirements/production.in
@@ -206,7 +206,7 @@ pyyaml==6.0.2
     #   -r requirements/production.in
     #   drf-yasg
     #   edx-django-release-util
-requests==2.32.3
+requests==2.32.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi
