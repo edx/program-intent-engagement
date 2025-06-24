@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via
     #   django
     #   django-cors-headers
-certifi==2025.4.26
+certifi==2025.6.15
     # via requests
 cffi==1.17.1
     # via
@@ -17,14 +17,18 @@ cffi==1.17.1
 charset-normalizer==3.4.2
     # via requests
 click==8.2.1
-    # via edx-django-utils
+    # via
+    #   code-annotations
+    #   edx-django-utils
+code-annotations==2.3.0
+    # via edx-toggles
 coreapi==2.3.3
     # via
     #   django-rest-swagger
     #   openapi-codec
 coreschema==0.0.4
     # via coreapi
-cryptography==45.0.3
+cryptography==45.0.4
     # via
     #   pyjwt
     #   social-auth-core
@@ -32,10 +36,10 @@ defusedxml==0.7.1
     # via
     #   python3-openid
     #   social-auth-core
-django==4.2.22
+django==4.2.23
     # via
-    #   -c /home/ubuntu/edx-repos/program-intent-engagement/requirements/common_constraints.txt
-    #   -c /home/ubuntu/edx-repos/program-intent-engagement/requirements/constraints.txt
+    #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/common_constraints.txt
+    #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/constraints.txt
     #   -r requirements/base.in
     #   django-cors-headers
     #   django-crum
@@ -50,22 +54,26 @@ django==4.2.22
     #   edx-django-release-util
     #   edx-django-utils
     #   edx-drf-extensions
+    #   edx-toggles
     #   social-auth-app-django
 django-cors-headers==4.7.0
     # via -r requirements/base.in
 django-crum==0.7.9
-    # via edx-django-utils
+    # via
+    #   edx-django-utils
+    #   edx-toggles
 django-extensions==4.1
     # via -r requirements/base.in
 django-model-utils==5.0.0
     # via -r requirements/base.in
 django-rest-swagger==2.2.0
     # via -r requirements/base.in
-django-waffle==4.2.0
+django-waffle==5.0.0
     # via
     #   -r requirements/base.in
     #   edx-django-utils
     #   edx-drf-extensions
+    #   edx-toggles
 djangorestframework==3.16.0
     # via
     #   -r requirements/base.in
@@ -82,21 +90,25 @@ drf-yasg==1.21.10
     # via edx-api-doc-tools
 edx-api-doc-tools==2.1.0
     # via -r requirements/base.in
-edx-auth-backends==4.5.0
+edx-auth-backends==4.6.0
     # via -r requirements/base.in
 edx-django-release-util==1.5.0
     # via -r requirements/base.in
 edx-django-utils==8.0.0
     # via
     #   -r requirements/base.in
+    #   edx-auth-backends
     #   edx-drf-extensions
     #   edx-rest-api-client
+    #   edx-toggles
 edx-drf-extensions==10.6.0
     # via -r requirements/base.in
 edx-opaque-keys==3.0.0
     # via edx-drf-extensions
 edx-rest-api-client==6.2.0
     # via -r requirements/base.in
+edx-toggles==5.3.0
+    # via edx-auth-backends
 idna==3.10
     # via requests
 inflection==0.5.1
@@ -104,12 +116,14 @@ inflection==0.5.1
 itypes==1.2.0
     # via coreapi
 jinja2==3.1.6
-    # via coreschema
+    # via
+    #   code-annotations
+    #   coreschema
 markupsafe==3.0.2
     # via jinja2
 mysqlclient==2.2.7
     # via -r requirements/base.in
-oauthlib==3.2.2
+oauthlib==3.3.1
     # via
     #   requests-oauthlib
     #   social-auth-core
@@ -130,10 +144,12 @@ pyjwt[crypto]==2.10.1
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pymongo==4.13.0
+pymongo==4.13.2
     # via edx-opaque-keys
 pynacl==1.5.0
     # via edx-django-utils
+python-slugify==8.0.4
+    # via code-annotations
 python3-openid==3.2.0
     # via social-auth-core
 pytz==2025.2
@@ -142,9 +158,10 @@ pytz==2025.2
     #   drf-yasg
 pyyaml==6.0.2
     # via
+    #   code-annotations
     #   drf-yasg
     #   edx-django-release-util
-requests==2.32.3
+requests==2.32.4
     # via
     #   coreapi
     #   edx-drf-extensions
@@ -171,8 +188,11 @@ sqlparse==0.5.3
     # via django
 stevedore==5.4.1
     # via
+    #   code-annotations
     #   edx-django-utils
     #   edx-opaque-keys
+text-unidecode==1.3
+    # via python-slugify
 typing-extensions==4.14.0
     # via edx-opaque-keys
 uritemplate==4.2.0
@@ -181,7 +201,7 @@ uritemplate==4.2.0
     #   drf-yasg
 urllib3==2.2.3
     # via
-    #   -c /home/ubuntu/edx-repos/program-intent-engagement/requirements/common_constraints.txt
+    #   -c /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/common_constraints.txt
     #   requests
 
 # The following packages are considered to be unsafe in a requirements file:
