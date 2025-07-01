@@ -330,7 +330,7 @@ social-auth-app-django==5.4.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.6.1
+social-auth-core==4.7.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-auth-backends
