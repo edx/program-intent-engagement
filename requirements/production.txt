@@ -255,7 +255,7 @@ social-auth-app-django==5.4.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-auth-backends
-social-auth-core==4.6.1
+social-auth-core==4.7.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   edx-auth-backends
@@ -287,7 +287,7 @@ urllib3==2.2.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   requests
-zope-event==5.0
+zope-event==5.1
     # via gevent
 zope-interface==7.2
     # via gevent

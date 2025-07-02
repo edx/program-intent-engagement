@@ -180,7 +180,7 @@ six==1.17.0
     #   edx-django-release-util
 social-auth-app-django==5.4.3
     # via edx-auth-backends
-social-auth-core==4.6.1
+social-auth-core==4.7.0
     # via
     #   edx-auth-backends
     #   social-auth-app-django
