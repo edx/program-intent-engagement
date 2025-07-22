@@ -88,13 +88,13 @@ defusedxml==0.7.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   python3-openid
     #   social-auth-core
-diff-cover==9.5.0
+diff-cover==9.6.0
     # via -r requirements/dev.in
 dill==0.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint
-distlib==0.3.9
+distlib==0.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   virtualenv
@@ -196,7 +196,7 @@ edx-toggles==5.3.0
     #   edx-auth-backends
 factory-boy==3.3.3
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-faker==37.4.0
+faker==37.4.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   factory-boy
@@ -287,7 +287,7 @@ more-itertools==10.7.0
     #   jaraco-functools
 mysqlclient==2.2.7
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-nh3==0.2.22
+nh3==0.3.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   readme-renderer
@@ -506,7 +506,7 @@ tomlkit==0.13.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint
-tox==4.27.0
+tox==4.28.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 twine==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
@@ -528,7 +528,7 @@ urllib3==2.2.3
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   requests
     #   twine
-virtualenv==20.31.2
+virtualenv==20.32.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   tox
