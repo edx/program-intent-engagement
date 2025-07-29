@@ -77,7 +77,7 @@ coreschema==0.0.4
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   coreapi
-coverage[toml]==7.9.2
+coverage[toml]==7.10.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -104,7 +104,7 @@ dill==0.4.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
-distlib==0.3.9
+distlib==0.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -175,7 +175,7 @@ dnspython==2.7.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pymongo
-docutils==0.21.2
+docutils==0.22
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   readme-renderer
@@ -226,7 +226,7 @@ edx-rest-api-client==6.2.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-edx-toggles==5.3.0
+edx-toggles==5.4.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -235,7 +235,7 @@ factory-boy==3.3.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-faker==37.4.0
+faker==37.4.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -333,7 +333,7 @@ mysqlclient==2.2.7
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-nh3==0.2.22
+nh3==0.3.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   readme-renderer
@@ -510,7 +510,7 @@ rfc3986==2.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   twine
-rich==14.0.0
+rich==14.1.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   twine
@@ -572,7 +572,7 @@ tomlkit==0.13.3
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
-tox==4.27.0
+tox==4.28.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
@@ -600,7 +600,7 @@ urllib3==2.2.3
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.31.2
+virtualenv==20.32.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/quality.txt
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
