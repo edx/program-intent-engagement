@@ -71,7 +71,7 @@ coreschema==0.0.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   coreapi
-coverage[toml]==7.9.2
+coverage[toml]==7.10.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pytest-cov
@@ -88,13 +88,13 @@ defusedxml==0.7.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   python3-openid
     #   social-auth-core
-diff-cover==9.5.0
+diff-cover==9.6.0
     # via -r requirements/dev.in
 dill==0.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint
-distlib==0.3.9
+distlib==0.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   virtualenv
@@ -125,7 +125,7 @@ django-crum==0.7.9
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-django-utils
     #   edx-toggles
-django-debug-toolbar==5.2.0
+django-debug-toolbar==6.0.0
     # via -r requirements/dev.in
 django-dynamic-fixture==4.0.1
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
@@ -153,7 +153,7 @@ dnspython==2.7.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pymongo
-docutils==0.21.2
+docutils==0.22
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   readme-renderer
@@ -190,13 +190,13 @@ edx-opaque-keys==3.0.0
     #   edx-drf-extensions
 edx-rest-api-client==6.2.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-edx-toggles==5.3.0
+edx-toggles==5.4.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   edx-auth-backends
 factory-boy==3.3.3
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-faker==37.4.0
+faker==37.4.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   factory-boy
@@ -287,7 +287,7 @@ more-itertools==10.7.0
     #   jaraco-functools
 mysqlclient==2.2.7
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
-nh3==0.2.22
+nh3==0.3.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   readme-renderer
@@ -452,7 +452,7 @@ rfc3986==2.0.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   twine
-rich==14.0.0
+rich==14.1.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   twine
@@ -506,7 +506,7 @@ tomlkit==0.13.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   pylint
-tox==4.27.0
+tox==4.28.3
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
 twine==6.1.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
@@ -528,7 +528,7 @@ urllib3==2.2.3
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   requests
     #   twine
-virtualenv==20.31.2
+virtualenv==20.32.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/validation.txt
     #   tox

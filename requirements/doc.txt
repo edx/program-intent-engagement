@@ -76,7 +76,7 @@ coreschema==0.0.4
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   coreapi
-coverage[toml]==7.9.2
+coverage[toml]==7.10.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pytest-cov
@@ -97,7 +97,7 @@ dill==0.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
-distlib==0.3.9
+distlib==0.4.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   virtualenv
@@ -194,13 +194,13 @@ edx-opaque-keys==3.0.0
     #   edx-drf-extensions
 edx-rest-api-client==6.2.0
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-edx-toggles==5.3.0
+edx-toggles==5.4.1
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   edx-auth-backends
 factory-boy==3.3.3
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-faker==37.4.0
+faker==37.4.2
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   factory-boy
@@ -271,7 +271,7 @@ more-itertools==10.7.0
     #   jaraco-functools
 mysqlclient==2.2.7
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
-nh3==0.2.22
+nh3==0.3.0
     # via readme-renderer
 oauthlib==3.3.1
     # via
@@ -422,7 +422,7 @@ restructuredtext-lint==1.4.0
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==14.0.0
+rich==14.1.0
     # via twine
 roman-numerals-py==3.1.0
     # via sphinx
@@ -493,7 +493,7 @@ tomlkit==0.13.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   pylint
-tox==4.27.0
+tox==4.28.3
     # via -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
 twine==6.1.0
     # via -r requirements/doc.in
@@ -518,7 +518,7 @@ urllib3==2.2.3
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.31.2
+virtualenv==20.32.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/test.txt
     #   tox

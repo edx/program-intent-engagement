@@ -107,7 +107,7 @@ edx-opaque-keys==3.0.0
     # via edx-drf-extensions
 edx-rest-api-client==6.2.0
     # via -r requirements/base.in
-edx-toggles==5.3.0
+edx-toggles==5.4.1
     # via edx-auth-backends
 idna==3.10
     # via requests
