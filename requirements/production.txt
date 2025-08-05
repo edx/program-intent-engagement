@@ -9,7 +9,7 @@ asgiref==3.9.1
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   django
     #   django-cors-headers
-certifi==2025.7.14
+certifi==2025.8.3
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   requests
@@ -283,7 +283,7 @@ uritemplate==4.2.0
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   coreapi
     #   drf-yasg
-urllib3==2.2.3
+urllib3==2.5.0
     # via
     #   -r /home/runner/work/program-intent-engagement/program-intent-engagement/requirements/base.txt
     #   requests
