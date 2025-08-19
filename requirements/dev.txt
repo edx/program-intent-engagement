@@ -71,7 +71,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/validation.txt
     #   coreapi
-coverage[toml]==7.10.3
+coverage[toml]==7.10.4
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
@@ -200,7 +200,7 @@ faker==37.5.3
     # via
     #   -r requirements/validation.txt
     #   factory-boy
-filelock==3.18.0
+filelock==3.19.1
     # via
     #   -r requirements/validation.txt
     #   tox
@@ -237,7 +237,7 @@ jaraco-context==6.0.1
     # via
     #   -r requirements/validation.txt
     #   keyring
-jaraco-functools==4.2.1
+jaraco-functools==4.3.0
     # via
     #   -r requirements/validation.txt
     #   keyring
@@ -312,7 +312,7 @@ packaging==25.0
     #   twine
 path==16.16.0
     # via edx-i18n-tools
-pbr==6.1.1
+pbr==7.0.0
     # via
     #   -r requirements/validation.txt
     #   stevedore
@@ -429,7 +429,7 @@ readme-renderer==44.0
     # via
     #   -r requirements/validation.txt
     #   twine
-requests==2.32.4
+requests==2.32.5
     # via
     #   -r requirements/validation.txt
     #   coreapi
@@ -528,7 +528,7 @@ urllib3==2.5.0
     #   -r requirements/validation.txt
     #   requests
     #   twine
-virtualenv==20.33.1
+virtualenv==20.34.0
     # via
     #   -r requirements/validation.txt
     #   tox

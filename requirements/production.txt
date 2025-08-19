@@ -177,7 +177,7 @@ packaging==25.0
     #   -r requirements/base.txt
     #   drf-yasg
     #   gunicorn
-pbr==6.1.1
+pbr==7.0.0
     # via
     #   -r requirements/base.txt
     #   stevedore
@@ -226,7 +226,7 @@ pyyaml==6.0.2
     #   code-annotations
     #   drf-yasg
     #   edx-django-release-util
-requests==2.32.4
+requests==2.32.5
     # via
     #   -r requirements/base.txt
     #   coreapi

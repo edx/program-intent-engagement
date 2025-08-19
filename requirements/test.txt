@@ -56,7 +56,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/base.txt
     #   coreapi
-coverage[toml]==7.10.3
+coverage[toml]==7.10.4
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -167,7 +167,7 @@ factory-boy==3.3.3
     # via -r requirements/test.in
 faker==37.5.3
     # via factory-boy
-filelock==3.18.0
+filelock==3.19.1
     # via
     #   tox
     #   virtualenv
@@ -218,7 +218,7 @@ packaging==25.0
     #   pyproject-api
     #   pytest
     #   tox
-pbr==6.1.1
+pbr==7.0.0
     # via
     #   -r requirements/base.txt
     #   stevedore
@@ -300,7 +300,7 @@ pyyaml==6.0.2
     #   code-annotations
     #   drf-yasg
     #   edx-django-release-util
-requests==2.32.4
+requests==2.32.5
     # via
     #   -r requirements/base.txt
     #   coreapi
@@ -368,7 +368,7 @@ urllib3==2.5.0
     # via
     #   -r requirements/base.txt
     #   requests
-virtualenv==20.33.1
+virtualenv==20.34.0
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
