@@ -76,7 +76,7 @@ coreschema==0.0.4
     # via
     #   -r requirements/test.txt
     #   coreapi
-coverage[toml]==7.10.3
+coverage[toml]==7.10.4
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -204,7 +204,7 @@ faker==37.5.3
     # via
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.18.0
+filelock==3.19.1
     # via
     #   -r requirements/test.txt
     #   tox
@@ -237,7 +237,7 @@ jaraco-classes==3.4.0
     # via keyring
 jaraco-context==6.0.1
     # via keyring
-jaraco-functools==4.2.1
+jaraco-functools==4.3.0
     # via keyring
 jeepney==0.9.0
     # via
@@ -293,7 +293,7 @@ packaging==25.0
     #   sphinx
     #   tox
     #   twine
-pbr==6.1.1
+pbr==7.0.0
     # via
     #   -r requirements/test.txt
     #   stevedore
@@ -400,7 +400,7 @@ pyyaml==6.0.2
     #   edx-django-release-util
 readme-renderer==44.0
     # via twine
-requests==2.32.4
+requests==2.32.5
     # via
     #   -r requirements/test.txt
     #   coreapi
@@ -517,7 +517,7 @@ urllib3==2.5.0
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.33.1
+virtualenv==20.34.0
     # via
     #   -r requirements/test.txt
     #   tox
