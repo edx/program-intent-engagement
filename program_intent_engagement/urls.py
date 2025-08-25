@@ -21,7 +21,6 @@ from auth_backends.urls import oauth2_urlpatterns
 from django.conf import settings
 from django.contrib import admin
 from django.urls import include, path
-
 from rest_framework.schemas import get_schema_view
 
 from program_intent_engagement.apps.api import urls as api_urls
