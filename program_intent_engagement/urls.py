@@ -21,7 +21,7 @@ from auth_backends.urls import oauth2_urlpatterns
 from django.conf import settings
 from django.contrib import admin
 from django.urls import include, path
-from rest_framework_swagger.views import get_swagger_view
+from rest_framework.schemas import get_schema_view
 
 from program_intent_engagement.apps.api import urls as api_urls
 from program_intent_engagement.apps.core import views as core_views
@@ -29,16 +29,24 @@ from program_intent_engagement.apps.core import views as core_views
 admin.autodiscover()
 
 urlpatterns = oauth2_urlpatterns + [
-    path('admin/', admin.site.urls),
-    path('api/', include(api_urls)),
-    path('api-docs/', get_swagger_view(title='program-intent-engagement API')),
-    path('auto_auth/', core_views.AutoAuth.as_view(), name='auto_auth'),
-    path('', include('csrf.urls')),  # Include csrf urls from edx-drf-extensions
-    path('health/', core_views.health, name='health'),
+    path("admin/", admin.site.urls),
+    path("api/", include(api_urls)),
+    path(
+        "api-docs/",
+        get_schema_view(
+            title="program-intent-engagement API",
+            description="API to review and modify a predicted intent to engage with the program",
+            public=True,
+        ),
+    ),
+    path("auto_auth/", core_views.AutoAuth.as_view(), name="auto_auth"),
+    path("", include("csrf.urls")),  # Include csrf urls from edx-drf-extensions
+    path("health/", core_views.health, name="health"),
 ]
 
-if settings.DEBUG and os.environ.get('ENABLE_DJANGO_TOOLBAR', False):  # pragma: no cover
+if settings.DEBUG and os.environ.get("ENABLE_DJANGO_TOOLBAR", False):  # pragma: no cover
     # Disable pylint import error because we don't install django-debug-toolbar
     # for CI build
     import debug_toolbar  # isort:skip pylint: disable=import-error,useless-suppression
-    urlpatterns.append(path('__debug__/', include(debug_toolbar.urls)))
+
+    urlpatterns.append(path("__debug__/", include(debug_toolbar.urls)))
