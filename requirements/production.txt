@@ -31,7 +31,7 @@ code-annotations==2.3.0
     # via
     #   -r requirements/base.txt
     #   edx-toggles
-cryptography==45.0.6
+cryptography==45.0.7
     # via
     #   -r requirements/base.txt
     #   pyjwt
@@ -120,7 +120,7 @@ edx-toggles==5.4.1
     # via
     #   -r requirements/base.txt
     #   edx-auth-backends
-gevent==25.5.1
+gevent==25.8.2
     # via -r requirements/production.in
 greenlet==3.2.4
     # via gevent
