@@ -47,11 +47,11 @@ code-annotations==2.3.0
     #   edx-toggles
 colorama==0.4.6
     # via tox
-coverage[toml]==7.10.5
+coverage[toml]==7.10.6
     # via
     #   -r requirements/test.in
     #   pytest-cov
-cryptography==45.0.6
+cryptography==45.0.7
     # via
     #   -r requirements/base.txt
     #   pyjwt
@@ -153,7 +153,7 @@ edx-toggles==5.4.1
     #   edx-auth-backends
 factory-boy==3.3.3
     # via -r requirements/test.in
-faker==37.5.3
+faker==37.6.0
     # via factory-boy
 filelock==3.19.1
     # via
@@ -197,7 +197,7 @@ packaging==25.0
     #   pyproject-api
     #   pytest
     #   tox
-platformdirs==4.3.8
+platformdirs==4.4.0
     # via
     #   pylint
     #   tox
@@ -321,7 +321,7 @@ text-unidecode==1.3
     #   python-slugify
 tomlkit==0.13.3
     # via pylint
-tox==4.28.4
+tox==4.29.0
     # via -r requirements/test.in
 typing-extensions==4.15.0
     # via
