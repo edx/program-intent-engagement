@@ -10,7 +10,7 @@ asgiref==3.9.1
     #   django-cors-headers
 certifi==2025.8.3
     # via requests
-cffi==1.17.1
+cffi==2.0.0
     # via
     #   cryptography
     #   pynacl
@@ -30,7 +30,7 @@ defusedxml==0.7.1
     # via
     #   python3-openid
     #   social-auth-core
-django==4.2.23
+django==4.2.24
     # via
     #   -c requirements/common_constraints.txt
     #   -c requirements/constraints.txt
@@ -50,7 +50,7 @@ django==4.2.23
     #   edx-drf-extensions
     #   edx-toggles
     #   social-auth-app-django
-django-cors-headers==4.7.0
+django-cors-headers==4.8.0
     # via -r requirements/base.in
 django-crum==0.7.9
     # via
@@ -73,7 +73,7 @@ djangorestframework==3.16.1
     #   drf-yasg
     #   edx-api-doc-tools
     #   edx-drf-extensions
-dnspython==2.7.0
+dnspython==2.8.0
     # via pymongo
 drf-jwt==1.19.2
     # via edx-drf-extensions
@@ -118,7 +118,7 @@ packaging==25.0
     # via drf-yasg
 psutil==7.0.0
     # via edx-django-utils
-pycparser==2.22
+pycparser==2.23
     # via cffi
 pyjwt[crypto]==2.10.1
     # via

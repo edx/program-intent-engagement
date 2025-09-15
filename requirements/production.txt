@@ -13,7 +13,7 @@ certifi==2025.8.3
     # via
     #   -r requirements/base.txt
     #   requests
-cffi==1.17.1
+cffi==2.0.0
     # via
     #   -r requirements/base.txt
     #   cryptography
@@ -41,7 +41,7 @@ defusedxml==0.7.1
     #   -r requirements/base.txt
     #   python3-openid
     #   social-auth-core
-django==4.2.23
+django==4.2.24
     # via
     #   -r requirements/base.txt
     #   django-cors-headers
@@ -59,7 +59,7 @@ django==4.2.23
     #   edx-drf-extensions
     #   edx-toggles
     #   social-auth-app-django
-django-cors-headers==4.7.0
+django-cors-headers==4.8.0
     # via -r requirements/base.txt
 django-crum==0.7.9
     # via
@@ -83,7 +83,7 @@ djangorestframework==3.16.1
     #   drf-yasg
     #   edx-api-doc-tools
     #   edx-drf-extensions
-dnspython==2.7.0
+dnspython==2.8.0
     # via
     #   -r requirements/base.txt
     #   pymongo
@@ -160,7 +160,7 @@ psutil==7.0.0
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
-pycparser==2.22
+pycparser==2.23
     # via
     #   -r requirements/base.txt
     #   cffi
