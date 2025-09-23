@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-asgiref==3.9.1
+asgiref==3.9.2
     # via
     #   -r requirements/validation.txt
     #   django
@@ -40,7 +40,7 @@ charset-normalizer==3.4.3
     # via
     #   -r requirements/validation.txt
     #   requests
-click==8.2.1
+click==8.3.0
     # via
     #   -r requirements/pip-tools.txt
     #   -r requirements/validation.txt
@@ -62,11 +62,11 @@ colorama==0.4.6
     # via
     #   -r requirements/validation.txt
     #   tox
-coverage[toml]==7.10.6
+coverage[toml]==7.10.7
     # via
     #   -r requirements/validation.txt
     #   pytest-cov
-cryptography==45.0.7
+cryptography==46.0.1
     # via
     #   -r requirements/validation.txt
     #   pyjwt
@@ -109,7 +109,7 @@ django==4.2.24
     #   edx-i18n-tools
     #   edx-toggles
     #   social-auth-app-django
-django-cors-headers==4.8.0
+django-cors-headers==4.9.0
     # via -r requirements/validation.txt
 django-crum==0.7.9
     # via
@@ -141,7 +141,7 @@ dnspython==2.8.0
     # via
     #   -r requirements/validation.txt
     #   pymongo
-docutils==0.22
+docutils==0.22.2
     # via
     #   -r requirements/validation.txt
     #   readme-renderer
@@ -239,7 +239,7 @@ keyring==25.6.0
     # via
     #   -r requirements/validation.txt
     #   twine
-lxml[html-clean]==6.0.1
+lxml[html-clean]==6.0.2
     # via
     #   edx-i18n-tools
     #   lxml-html-clean
@@ -308,7 +308,7 @@ pluggy==1.6.0
     #   tox
 polib==1.2.0
     # via edx-i18n-tools
-psutil==7.0.0
+psutil==7.1.0
     # via
     #   -r requirements/validation.txt
     #   edx-django-utils
@@ -355,7 +355,7 @@ pylint-plugin-utils==0.9.0
     #   -r requirements/validation.txt
     #   pylint-celery
     #   pylint-django
-pymongo==4.15.0
+pymongo==4.15.1
     # via
     #   -r requirements/validation.txt
     #   edx-opaque-keys

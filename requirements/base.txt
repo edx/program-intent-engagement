@@ -4,7 +4,7 @@
 #
 #    make upgrade
 #
-asgiref==3.9.1
+asgiref==3.9.2
     # via
     #   django
     #   django-cors-headers
@@ -16,13 +16,13 @@ cffi==2.0.0
     #   pynacl
 charset-normalizer==3.4.3
     # via requests
-click==8.2.1
+click==8.3.0
     # via
     #   code-annotations
     #   edx-django-utils
 code-annotations==2.3.0
     # via edx-toggles
-cryptography==45.0.7
+cryptography==46.0.1
     # via
     #   pyjwt
     #   social-auth-core
@@ -50,7 +50,7 @@ django==4.2.24
     #   edx-drf-extensions
     #   edx-toggles
     #   social-auth-app-django
-django-cors-headers==4.8.0
+django-cors-headers==4.9.0
     # via -r requirements/base.in
 django-crum==0.7.9
     # via
@@ -116,7 +116,7 @@ oauthlib==3.3.1
     #   social-auth-core
 packaging==25.0
     # via drf-yasg
-psutil==7.0.0
+psutil==7.1.0
     # via edx-django-utils
 pycparser==2.23
     # via cffi
@@ -127,7 +127,7 @@ pyjwt[crypto]==2.10.1
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pymongo==4.15.0
+pymongo==4.15.1
     # via edx-opaque-keys
 pynacl==1.6.0
     # via edx-django-utils
