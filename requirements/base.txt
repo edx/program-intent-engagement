@@ -22,7 +22,7 @@ click==8.3.0
     #   edx-django-utils
 code-annotations==2.3.0
     # via edx-toggles
-cryptography==46.0.2
+cryptography==46.0.3
     # via pyjwt
 defusedxml==0.7.1
     # via
@@ -114,7 +114,7 @@ oauthlib==3.3.1
     #   social-auth-core
 packaging==25.0
     # via drf-yasg
-psutil==7.1.0
+psutil==7.1.1
     # via edx-django-utils
 pycparser==2.23
     # via cffi
