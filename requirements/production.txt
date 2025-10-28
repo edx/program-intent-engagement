@@ -31,7 +31,7 @@ code-annotations==2.3.0
     # via
     #   -r requirements/base.txt
     #   edx-toggles
-cryptography==46.0.2
+cryptography==46.0.3
     # via
     #   -r requirements/base.txt
     #   pyjwt
@@ -96,7 +96,7 @@ drf-yasg==1.21.11
     #   edx-api-doc-tools
 edx-api-doc-tools==2.1.0
     # via -r requirements/base.txt
-edx-auth-backends==4.6.1
+edx-auth-backends==4.6.2
     # via -r requirements/base.txt
 edx-django-release-util==1.5.0
     # via -r requirements/base.txt
@@ -155,7 +155,7 @@ packaging==25.0
     #   -r requirements/base.txt
     #   drf-yasg
     #   gunicorn
-psutil==7.1.0
+psutil==7.1.2
     # via
     #   -r requirements/base.txt
     #   edx-django-utils
