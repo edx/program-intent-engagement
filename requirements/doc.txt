@@ -8,12 +8,12 @@ accessible-pygments==0.0.5
     # via pydata-sphinx-theme
 alabaster==1.0.0
     # via sphinx
-asgiref==3.10.0
+asgiref==3.11.0
     # via
     #   -r requirements/test.txt
     #   django
     #   django-cors-headers
-astroid==3.3.11
+astroid==4.0.3
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -22,15 +22,15 @@ babel==2.17.0
     # via
     #   pydata-sphinx-theme
     #   sphinx
-beautifulsoup4==4.14.2
+beautifulsoup4==4.14.3
     # via pydata-sphinx-theme
-build==1.3.0
+build==1.4.0
     # via -r requirements/doc.in
-cachetools==6.2.1
+cachetools==6.2.5
     # via
     #   -r requirements/test.txt
     #   tox
-certifi==2025.10.5
+certifi==2026.1.4
     # via
     #   -r requirements/test.txt
     #   requests
@@ -47,7 +47,7 @@ charset-normalizer==3.4.4
     # via
     #   -r requirements/test.txt
     #   requests
-click==8.3.0
+click==8.3.1
     # via
     #   -r requirements/test.txt
     #   click-log
@@ -67,11 +67,11 @@ colorama==0.4.6
     # via
     #   -r requirements/test.txt
     #   tox
-coverage[toml]==7.10.7
+coverage[toml]==7.13.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==46.0.2
+cryptography==46.0.3
     # via
     #   -r requirements/test.txt
     #   pyjwt
@@ -83,7 +83,7 @@ defusedxml==0.7.1
     #   -r requirements/test.txt
     #   python3-openid
     #   social-auth-core
-dill==0.4.0
+dill==0.4.1
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -91,7 +91,7 @@ distlib==0.4.0
     # via
     #   -r requirements/test.txt
     #   virtualenv
-django==4.2.25
+django==4.2.27
     # via
     #   -c requirements/common_constraints.txt
     #   -c requirements/constraints.txt
@@ -154,13 +154,13 @@ drf-jwt==1.19.2
     # via
     #   -r requirements/test.txt
     #   edx-drf-extensions
-drf-yasg==1.21.11
+drf-yasg==1.21.14
     # via
     #   -r requirements/test.txt
     #   edx-api-doc-tools
 edx-api-doc-tools==2.1.0
     # via -r requirements/test.txt
-edx-auth-backends==4.6.1
+edx-auth-backends==4.6.2
     # via -r requirements/test.txt
 edx-django-release-util==1.5.0
     # via -r requirements/test.txt
@@ -187,11 +187,11 @@ edx-toggles==5.4.1
     #   edx-auth-backends
 factory-boy==3.3.3
     # via -r requirements/test.txt
-faker==37.11.0
+faker==40.1.2
     # via
     #   -r requirements/test.txt
     #   factory-boy
-filelock==3.20.0
+filelock==3.20.3
     # via
     #   -r requirements/test.txt
     #   tox
@@ -208,19 +208,19 @@ inflection==0.5.1
     # via
     #   -r requirements/test.txt
     #   drf-yasg
-iniconfig==2.1.0
+iniconfig==2.3.0
     # via
     #   -r requirements/test.txt
     #   pytest
-isort==6.1.0
+isort==7.0.0
     # via
     #   -r requirements/test.txt
     #   pylint
 jaraco-classes==3.4.0
     # via keyring
-jaraco-context==6.0.1
+jaraco-context==6.1.0
     # via keyring
-jaraco-functools==4.3.0
+jaraco-functools==4.4.0
     # via keyring
 jeepney==0.9.0
     # via
@@ -231,7 +231,7 @@ jinja2==3.1.6
     #   -r requirements/test.txt
     #   code-annotations
     #   sphinx
-keyring==25.6.0
+keyring==25.7.0
     # via twine
 markdown-it-py==4.0.0
     # via rich
@@ -253,14 +253,14 @@ more-itertools==10.8.0
     #   jaraco-functools
 mysqlclient==2.2.7
     # via -r requirements/test.txt
-nh3==0.3.1
+nh3==0.3.2
     # via readme-renderer
 oauthlib==3.3.1
     # via
     #   -r requirements/test.txt
     #   requests-oauthlib
     #   social-auth-core
-packaging==25.0
+packaging==26.0
     # via
     #   -r requirements/test.txt
     #   build
@@ -271,7 +271,7 @@ packaging==25.0
     #   sphinx
     #   tox
     #   twine
-platformdirs==4.5.0
+platformdirs==4.5.1
     # via
     #   -r requirements/test.txt
     #   pylint
@@ -283,11 +283,11 @@ pluggy==1.6.0
     #   pytest
     #   pytest-cov
     #   tox
-psutil==7.1.0
+psutil==7.2.1
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
-pycparser==2.23
+pycparser==3.0
     # via
     #   -r requirements/test.txt
     #   cffi
@@ -311,7 +311,7 @@ pyjwt[crypto]==2.10.1
     #   edx-drf-extensions
     #   edx-rest-api-client
     #   social-auth-core
-pylint==3.3.9
+pylint==4.0.4
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -322,7 +322,7 @@ pylint-celery==0.3
     # via
     #   -r requirements/test.txt
     #   edx-lint
-pylint-django==2.6.1
+pylint-django==2.7.0
     # via
     #   -r requirements/test.txt
     #   edx-lint
@@ -331,11 +331,11 @@ pylint-plugin-utils==0.9.0
     #   -r requirements/test.txt
     #   pylint-celery
     #   pylint-django
-pymongo==4.15.3
+pymongo==4.16.0
     # via
     #   -r requirements/test.txt
     #   edx-opaque-keys
-pynacl==1.6.0
+pynacl==1.6.2
     # via
     #   -r requirements/test.txt
     #   edx-django-utils
@@ -345,7 +345,7 @@ pyproject-api==1.10.0
     #   tox
 pyproject-hooks==1.2.0
     # via build
-pytest==8.4.2
+pytest==9.0.2
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -391,15 +391,15 @@ requests-oauthlib==2.0.0
     #   social-auth-core
 requests-toolbelt==1.0.0
     # via twine
-restructuredtext-lint==1.4.0
+restructuredtext-lint==2.0.2
     # via doc8
 rfc3986==2.0.0
     # via twine
-rich==14.2.0
+rich==14.3.1
     # via twine
-roman-numerals-py==3.1.0
+roman-numerals==4.1.0
     # via sphinx
-secretstorage==3.4.0
+secretstorage==3.5.0
     # via keyring
 semantic-version==2.10.0
     # via
@@ -417,14 +417,14 @@ social-auth-app-django==5.4.3
     # via
     #   -r requirements/test.txt
     #   edx-auth-backends
-social-auth-core==4.8.1
+social-auth-core==4.8.3
     # via
     #   -r requirements/test.txt
     #   edx-auth-backends
     #   social-auth-app-django
-soupsieve==2.8
+soupsieve==2.8.3
     # via beautifulsoup4
-sphinx==8.2.3
+sphinx==9.1.0
     # via
     #   -r requirements/doc.in
     #   pydata-sphinx-theme
@@ -443,11 +443,11 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
-sqlparse==0.5.3
+sqlparse==0.5.5
     # via
     #   -r requirements/test.txt
     #   django
-stevedore==5.5.0
+stevedore==5.6.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -458,11 +458,11 @@ text-unidecode==1.3
     # via
     #   -r requirements/test.txt
     #   python-slugify
-tomlkit==0.13.3
+tomlkit==0.14.0
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.31.0
+tox==4.34.1
     # via -r requirements/test.txt
 twine==6.2.0
     # via -r requirements/doc.in
@@ -472,20 +472,16 @@ typing-extensions==4.15.0
     #   beautifulsoup4
     #   edx-opaque-keys
     #   pydata-sphinx-theme
-tzdata==2025.2
-    # via
-    #   -r requirements/test.txt
-    #   faker
 uritemplate==4.2.0
     # via
     #   -r requirements/test.txt
     #   drf-yasg
-urllib3==2.5.0
+urllib3==2.6.3
     # via
     #   -r requirements/test.txt
     #   requests
     #   twine
-virtualenv==20.35.3
+virtualenv==20.36.1
     # via
     #   -r requirements/test.txt
     #   tox
